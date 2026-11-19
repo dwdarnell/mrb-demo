@@ -1,0 +1,60 @@
+{
+  "producer": "excat-replica-adapter",
+  "source": {
+    "tool": "stardust",
+    "version": "0.41.0",
+    "flow": "replica",
+    "mode": "rollout"
+  },
+  "originUrl": "http://myredbike.ca/",
+  "previewBase": "https://main--f794402e--aemcoder.aem.page/bikes",
+  "convertedAt": "2026-11-19T15:20:47.504Z",
+  "counts": {
+    "pages": 4,
+    "templates": 2,
+    "blockVariants": 3
+  },
+  "templateNames": {
+    "bikes-html": {
+      "name": "listing",
+      "description": "Category listing pages (bikes, gear, gifts): intro banner, teaser card grid and closing call to action."
+    },
+    "index": {
+      "name": "homepage",
+      "description": "Site homepage: intro banner, category teaser card grid and closing call to action."
+    }
+  },
+  "screenshots": {
+    "capturedAt": "2026-11-19T15:21:02.582Z",
+    "pages": [
+      {
+        "slug": "myredbike_ca--357b555d",
+        "captured": 3,
+        "total": 3,
+        "url": "https://aem-20261119--mrb-demo--dwdarnell.aem.page/"
+      },
+      {
+        "slug": "myredbike_ca_bikes_html--2b8efb79",
+        "captured": 0,
+        "total": 3,
+        "url": "https://aem-20261119--mrb-demo--dwdarnell.aem.page/bikes"
+      },
+      {
+        "slug": "myredbike_ca_gear_html--94b4df37",
+        "captured": 0,
+        "total": 3,
+        "url": "https://aem-20261119--mrb-demo--dwdarnell.aem.page/gear"
+      },
+      {
+        "slug": "myredbike_ca_gifts_html--b220d87e",
+        "captured": 0,
+        "total": 3,
+        "url": "https://aem-20261119--mrb-demo--dwdarnell.aem.page/gifts"
+      }
+    ],
+    "variants": {
+      "total": 3,
+      "cropped": 3
+    }
+  }
+}

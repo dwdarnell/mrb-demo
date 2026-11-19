@@ -1,0 +1,16 @@
+cap-probe  base 1440 → probe 2560 (from DESIGN.json)
+live   http://myredbike.ca/
+  shell     1451px  other     #wrapper  (tier 0, holds 100% of the text)
+  modules  4 sections: none capped · full-bleed ×4
+  contentMaxWidth 1451px (shell) · shellMaxWidth 1451px · root #wrapper
+build  http://localhost:8791/index-proposed.html
+  shell     1451px  other     #wrapper  (tier 0, holds 100% of the text)
+  modules  3 sections: none capped · full-bleed ×3
+  contentMaxWidth 1451px (shell) · shellMaxWidth 1451px · root #wrapper
+rows
+  ✓ wrapper cap: live 1451px = build 1451px (±20)
+  ⚠ sections: live 4 vs build 3 top-level sections — module rows compared by order up to the shorter side, advisory until the structure matches
+  ✓ module 1/4: full-bleed on both
+  ✓ module 2/4: full-bleed on both
+  ✓ module 3/4: full-bleed on both
+cap-probe: PASS at 2560 — 0 of 5 rows failed (evidence stardust/replica/gates/index-2560/cap-iter.json)

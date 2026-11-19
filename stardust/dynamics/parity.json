@@ -1,0 +1,28 @@
+{
+  "_provenance": { "writtenBy": "stardust:dynamics", "writtenAt": "2026-11-18T17:40:00Z" },
+  "method": "rollout D2: features from stardust/dynamic-features.md (martech only, contract stardust/martech-contract.json, every part disabled); replayed by dynamics-check.mjs against the published origin; the contract's own martech gate is appended by the script",
+  "features": [
+    {
+      "id": "martech-stack-off", "feature": "Adobe Launch + Target + Analytics/ECID + retargeting pixel (features 1-4)", "class": "T", "pages": 4,
+      "disposition": "embed-passthrough", "reproducibility": "needs-business-decision",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "enable routes[adobe-launch] (and target) in stardust/martech-contract.json; confirm report suite; keep or drop the everesttech pixel",
+      "verifiedBy": "gate on / and /bikes: 0 requests to the 8 Launch/Target/Analytics/pixel host suffixes while disabled; no uncaught errors on 4/4 pages",
+      "checks": [
+        { "type": "martech", "path": "/", "mode": "gate", "productionHosts": ["myredbike.ca"],
+          "forbiddenHosts": ["adobedtm.com", "assets.adobedtm.com", "tt.omtrdc.net", "omtrdc.net", "demdex.net", "2o7.net", "adobedc.net", "everesttech.net"] },
+        { "type": "martech", "path": "/bikes", "mode": "gate", "productionHosts": ["myredbike.ca"],
+          "forbiddenHosts": ["adobedtm.com", "assets.adobedtm.com", "tt.omtrdc.net", "omtrdc.net", "demdex.net", "2o7.net", "adobedc.net", "everesttech.net"] },
+        { "type": "no-page-errors", "paths": ["/", "/bikes", "/gear", "/gifts"] }
+      ]
+    },
+    {
+      "id": "home-send-random-event", "feature": "home 'Send a Random Event' link (alloy sendEvent on source)", "class": "T", "pages": 1,
+      "disposition": "static link kept verbatim; event push is a data-layer hand-off item", "reproducibility": "needs-business-decision",
+      "status": "interim",
+      "owner": "provide the tagging plan for the home 'Send a Random Event' push",
+      "verifiedBy": "link present on / (2 × main a[href='#'], min 1); no event fires while martech is off",
+      "checks": [ { "type": "dom-count", "path": "/", "selector": "main a[href='#']", "min": 1 } ]
+    }
+  ]
+}

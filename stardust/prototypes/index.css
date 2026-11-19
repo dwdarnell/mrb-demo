@@ -1,0 +1,3 @@
+/* home archetype */
+/* source: <i class="fas fa-download"> — FA4 maps .fa-download:before to U+F019 but no .fa class sets the font, so the glyph renders in the body face */
+#intro .event-link i::before { content: "\f019"; }

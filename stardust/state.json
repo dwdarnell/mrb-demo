@@ -1,0 +1,234 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:migrate",
+    "writtenAt": "2026-11-18T17:33:49Z",
+    "stardustVersion": "0.41.0"
+  },
+  "site": {
+    "originUrl": "http://myredbike.ca/",
+    "deployUrl": null,
+    "extractedAt": "2026-11-18T16:06:58.860Z",
+    "pageCap": null,
+    "totalDiscovered": 4,
+    "crawled": 4
+  },
+  "direction": {
+    "resolvedAt": "2026-11-18T16:11:58.159Z",
+    "phrase": "replica (preserve mode)",
+    "directionFile": "stardust/direction.md",
+    "iaFidelity": "verbatim"
+  },
+  "handsOff": true,
+  "flow": "replica",
+  "flowChosenAt": "2026-11-18T16:06:58.860Z",
+  "flowSource": "user-phrase",
+  "pages": [
+    {
+      "slug": "index",
+      "url": "http://myredbike.ca/",
+      "title": "MyRedBike DEMO2",
+      "type": "landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-18T16:06:10.919Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-18T16:11:58Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-18T16:24:03Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-18T16:24:03Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-18T17:33:46Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/index.json",
+      "prototypePath": "stardust/prototypes/index-proposed.html",
+      "migratedPath": "stardust/migrated/index.html"
+    },
+    {
+      "slug": "bikes-html",
+      "url": "http://myredbike.ca/bikes.html",
+      "title": "MyRedBike DEMO2",
+      "type": "listing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-18T16:06:11.815Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-18T16:11:58Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-18T16:29:51Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-18T16:29:51Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-18T17:33:47Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/bikes-html.json",
+      "prototypePath": "stardust/prototypes/bikes-html-proposed.html",
+      "migratedPath": "stardust/migrated/bikes.html"
+    },
+    {
+      "slug": "gear-html",
+      "url": "http://myredbike.ca/gear.html",
+      "title": "MyRedBike DEMO2",
+      "type": "listing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-18T16:06:17.474Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-18T16:11:58Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-18T17:33:47Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/gear-html.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/gear.html",
+      "representative": "bikes-html"
+    },
+    {
+      "slug": "gifts-html",
+      "url": "http://myredbike.ca/gifts.html",
+      "title": "MyRedBike DEMO2",
+      "type": "listing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-18T16:06:18.124Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-18T16:11:58Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-18T17:33:49Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/gifts-html.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/gifts.html",
+      "representative": "bikes-html"
+    }
+  ],
+  "migrate": {
+    "at": "2026-11-18T17:33:17Z",
+    "outputDir": "stardust/migrated/",
+    "selfContained": true,
+    "pageMap": [
+      {
+        "sourceUrl": "/",
+        "outputPath": "index.html",
+        "slug": "index",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/bikes.html",
+        "outputPath": "bikes.html",
+        "slug": "bikes-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/gear.html",
+        "outputPath": "gear.html",
+        "slug": "gear-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/gifts.html",
+        "outputPath": "gifts.html",
+        "slug": "gifts-html",
+        "outputPathDefault": null
+      }
+    ],
+    "totalAssetsBundled": 13,
+    "bundledAssets": [
+      "canon.css",
+      "favicon.png",
+      "fonts/fontawesome-webfont.woff2",
+      "fonts/source-sans-pro-200.woff2",
+      "fonts/source-sans-pro-400.woff2",
+      "index.css",
+      "listing.css",
+      "media/IMG_0015.jpg",
+      "media/IMG_0016.jpg",
+      "media/IMG_0017.jpg",
+      "media/overlay.png",
+      "media/pic01.jpg",
+      "media/pic02.jpg"
+    ],
+    "pages": [
+      {
+        "slug": "index",
+        "file": "stardust/migrated/index.html",
+        "assetsBundled": 12
+      },
+      {
+        "slug": "bikes-html",
+        "file": "stardust/migrated/bikes.html",
+        "assetsBundled": 7
+      },
+      {
+        "slug": "gear-html",
+        "file": "stardust/migrated/gear.html",
+        "assetsBundled": 7
+      },
+      {
+        "slug": "gifts-html",
+        "file": "stardust/migrated/gifts.html",
+        "assetsBundled": 7
+      }
+    ],
+    "missingAssets": [],
+    "cleanedAssets": [],
+    "lastRun": {
+      "at": "2026-11-18T17:33:17Z",
+      "rendered": [
+        "index",
+        "bikes-html",
+        "gear-html",
+        "gifts-html"
+      ],
+      "unchanged": [],
+      "refused": [],
+      "passthrough": []
+    }
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "url": "http://myredbike.ca/",
+  "width": 360,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "",
+      "position": "relative",
+      "height": "176px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 4
+    },
+    {
+      "y": 0,
+      "cls": "",
+      "position": "relative",
+      "height": "176px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 4
+    },
+    {
+      "y": 1200,
+      "cls": "",
+      "position": "relative",
+      "height": "176px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 4
+    },
+    {
+      "y": 743,
+      "cls": "",
+      "position": "relative",
+      "height": "176px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 4
+    },
+    {
+      "y": 1843,
+      "cls": "",
+      "position": "relative",
+      "height": "176px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 4
+    },
+    {
+      "y": 1200,
+      "cls": "",
+      "position": "relative",
+      "height": "176px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 4
+    },
+    {
+      "y": 800,
+      "cls": "",
+      "position": "relative",
+      "height": "176px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 4
+    },
+    {
+      "y": 500,
+      "cls": "",
+      "position": "relative",
+      "height": "176px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 4
+    },
+    {
+      "y": 300,
+      "cls": "",
+      "position": "relative",
+      "height": "176px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 4
+    },
+    {
+      "y": 200,
+      "cls": "",
+      "position": "relative",
+      "height": "176px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 4
+    },
+    {
+      "y": 150,
+      "cls": "",
+      "position": "relative",
+      "height": "176px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 4
+    },
+    {
+      "y": 120,
+      "cls": "",
+      "position": "relative",
+      "height": "176px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 4
+    },
+    {
+      "y": 90,
+      "cls": "",
+      "position": "relative",
+      "height": "176px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 4
+    },
+    {
+      "y": 60,
+      "cls": "",
+      "position": "relative",
+      "height": "176px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 4
+    },
+    {
+      "y": 30,
+      "cls": "",
+      "position": "relative",
+      "height": "176px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 4
+    },
+    {
+      "y": 0,
+      "cls": "",
+      "position": "relative",
+      "height": "176px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 4
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".topnav a.icon",
+      "frames": [
+        {
+          "t": 15600.199999999255,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 15804.199999999255,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 16008.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 16213.900000002235,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [],
+    "classMutations": []
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "variantName": "items",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": "Two-up grid (one column at 980px and below) of white rounded cards; each card has a full-bleed linked image header with a dark overlay and the card title over it, then a paragraph and a button.",
+  "contentPattern": "One row per card: a linked image, a heading, a paragraph and a bold link (button). Cards are split by content, so a new heading or image starts a new card.",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Category or product teaser grid on the homepage and listing pages.",
+  "reuseGuidance": "Use for any set of linked image teasers with a title, short description and a link. Add or remove rows to add or remove cards."
+}

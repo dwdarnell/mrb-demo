@@ -1,0 +1,304 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics detect",
+  "writtenAt": "2026-11-18T16:34:05.411Z",
+  "settleMs": 5000,
+  "width": 1440,
+  "urls": [
+   "http://myredbike.ca/",
+   "http://myredbike.ca/bikes.html"
+  ],
+  "reachSource": "stardust/current/pages"
+ },
+ "pages": {
+  "/": {
+   "url": "http://myredbike.ca/",
+   "status": 200,
+   "host": "myredbike.ca",
+   "title": "MyRedBike DEMO2",
+   "forms": [],
+   "controlGroups": [],
+   "triggers": [],
+   "dialogs": [],
+   "dialogCount": 0,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://adobedemoamericas159.demdex.net/dest5.html?d_nsid=0#http%3A%2F%2Fmyredbike.ca",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://adobedemoamericas159.demdex.net/dest5.html?d_nsid=0#http%3A%2F%2Fmyredbike.ca",
+     "title": "Adobe ID Syncing iFrame",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": null,
+    "hreflang": [],
+    "switcher": []
+   },
+   "cms": {},
+   "framework": null,
+   "globals": [
+    "adobe",
+    "_satellite"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 3,
+   "inlineFetch": false,
+   "mainText": 1269,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "myredbike.ca": 16,
+    "assets.adobedtm.com": 3,
+    "dpm.demdex.net": 2,
+    "fonts.googleapis.com": 1,
+    "adobedemoamericas159.tt.omtrdc.net": 1,
+    "cm.everesttech.net": 1,
+    "fonts.gstatic.com": 2,
+    "adobedemoamericas159.demdex.net": 3,
+    "mboxedge35.tt.omtrdc.net": 1,
+    "fgeo1xxpnwredbikedemo.sc.omtrdc.net": 1
+   },
+   "thirdPartyHosts": [
+    "assets.adobedtm.com",
+    "dpm.demdex.net",
+    "fonts.googleapis.com",
+    "adobedemoamericas159.tt.omtrdc.net",
+    "cm.everesttech.net",
+    "fonts.gstatic.com",
+    "adobedemoamericas159.demdex.net",
+    "mboxedge35.tt.omtrdc.net",
+    "fgeo1xxpnwredbikedemo.sc.omtrdc.net"
+   ],
+   "scripts": [
+    "http://assets.adobedtm.com/launch-ENfc4a9855597046a395b70b00f3880344.min.js",
+    "http://myredbike.ca/assets/js/at.js",
+    "https://assets.adobedtm.com/extensions/EP6326e4d6b32f4a71ad5204459cc57d66/AppMeasurement_Module_ActivityMap.min.js",
+    "https://assets.adobedtm.com/extensions/EP6326e4d6b32f4a71ad5204459cc57d66/AppMeasurement.min.js",
+    "http://myredbike.ca/assets/js/skel.min.js",
+    "http://myredbike.ca/assets/js/main.js",
+    "http://myredbike.ca/assets/js/jquery.min.js",
+    "http://myredbike.ca/assets/js/util.js"
+   ],
+   "firstPartyApi": [],
+   "thirdPartyXhr": [
+    "GET dpm.demdex.net/id",
+    "POST adobedemoamericas159.tt.omtrdc.net/rest/v1/delivery",
+    "POST mboxedge35.tt.omtrdc.net/rest/v1/delivery",
+    "POST adobedemoamericas159.demdex.net/event"
+   ],
+   "postBodies": [
+    {
+     "url": "http://adobedemoamericas159.tt.omtrdc.net/rest/v1/delivery?client=adobedemoamericas159&sessionId=e607789495894d31bc40188107053562&version=2.1.0",
+     "body": "{\"requestId\":\"0c3d28a4dbb14cce8dd010d0d123d05c\",\"context\":{\"userAgent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.0.0 Safari/537.36\",\"timeOffsetInMinutes\":0,\"channel\":\"web\",\"screen\":{\"width\":1440,\"height\":900,\"orientation\":\"landscape\",\"colorDepth\":24,\"pixelRatio\":1},\"window\":{\"width\":1440,\"height\":900},\"browser\":{\"host\":\"myredbike.ca\",\"webGLRenderer\":\"ANGL"
+    },
+    {
+     "url": "http://mboxedge35.tt.omtrdc.net/rest/v1/delivery?client=adobedemoamericas159&sessionId=e607789495894d31bc40188107053562&version=2.1.0",
+     "body": "{\"requestId\":\"50aeb806e3324f40bffd6db7f0de2cf1\",\"context\":{\"userAgent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.0.0 Safari/537.36\",\"timeOffsetInMinutes\":0,\"channel\":\"web\",\"screen\":{\"width\":1440,\"height\":900,\"orientation\":\"landscape\",\"colorDepth\":24,\"pixelRatio\":1},\"window\":{\"width\":1440,\"height\":900},\"browser\":{\"host\":\"myredbike.ca\",\"webGLRenderer\":\"ANGL"
+    },
+    {
+     "url": "http://adobedemoamericas159.demdex.net/event?d_dil_ver=9.5&_ts=1795019647143",
+     "body": "d_mid=02574353128481799208327976847299207134&d_nsid=0&d_ld=_ts%3D1795019647143&d_rtbd=json&d_jsonv=1&d_dst=1&h_referer=http%3A%2F%2Fmyredbike.ca%2F"
+    },
+    {
+     "url": "https://adobedemoamericas159.demdex.net/event?d_dil_ver=9.5&_ts=1795019647143",
+     "body": "d_mid=02574353128481799208327976847299207134&d_nsid=0&d_ld=_ts%3D1795019647143&d_rtbd=json&d_jsonv=1&d_dst=1&h_referer=http%3A%2F%2Fmyredbike.ca%2F"
+    }
+   ],
+   "textAtLoad": 1269,
+   "mainEmptyAtLoad": false
+  },
+  "/bikes.html": {
+   "url": "http://myredbike.ca/bikes.html",
+   "status": 200,
+   "host": "myredbike.ca",
+   "title": "MyRedBike DEMO2",
+   "forms": [],
+   "controlGroups": [],
+   "triggers": [],
+   "dialogs": [],
+   "dialogCount": 0,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://adobedemoamericas159.demdex.net/dest5.html?d_nsid=0#http%3A%2F%2Fmyredbike.ca",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://adobedemoamericas159.demdex.net/dest5.html?d_nsid=0#http%3A%2F%2Fmyredbike.ca",
+     "title": "Adobe ID Syncing iFrame",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": null,
+    "hreflang": [],
+    "switcher": []
+   },
+   "cms": {},
+   "framework": null,
+   "globals": [
+    "adobe",
+    "_satellite"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 0,
+   "inlineFetch": false,
+   "mainText": 1214,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "myredbike.ca": 15,
+    "assets.adobedtm.com": 3,
+    "dpm.demdex.net": 2,
+    "fonts.googleapis.com": 1,
+    "adobedemoamericas159.tt.omtrdc.net": 1,
+    "fonts.gstatic.com": 2,
+    "cm.everesttech.net": 1,
+    "adobedemoamericas159.demdex.net": 3,
+    "fgeo1xxpnwredbikedemo.sc.omtrdc.net": 1
+   },
+   "thirdPartyHosts": [
+    "assets.adobedtm.com",
+    "dpm.demdex.net",
+    "fonts.googleapis.com",
+    "adobedemoamericas159.tt.omtrdc.net",
+    "fonts.gstatic.com",
+    "cm.everesttech.net",
+    "adobedemoamericas159.demdex.net",
+    "fgeo1xxpnwredbikedemo.sc.omtrdc.net"
+   ],
+   "scripts": [
+    "http://assets.adobedtm.com/launch-ENfc4a9855597046a395b70b00f3880344.min.js",
+    "http://myredbike.ca/assets/js/at.js",
+    "https://assets.adobedtm.com/extensions/EP6326e4d6b32f4a71ad5204459cc57d66/AppMeasurement.min.js",
+    "https://assets.adobedtm.com/extensions/EP6326e4d6b32f4a71ad5204459cc57d66/AppMeasurement_Module_ActivityMap.min.js",
+    "http://myredbike.ca/assets/js/skel.min.js",
+    "http://myredbike.ca/assets/js/main.js",
+    "http://myredbike.ca/assets/js/jquery.min.js",
+    "http://myredbike.ca/assets/js/util.js"
+   ],
+   "firstPartyApi": [],
+   "thirdPartyXhr": [
+    "GET dpm.demdex.net/id",
+    "POST adobedemoamericas159.tt.omtrdc.net/rest/v1/delivery",
+    "POST adobedemoamericas159.demdex.net/event"
+   ],
+   "postBodies": [
+    {
+     "url": "http://adobedemoamericas159.tt.omtrdc.net/rest/v1/delivery?client=adobedemoamericas159&sessionId=c2c51f0d1f34471b894aa766842e31cf&version=2.1.0",
+     "body": "{\"requestId\":\"962b786d6f90411ca016d5b14d006035\",\"context\":{\"userAgent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.0.0 Safari/537.36\",\"timeOffsetInMinutes\":0,\"channel\":\"web\",\"screen\":{\"width\":1440,\"height\":900,\"orientation\":\"landscape\",\"colorDepth\":24,\"pixelRatio\":1},\"window\":{\"width\":1440,\"height\":900},\"browser\":{\"host\":\"myredbike.ca\",\"webGLRenderer\":\"ANGL"
+    },
+    {
+     "url": "http://adobedemoamericas159.demdex.net/event?d_dil_ver=9.5&_ts=1795019658738",
+     "body": "d_mid=39828877891942153854754352689953953229&d_nsid=0&d_ld=_ts%3D1795019658737&d_rtbd=json&d_jsonv=1&d_dst=1&h_referer=http%3A%2F%2Fmyredbike.ca%2Fbikes.html"
+    },
+    {
+     "url": "https://adobedemoamericas159.demdex.net/event?d_dil_ver=9.5&_ts=1795019658738",
+     "body": "d_mid=39828877891942153854754352689953953229&d_nsid=0&d_ld=_ts%3D1795019658737&d_rtbd=json&d_jsonv=1&d_dst=1&h_referer=http%3A%2F%2Fmyredbike.ca%2Fbikes.html"
+    }
+   ],
+   "textAtLoad": 1214,
+   "mainEmptyAtLoad": false
+  }
+ },
+ "findings": [
+  {
+   "id": "a-experimentation-adobe-target",
+   "class": "A",
+   "feature": "experimentation: Adobe Target",
+   "role": "experimentation: Adobe Target",
+   "hint": "inspect",
+   "evidence": [
+    "adobedemoamericas159.tt.omtrdc.net",
+    "mboxedge35.tt.omtrdc.net"
+   ],
+   "pages": [
+    "/",
+    "/bikes.html"
+   ]
+  },
+  {
+   "id": "t-tag-manager-adobe-launch",
+   "class": "T",
+   "feature": "tag manager: Adobe Launch",
+   "role": "tag manager: Adobe Launch",
+   "hint": "tags",
+   "evidence": [
+    "assets.adobedtm.com"
+   ],
+   "pages": [
+    "/",
+    "/bikes.html"
+   ]
+  },
+  {
+   "id": "t-analytics-adobe-analytics-experience-cloud-id",
+   "class": "T",
+   "feature": "analytics: Adobe Analytics / Experience Cloud ID",
+   "role": "analytics: Adobe Analytics / Experience Cloud ID",
+   "hint": "tags",
+   "evidence": [
+    "dpm.demdex.net",
+    "adobedemoamericas159.demdex.net",
+    "fgeo1xxpnwredbikedemo.sc.omtrdc.net"
+   ],
+   "pages": [
+    "/",
+    "/bikes.html"
+   ]
+  },
+  {
+   "id": "t-marketing-ad-retargeting-pixel",
+   "class": "T",
+   "feature": "marketing: ad / retargeting pixel",
+   "role": "marketing: ad / retargeting pixel",
+   "hint": "tags",
+   "evidence": [
+    "cm.everesttech.net"
+   ],
+   "pages": [
+    "/",
+    "/bikes.html"
+   ]
+  }
+ ],
+ "reach": {
+  "pagesWithEvidence": 4,
+  "of": 4,
+  "endpoints": {
+   "POST mboxedge35.tt.omtrdc.net/rest/v1/delivery": 4,
+   "POST adobedemoamericas159.demdex.net/event": 4
+  },
+  "searchFormPages": 0,
+  "formPages": 0,
+  "triggerPages": {}
+ }
+}

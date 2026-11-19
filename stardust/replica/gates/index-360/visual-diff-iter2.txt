@@ -1,0 +1,67 @@
+[live-session] waiting to pace live navigations to myredbike.ca (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 988 ms
+
+Visual diff @ 360px (profile "generic") — screenshots in stardust/replica/gates/index-360/vdiff-iter2/
+
+build red flags (advisory): none
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 458,
+  "textLen": 114,
+  "images": [
+   {
+    "src": "pic01.jpg",
+    "natural": "1024x665",
+    "rendered": "301x196",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h2",
+    "text": "We sell only red bikes",
+    "color": "rgb(68, 68, 68)",
+    "fontSize": "18.3333px",
+    "family": "Source Sans Pro",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": []
+ },
+ "build": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 458,
+  "textLen": 114,
+  "images": [
+   {
+    "src": "pic01.jpg",
+    "natural": "1024x665",
+    "rendered": "301x196",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h2",
+    "text": "We sell only red bikes",
+    "color": "rgb(68, 68, 68)",
+    "fontSize": "18.3333px",
+    "family": "Source Sans Pro",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": []
+ }
+}

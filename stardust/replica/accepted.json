@@ -1,0 +1,29 @@
+{
+  "accepted": [
+    {
+      "probe": "chrome-parity",
+      "kind": "REGION BOX",
+      "root": "header",
+      "reason": "Live page has no <header>/[role=banner]; chrome-parity's default header root lands on the first card's <header> (.item header). True chrome measured with --no-defaults --region nav=#myTopnav --region foot=#footer: parity at 1440 and 360 (stardust/replica/chrome-true-roots.md)."
+    },
+    {
+      "probe": "chrome-parity",
+      "kind": "REGION STYLE",
+      "root": "header",
+      "reason": "Live page has no <header>/[role=banner]; chrome-parity's default header root lands on the first card's <header> (.item header). True chrome measured with --no-defaults --region nav=#myTopnav --region foot=#footer: parity at 1440 and 360 (stardust/replica/chrome-true-roots.md)."
+    },
+    {
+      "probe": "chrome-parity",
+      "kind": "EXTRA",
+      "root": "header",
+      "reason": "Live page has no <header>/[role=banner]; chrome-parity's default header root lands on the first card's <header> (.item header). True chrome measured with --no-defaults --region nav=#myTopnav --region foot=#footer: parity at 1440 and 360 (stardust/replica/chrome-true-roots.md)."
+    },
+    {
+      "probe": "chrome-parity",
+      "kind": "MISSING",
+      "text": "Red Bikes",
+      "root": "header",
+      "reason": "Live page has no <header>/[role=banner]; chrome-parity's default header root lands on the first card's <header> (.item header). True chrome measured with --no-defaults --region nav=#myTopnav --region foot=#footer: parity at 1440 and 360 (stardust/replica/chrome-true-roots.md)."
+    }
+  ]
+}

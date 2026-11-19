@@ -1,0 +1,51 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics plan",
+  "writtenAt": "2026-11-18T16:12:47.315Z",
+  "input": "stardust/current/_dynamics.json",
+  "martech": "stardust/martech"
+ },
+ "productionHosts": [
+  "myredbike.ca"
+ ],
+ "consent": {
+  "cmp": null,
+  "model": "owner-decision",
+  "categories": [],
+  "ruleSets": 0,
+  "consentMode": null
+ },
+ "routes": [
+  {
+   "id": "adobe-launch",
+   "vendor": "Adobe Launch",
+   "src": "http://assets.adobedtm.com/launch-ENfc4a9855597046a395b70b00f3880344.min.js",
+   "boot": null,
+   "category": null,
+   "cmpGroups": [],
+   "enabled": false
+  }
+ ],
+ "otherTags": [],
+ "tagManagers": [
+  "Adobe Launch"
+ ],
+ "dataLayers": [],
+ "tagNotes": {},
+ "rewrite": {
+  "rules": [],
+  "dataElements": [],
+  "library": "Adobe Launch",
+  "dataLayer": [],
+  "dataLayerPaths": []
+ },
+ "aemMartech": null,
+ "target": {
+  "atjs": {
+   "from": "launch",
+   "extension": "adobe-target"
+  },
+  "webSdk": null,
+  "enabled": false
+ }
+}

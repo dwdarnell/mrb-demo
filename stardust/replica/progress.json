@@ -1,0 +1,239 @@
+{
+  "types": {
+    "index": {
+      "pageType": "landing",
+      "prototype": "stardust/prototypes/index-proposed.html",
+      "live": "http://myredbike.ca/",
+      "iterations": {
+        "360": 2,
+        "1440": 2
+      },
+      "gates": {
+        "360": {
+          "pixel": "0.04%",
+          "heightDelta": 0,
+          "contentDiff": "0 red, 0 nothing-lost",
+          "visualDiff": "0 flags",
+          "chromeParity": "parity",
+          "clip": 0,
+          "overflow": "ok",
+          "result": "PASS"
+        },
+        "1440": {
+          "pixel": "0.01%",
+          "heightDelta": 0,
+          "contentDiff": "0 red, 0 nothing-lost",
+          "visualDiff": "0 flags",
+          "chromeParity": "parity (true roots #myTopnav/#footer; default header root accepted, see stardust/replica/accepted.json)",
+          "clip": 0,
+          "overflow": "ok",
+          "result": "PASS"
+        },
+        "capProbe": "PASS at 2560"
+      },
+      "residuals": [],
+      "motion": {
+        "observed": [
+          "hover .button box-shadow/color 200ms",
+          "hover #footer a color 200ms",
+          "transition border-bottom-color"
+        ],
+        "implemented": [
+          "hover .button",
+          "hover #footer a",
+          "link border-bottom-color transition",
+          "card header scale(1.1) (source CSS; not measured live)"
+        ],
+        "dead": [
+          "topnav hamburger (onclick myFunction undefined on live)",
+          "topnav hover (no measured diff)",
+          "header scroll-morph"
+        ],
+        "notes": "motion-compare EXTRA header count = semantic <header> wrapping the nav (role parity)"
+      },
+      "approvedBy": "hands-off"
+    },
+    "bikes-html": {
+      "pageType": "listing",
+      "prototype": "stardust/prototypes/bikes-html-proposed.html",
+      "live": "http://myredbike.ca/bikes.html",
+      "iterations": {
+        "360": 1,
+        "1440": 1
+      },
+      "gates": {
+        "360": {
+          "pixel": "0.00%",
+          "heightDelta": 0,
+          "contentDiff": "0 red, 0 nothing-lost",
+          "visualDiff": "0 flags",
+          "chromeParity": "parity",
+          "clip": 0,
+          "overflow": "ok",
+          "result": "PASS"
+        },
+        "1440": {
+          "pixel": "0.00%",
+          "heightDelta": 0,
+          "contentDiff": "0 red, 0 nothing-lost",
+          "visualDiff": "0 flags",
+          "chromeParity": "parity (true roots)",
+          "clip": 0,
+          "overflow": "ok",
+          "result": "PASS"
+        },
+        "capProbe": "PASS at 2560"
+      },
+      "residuals": [],
+      "motion": {
+        "observed": [
+          "hover .button",
+          "hover #footer a",
+          "link transitions"
+        ],
+        "implemented": [
+          "canon (shared with index)"
+        ],
+        "dead": [
+          "topnav hamburger",
+          "topnav hover",
+          "header scroll-morph"
+        ]
+      },
+      "approvedBy": "hands-off"
+    }
+  },
+  "siblings": {
+    "gear-html": {
+      "archetype": "bikes-html",
+      "variants": [],
+      "pixel": {
+        "360": {
+          "pct": 0.7,
+          "px": null,
+          "heightDelta": 0,
+          "overflowX": null,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 11,
+            "variable": []
+          },
+          "verdict": "PASS",
+          "label": "table",
+          "regime": "published"
+        },
+        "1440": {
+          "pct": 0.04,
+          "px": null,
+          "heightDelta": 0,
+          "overflowX": null,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 10,
+            "variable": []
+          },
+          "verdict": "PASS",
+          "label": "table",
+          "regime": "published"
+        }
+      },
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "delivery-lint",
+        "media-reconcile",
+        "pixel-gate-1440",
+        "pixel-gate-360"
+      ],
+      "migrated": "stardust/migrated/gear.html"
+    },
+    "gifts-html": {
+      "archetype": "bikes-html",
+      "variants": [],
+      "pixel": {
+        "360": {
+          "pct": 0.7,
+          "px": null,
+          "heightDelta": 0,
+          "overflowX": null,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 11,
+            "variable": []
+          },
+          "verdict": "PASS",
+          "label": "table",
+          "regime": "published"
+        },
+        "1440": {
+          "pct": 0.04,
+          "px": null,
+          "heightDelta": 0,
+          "overflowX": null,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 10,
+            "variable": []
+          },
+          "verdict": "PASS",
+          "label": "table",
+          "regime": "published"
+        }
+      },
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "delivery-lint",
+        "media-reconcile",
+        "pixel-gate-1440",
+        "pixel-gate-360"
+      ],
+      "migrated": "stardust/migrated/gifts.html"
+    }
+  },
+  "migrate": {
+    "at": "2026-11-18T17:33:39.132Z",
+    "pages": 4,
+    "archetypes": 2,
+    "siblings": 2,
+    "thin": 0,
+    "gates": {
+      "pixel-gate-1440": 4,
+      "pixel-gate-360": 4,
+      "content-count": 4,
+      "content-fidelity": 4,
+      "media-reconcile": 4,
+      "delivery-lint": 4,
+      "variance-probe": 2
+    },
+    "missing": {}
+  }
+}

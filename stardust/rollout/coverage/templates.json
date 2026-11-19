@@ -1,0 +1,54 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-18T16:33:43.414Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-18T17:39:09.456Z",
+  "templates": [
+    {
+      "id": "bikes-html",
+      "representativeSlug": "bikes-html",
+      "pages": [
+        "bikes-html",
+        "gear-html",
+        "gifts-html"
+      ],
+      "pageCount": 3,
+      "blocks": [
+        "cta",
+        "intro",
+        "items"
+      ],
+      "delivery": {
+        "verified": 3,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "index",
+      "representativeSlug": "index",
+      "pages": [
+        "index"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "cta",
+        "intro",
+        "items"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    }
+  ]
+}

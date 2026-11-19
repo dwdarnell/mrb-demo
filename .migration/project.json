@@ -1,0 +1,10 @@
+{
+  "sites": {
+    "mrb-demo": {
+      "previewOrg": "dwdarnell",
+      "previewSite": "mrb-demo",
+      "contentHostUrl": "https://content.da.live/dwdarnell/mrb-demo/"
+    }
+  },
+  "type": "da"
+}

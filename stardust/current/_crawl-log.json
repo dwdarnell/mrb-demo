@@ -1,0 +1,108 @@
+{
+  "discovery": {
+    "fetchTechnique": "chrome",
+    "count": 4,
+    "concurrency": 2
+  },
+  "consent": {
+    "method": "auto"
+  },
+  "favicon": {
+    "url": "http://myredbike.ca/favicon-32x32.png",
+    "file": "assets/favicon.png"
+  },
+  "crawl": {
+    "failures": [],
+    "degraded": [],
+    "pageTimeoutMs": 60000
+  },
+  "captureGaps": {
+    "roots": [],
+    "detail": "uncaptured first-level targets: none (no locale root captured)"
+  },
+  "dynamicSurface": {
+    "pages": 4,
+    "pagesWithSameSiteData": 0,
+    "pagesWithSearchForm": 0,
+    "pagesHydrated": 0,
+    "truncatedPages": 0,
+    "endpoints": [
+      {
+        "method": "POST",
+        "host": "mboxedge35.tt.omtrdc.net",
+        "path": "/rest/v1/delivery",
+        "query": [
+          "client",
+          "sessionId",
+          "version"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "http://mboxedge35.tt.omtrdc.net/rest/v1/delivery",
+        "pages": 4,
+        "examples": [
+          "index",
+          "bikes-html",
+          "gear-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "adobedemoamericas159.demdex.net",
+        "path": "/event",
+        "query": [
+          "_ts",
+          "d_dil_ver"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "http://adobedemoamericas159.demdex.net/event",
+        "pages": 4,
+        "examples": [
+          "index",
+          "bikes-html",
+          "gear-html"
+        ]
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "assets.adobedtm.com",
+        "pages": 4,
+        "examples": [
+          "index",
+          "bikes-html",
+          "gear-html"
+        ]
+      }
+    ],
+    "frameworkHints": [],
+    "globalState": [],
+    "formTargets": []
+  },
+  "visionCheck": [
+    {
+      "slug": "index",
+      "verdict": "ok",
+      "notes": "hero bike photo, 4 cards, CTA, footer all rendered"
+    },
+    {
+      "slug": "bikes-html",
+      "verdict": "ok",
+      "notes": "same template, pic02 hero"
+    },
+    {
+      "slug": "gear-html",
+      "verdict": "ok",
+      "notes": "same template, no hero button"
+    },
+    {
+      "slug": "gifts-html",
+      "verdict": "ok",
+      "notes": "same template"
+    }
+  ],
+  "siblingCandidates": []
+}

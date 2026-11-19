@@ -1,0 +1,5331 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-18T16:08:05.289Z",
+    "script": "style-census.mjs",
+    "readArtifacts": [
+      "http://myredbike.ca/bikes.html",
+      "http://myredbike.ca/gear.html",
+      "http://myredbike.ca/gifts.html",
+      "http://myredbike.ca/"
+    ],
+    "widths": [
+      1440,
+      360
+    ],
+    "userAgent": "browser-default",
+    "synthesizedInputs": [],
+    "failed": []
+  },
+  "pages": {
+    "http://myredbike.ca/bikes.html": {
+      "360": {
+        "title": "MyRedBike DEMO2",
+        "viewport": {
+          "width": 360,
+          "height": 900
+        },
+        "elements": {
+          "total": 81,
+          "visible": 67
+        },
+        "occluders": [],
+        "headings": [
+          {
+            "tag": "h2",
+            "text": "Red Bikes",
+            "selector": "#intro > h2",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "18.3333px",
+            "fontWeight": "400",
+            "lineHeight": "27.5px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(68, 68, 68)"
+          },
+          {
+            "tag": "h3",
+            "text": "Red Bikes",
+            "selector": "header > h3",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px",
+            "fontWeight": "400",
+            "lineHeight": "22px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h3",
+            "text": "Single Speed",
+            "selector": "header > h3",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px",
+            "fontWeight": "400",
+            "lineHeight": "22px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h3",
+            "text": "Gifts and accessories",
+            "selector": "header > h3",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px",
+            "fontWeight": "400",
+            "lineHeight": "22px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h3",
+            "text": "Gear",
+            "selector": "header > h3",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px",
+            "fontWeight": "400",
+            "lineHeight": "22px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h2",
+            "text": "Etiam veroeros lorem",
+            "selector": "#cta > h2",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "18.3333px",
+            "fontWeight": "400",
+            "lineHeight": "27.5px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(68, 68, 68)"
+          }
+        ],
+        "text": [
+          {
+            "tag": "p",
+            "text": "This is the sub-page for bikes.html",
+            "selector": "#intro > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px",
+            "fontWeight": "200",
+            "lineHeight": "24.2px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          },
+          {
+            "tag": "p",
+            "text": "Fusce malesuada efficitur venenatis. Pe…",
+            "selector": "#wrapper > section:nth-of-type(2) > article:nth-of-type(1) > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px",
+            "fontWeight": "200",
+            "lineHeight": "24.2px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          },
+          {
+            "tag": "p",
+            "text": "Fusce malesuada efficitur venenatis. Pe…",
+            "selector": "#wrapper > section:nth-of-type(2) > article:nth-of-type(2) > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px",
+            "fontWeight": "200",
+            "lineHeight": "24.2px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          },
+          {
+            "tag": "p",
+            "text": "Fusce malesuada efficitur venenatis. Pe…",
+            "selector": "#wrapper > section:nth-of-type(2) > article:nth-of-type(3) > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px",
+            "fontWeight": "200",
+            "lineHeight": "24.2px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          },
+          {
+            "tag": "p",
+            "text": "Fusce malesuada efficitur venenatis. Pe…",
+            "selector": "#wrapper > section:nth-of-type(2) > article:nth-of-type(4) > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px",
+            "fontWeight": "200",
+            "lineHeight": "24.2px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          },
+          {
+            "tag": "p",
+            "text": "Phasellus ac augue ac magna auctor temp…",
+            "selector": "#cta > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px",
+            "fontWeight": "200",
+            "lineHeight": "24.2px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          },
+          {
+            "tag": "p",
+            "text": "© Untitled. Design: TEMPLATED. Images: …",
+            "selector": "#footer > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "11.7333px",
+            "fontWeight": "200",
+            "lineHeight": "19.36px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "Home",
+            "selector": "#myTopnav > a:nth-of-type(1)",
+            "count": 1,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(242, 242, 242)",
+            "borderRadius": "0px",
+            "padding": "14px 16px",
+            "border": "",
+            "borderColor": "rgb(242, 242, 242)",
+            "boxShadow": "none",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17px",
+            "fontWeight": "200",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": {
+              "backgroundColor": "rgb(221, 221, 221)",
+              "color": "rgb(239, 100, 128)",
+              "borderColor": "rgb(239, 100, 128) rgb(239, 100, 128) rgba(0, 0, 0, 0)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          }
+        ],
+        "links": [
+          {
+            "text": "☰",
+            "selector": "#myTopnav > a:nth-of-type(5)",
+            "count": 1,
+            "color": "rgb(242, 242, 242)",
+            "textDecoration": "none",
+            "fontWeight": "200",
+            "hover": {
+              "backgroundColor": "rgb(221, 221, 221)",
+              "color": "rgb(239, 100, 128)",
+              "borderColor": "rgb(239, 100, 128) rgb(239, 100, 128) rgba(0, 0, 0, 0)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          },
+          {
+            "text": "Learn More",
+            "selector": "#intro > ul > li > a",
+            "count": 6,
+            "color": "rgb(68, 68, 68)",
+            "textDecoration": "none",
+            "fontWeight": "400",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(239, 100, 128)",
+              "borderColor": "rgb(239, 100, 128) rgb(239, 100, 128) rgba(0, 0, 0, 0)",
+              "boxShadow": "rgb(239, 100, 128) 0px 0px 0px 2px inset",
+              "changed": true
+            }
+          },
+          {
+            "text": "Twitter",
+            "selector": "#footer > ul > li:nth-of-type(1) > a",
+            "count": 7,
+            "color": "rgb(102, 102, 102)",
+            "textDecoration": "none",
+            "fontWeight": "200",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(239, 100, 128)",
+              "borderColor": "rgb(239, 100, 128) rgb(239, 100, 128) rgba(0, 0, 0, 0)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          }
+        ],
+        "surfaces": [
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 15,
+              "y": 498,
+              "w": 331,
+              "h": 176
+            },
+            "backgroundColor": "rgb(68, 68, 68)",
+            "color": "rgba(255, 255, 255, 0.75)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "4px 4px 0px 0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px"
+          },
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 15,
+              "y": 936,
+              "w": 331,
+              "h": 176
+            },
+            "backgroundColor": "rgb(68, 68, 68)",
+            "color": "rgba(255, 255, 255, 0.75)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "4px 4px 0px 0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px"
+          },
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 15,
+              "y": 1374,
+              "w": 331,
+              "h": 176
+            },
+            "backgroundColor": "rgb(68, 68, 68)",
+            "color": "rgba(255, 255, 255, 0.75)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "4px 4px 0px 0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px"
+          },
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 15,
+              "y": 1813,
+              "w": 331,
+              "h": 176
+            },
+            "backgroundColor": "rgb(68, 68, 68)",
+            "color": "rgba(255, 255, 255, 0.75)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "4px 4px 0px 0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px"
+          },
+          {
+            "matched": "footer",
+            "selector": "#footer",
+            "rect": {
+              "x": 15,
+              "y": 2560,
+              "w": 331,
+              "h": 111
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(102, 102, 102)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px"
+          }
+        ],
+        "radii": [
+          {
+            "value": "4px",
+            "count": 11,
+            "area": 767757,
+            "sources": [
+              "#intro",
+              "#intro > ul > li > a",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "4px 4px 0px 0px",
+            "count": 4,
+            "area": 232792,
+            "sources": [
+              "header",
+              "header",
+              "header"
+            ]
+          }
+        ],
+        "shadows": [
+          {
+            "value": "rgb(102, 102, 102) 0px 0px 0px 2px inset",
+            "count": 6,
+            "sources": [
+              "#intro > ul > li > a",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(1) > ul > li > a",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(2) > ul > li > a"
+            ]
+          }
+        ],
+        "gradients": [],
+        "bgColors": [
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 5,
+            "area": 696395,
+            "sources": [
+              "#intro",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(1)",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(68, 68, 68)",
+            "count": 4,
+            "area": 232792,
+            "sources": [
+              "header",
+              "header",
+              "header"
+            ]
+          },
+          {
+            "value": "rgb(244, 244, 244)",
+            "count": 1,
+            "area": 970588,
+            "sources": [
+              "body"
+            ]
+          },
+          {
+            "value": "rgb(131, 131, 131)",
+            "count": 1,
+            "area": 20537,
+            "sources": [
+              "#myTopnav"
+            ]
+          }
+        ],
+        "textColors": [
+          {
+            "value": "rgb(102, 102, 102)",
+            "count": 9,
+            "sources": [
+              "#intro > p",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(1) > p",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(2) > p"
+            ]
+          },
+          {
+            "value": "rgb(68, 68, 68)",
+            "count": 8,
+            "sources": [
+              "#intro > h2",
+              "#intro > ul > li > a",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(1) > ul > li > a"
+            ]
+          },
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 4,
+            "sources": [
+              "header > h3",
+              "header > h3",
+              "header > h3"
+            ]
+          },
+          {
+            "value": "rgb(242, 242, 242)",
+            "count": 2,
+            "sources": [
+              "#myTopnav > a:nth-of-type(1)",
+              "#myTopnav > a:nth-of-type(5)"
+            ]
+          }
+        ],
+        "borderColors": [
+          {
+            "value": "rgba(255, 255, 255, 0.75)",
+            "count": 4,
+            "sources": [
+              "header > a",
+              "header > a",
+              "header > a"
+            ]
+          },
+          {
+            "value": "rgb(102, 102, 102)",
+            "count": 2,
+            "sources": [
+              "#footer > p > a:nth-of-type(1)",
+              "#footer > p > a:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(242, 242, 242)",
+            "count": 1,
+            "sources": [
+              "#myTopnav > a:nth-of-type(1)"
+            ]
+          }
+        ],
+        "customProps": {},
+        "fonts": [
+          {
+            "family": "FontAwesome",
+            "weight": "normal",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Pacifico",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Source Sans Pro",
+            "weight": "200",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Source Sans Pro",
+            "weight": "200",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Source Sans Pro",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Source Sans Pro",
+            "weight": "400",
+            "style": "normal",
+            "status": "loaded"
+          }
+        ],
+        "logoCandidates": [],
+        "iconFont": {
+          "families": [
+            "FontAwesome"
+          ],
+          "glyphs": [
+            {
+              "class": "icon fa-twitter",
+              "pseudo": "::before",
+              "codepoint": "U+F099",
+              "fontFamily": "FontAwesome"
+            },
+            {
+              "class": "icon fa-facebook",
+              "pseudo": "::before",
+              "codepoint": "U+F09A",
+              "fontFamily": "FontAwesome"
+            },
+            {
+              "class": "icon fa-instagram",
+              "pseudo": "::before",
+              "codepoint": "U+F16D",
+              "fontFamily": "FontAwesome"
+            },
+            {
+              "class": "icon fa-linkedin",
+              "pseudo": "::before",
+              "codepoint": "U+F0E1",
+              "fontFamily": "FontAwesome"
+            },
+            {
+              "class": "icon fa-envelope",
+              "pseudo": "::before",
+              "codepoint": "U+F0E0",
+              "fontFamily": "FontAwesome"
+            }
+          ]
+        },
+        "consent": {
+          "dismissed": null
+        },
+        "finalUrl": "http://myredbike.ca/bikes.html"
+      },
+      "1440": {
+        "title": "MyRedBike DEMO2",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "elements": {
+          "total": 81,
+          "visible": 69
+        },
+        "occluders": [],
+        "headings": [
+          {
+            "tag": "h2",
+            "text": "Red Bikes",
+            "selector": "#intro > h2",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "30.3333px",
+            "fontWeight": "400",
+            "lineHeight": "45.5px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(68, 68, 68)"
+          },
+          {
+            "tag": "h3",
+            "text": "Red Bikes",
+            "selector": "header > h3",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "21.6667px",
+            "fontWeight": "400",
+            "lineHeight": "32.5px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h3",
+            "text": "Single Speed",
+            "selector": "header > h3",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "21.6667px",
+            "fontWeight": "400",
+            "lineHeight": "32.5px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h3",
+            "text": "Gifts and accessories",
+            "selector": "header > h3",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "21.6667px",
+            "fontWeight": "400",
+            "lineHeight": "32.5px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h3",
+            "text": "Gear",
+            "selector": "header > h3",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "21.6667px",
+            "fontWeight": "400",
+            "lineHeight": "32.5px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h2",
+            "text": "Etiam veroeros lorem",
+            "selector": "#cta > h2",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "30.3333px",
+            "fontWeight": "400",
+            "lineHeight": "45.5px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(68, 68, 68)"
+          }
+        ],
+        "text": [
+          {
+            "tag": "p",
+            "text": "This is the sub-page for bikes.html",
+            "selector": "#intro > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17.3333px",
+            "fontWeight": "200",
+            "lineHeight": "28.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          },
+          {
+            "tag": "p",
+            "text": "Fusce malesuada efficitur venenatis. Pe…",
+            "selector": "#wrapper > section:nth-of-type(2) > article:nth-of-type(1) > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17.3333px",
+            "fontWeight": "200",
+            "lineHeight": "28.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          },
+          {
+            "tag": "p",
+            "text": "Fusce malesuada efficitur venenatis. Pe…",
+            "selector": "#wrapper > section:nth-of-type(2) > article:nth-of-type(2) > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17.3333px",
+            "fontWeight": "200",
+            "lineHeight": "28.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          },
+          {
+            "tag": "p",
+            "text": "Fusce malesuada efficitur venenatis. Pe…",
+            "selector": "#wrapper > section:nth-of-type(2) > article:nth-of-type(3) > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17.3333px",
+            "fontWeight": "200",
+            "lineHeight": "28.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          },
+          {
+            "tag": "p",
+            "text": "Fusce malesuada efficitur venenatis. Pe…",
+            "selector": "#wrapper > section:nth-of-type(2) > article:nth-of-type(4) > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17.3333px",
+            "fontWeight": "200",
+            "lineHeight": "28.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          },
+          {
+            "tag": "p",
+            "text": "Phasellus ac augue ac magna auctor temp…",
+            "selector": "#cta > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17.3333px",
+            "fontWeight": "200",
+            "lineHeight": "28.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          },
+          {
+            "tag": "p",
+            "text": "© Untitled. Design: TEMPLATED. Images: …",
+            "selector": "#footer > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "13.8667px",
+            "fontWeight": "200",
+            "lineHeight": "22.88px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "Home",
+            "selector": "#myTopnav > a:nth-of-type(1)",
+            "count": 3,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(242, 242, 242)",
+            "borderRadius": "0px",
+            "padding": "14px 16px",
+            "border": "",
+            "borderColor": "rgb(242, 242, 242)",
+            "boxShadow": "none",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17px",
+            "fontWeight": "200",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": {
+              "backgroundColor": "rgb(221, 221, 221)",
+              "color": "rgb(239, 100, 128)",
+              "borderColor": "rgb(239, 100, 128) rgb(239, 100, 128) rgba(0, 0, 0, 0)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          },
+          {
+            "text": "Bikes",
+            "selector": "#myTopnav > a:nth-of-type(2)",
+            "count": 1,
+            "backgroundColor": "rgb(184, 50, 60)",
+            "color": "rgb(242, 242, 242)",
+            "borderRadius": "0px",
+            "padding": "14px 16px",
+            "border": "",
+            "borderColor": "rgb(242, 242, 242)",
+            "boxShadow": "none",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17px",
+            "fontWeight": "200",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": {
+              "backgroundColor": "rgb(221, 221, 221)",
+              "color": "rgb(239, 100, 128)",
+              "borderColor": "rgb(239, 100, 128) rgb(239, 100, 128) rgba(0, 0, 0, 0)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          }
+        ],
+        "links": [
+          {
+            "text": "Learn More",
+            "selector": "#intro > ul > li > a",
+            "count": 6,
+            "color": "rgb(68, 68, 68)",
+            "textDecoration": "none",
+            "fontWeight": "400",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(239, 100, 128)",
+              "borderColor": "rgb(239, 100, 128) rgb(239, 100, 128) rgba(0, 0, 0, 0)",
+              "boxShadow": "rgb(239, 100, 128) 0px 0px 0px 2px inset",
+              "changed": true
+            }
+          },
+          {
+            "text": "Twitter",
+            "selector": "#footer > ul > li:nth-of-type(1) > a",
+            "count": 7,
+            "color": "rgb(102, 102, 102)",
+            "textDecoration": "none",
+            "fontWeight": "200",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(239, 100, 128)",
+              "borderColor": "rgb(239, 100, 128) rgb(239, 100, 128) rgba(0, 0, 0, 0)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          }
+        ],
+        "surfaces": [
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 165,
+              "y": 1181,
+              "w": 537,
+              "h": 260
+            },
+            "backgroundColor": "rgb(68, 68, 68)",
+            "color": "rgba(255, 255, 255, 0.75)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "4px 4px 0px 0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17.3333px"
+          },
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 737,
+              "y": 1181,
+              "w": 537,
+              "h": 260
+            },
+            "backgroundColor": "rgb(68, 68, 68)",
+            "color": "rgba(255, 255, 255, 0.75)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "4px 4px 0px 0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17.3333px"
+          },
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 165,
+              "y": 1772,
+              "w": 537,
+              "h": 260
+            },
+            "backgroundColor": "rgb(68, 68, 68)",
+            "color": "rgba(255, 255, 255, 0.75)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "4px 4px 0px 0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17.3333px"
+          },
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 737,
+              "y": 1772,
+              "w": 537,
+              "h": 260
+            },
+            "backgroundColor": "rgb(68, 68, 68)",
+            "color": "rgba(255, 255, 255, 0.75)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "4px 4px 0px 0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17.3333px"
+          },
+          {
+            "matched": "footer",
+            "selector": "#footer",
+            "rect": {
+              "x": 165,
+              "y": 2787,
+              "w": 1109,
+              "h": 166
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(102, 102, 102)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17.3333px"
+          }
+        ],
+        "radii": [
+          {
+            "value": "4px",
+            "count": 11,
+            "area": 2328527,
+            "sources": [
+              "#intro",
+              "#intro > ul > li > a",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "4px 4px 0px 0px",
+            "count": 4,
+            "area": 558804,
+            "sources": [
+              "header",
+              "header",
+              "header"
+            ]
+          }
+        ],
+        "shadows": [
+          {
+            "value": "rgb(102, 102, 102) 0px 0px 0px 2px inset",
+            "count": 6,
+            "sources": [
+              "#intro > ul > li > a",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(1) > ul > li > a",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(2) > ul > li > a"
+            ]
+          }
+        ],
+        "gradients": [],
+        "bgColors": [
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 5,
+            "area": 2289808,
+            "sources": [
+              "#intro",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(1)",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(68, 68, 68)",
+            "count": 4,
+            "area": 558804,
+            "sources": [
+              "header",
+              "header",
+              "header"
+            ]
+          },
+          {
+            "value": "rgb(244, 244, 244)",
+            "count": 1,
+            "area": 4342478,
+            "sources": [
+              "body"
+            ]
+          },
+          {
+            "value": "rgb(131, 131, 131)",
+            "count": 1,
+            "area": 82148,
+            "sources": [
+              "#myTopnav"
+            ]
+          },
+          {
+            "value": "rgb(184, 50, 60)",
+            "count": 1,
+            "area": 3878,
+            "sources": [
+              "#myTopnav > a:nth-of-type(2)"
+            ]
+          }
+        ],
+        "textColors": [
+          {
+            "value": "rgb(102, 102, 102)",
+            "count": 9,
+            "sources": [
+              "#intro > p",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(1) > p",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(2) > p"
+            ]
+          },
+          {
+            "value": "rgb(68, 68, 68)",
+            "count": 8,
+            "sources": [
+              "#intro > h2",
+              "#intro > ul > li > a",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(1) > ul > li > a"
+            ]
+          },
+          {
+            "value": "rgb(242, 242, 242)",
+            "count": 4,
+            "sources": [
+              "#myTopnav > a:nth-of-type(1)",
+              "#myTopnav > a:nth-of-type(2)",
+              "#myTopnav > a:nth-of-type(3)"
+            ]
+          },
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 4,
+            "sources": [
+              "header > h3",
+              "header > h3",
+              "header > h3"
+            ]
+          }
+        ],
+        "borderColors": [
+          {
+            "value": "rgb(242, 242, 242)",
+            "count": 4,
+            "sources": [
+              "#myTopnav > a:nth-of-type(1)",
+              "#myTopnav > a:nth-of-type(2)",
+              "#myTopnav > a:nth-of-type(3)"
+            ]
+          },
+          {
+            "value": "rgba(255, 255, 255, 0.75)",
+            "count": 4,
+            "sources": [
+              "header > a",
+              "header > a",
+              "header > a"
+            ]
+          },
+          {
+            "value": "rgb(102, 102, 102)",
+            "count": 2,
+            "sources": [
+              "#footer > p > a:nth-of-type(1)",
+              "#footer > p > a:nth-of-type(2)"
+            ]
+          }
+        ],
+        "customProps": {},
+        "fonts": [
+          {
+            "family": "FontAwesome",
+            "weight": "normal",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Pacifico",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Source Sans Pro",
+            "weight": "200",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Source Sans Pro",
+            "weight": "200",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Source Sans Pro",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Source Sans Pro",
+            "weight": "400",
+            "style": "normal",
+            "status": "loaded"
+          }
+        ],
+        "logoCandidates": [],
+        "iconFont": {
+          "families": [
+            "FontAwesome"
+          ],
+          "glyphs": [
+            {
+              "class": "icon fa-twitter",
+              "pseudo": "::before",
+              "codepoint": "U+F099",
+              "fontFamily": "FontAwesome"
+            },
+            {
+              "class": "icon fa-facebook",
+              "pseudo": "::before",
+              "codepoint": "U+F09A",
+              "fontFamily": "FontAwesome"
+            },
+            {
+              "class": "icon fa-instagram",
+              "pseudo": "::before",
+              "codepoint": "U+F16D",
+              "fontFamily": "FontAwesome"
+            },
+            {
+              "class": "icon fa-linkedin",
+              "pseudo": "::before",
+              "codepoint": "U+F0E1",
+              "fontFamily": "FontAwesome"
+            },
+            {
+              "class": "icon fa-envelope",
+              "pseudo": "::before",
+              "codepoint": "U+F0E0",
+              "fontFamily": "FontAwesome"
+            }
+          ]
+        },
+        "consent": {
+          "dismissed": null
+        },
+        "finalUrl": "http://myredbike.ca/bikes.html"
+      }
+    },
+    "http://myredbike.ca/gear.html": {
+      "360": {
+        "title": "MyRedBike DEMO2",
+        "viewport": {
+          "width": 360,
+          "height": 900
+        },
+        "elements": {
+          "total": 79,
+          "visible": 64
+        },
+        "occluders": [],
+        "headings": [
+          {
+            "tag": "h2",
+            "text": "Gear",
+            "selector": "#intro > h2",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "18.3333px",
+            "fontWeight": "400",
+            "lineHeight": "27.5px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(68, 68, 68)"
+          },
+          {
+            "tag": "h3",
+            "text": "Red Bikes",
+            "selector": "header > h3",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px",
+            "fontWeight": "400",
+            "lineHeight": "22px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h3",
+            "text": "Single Speed",
+            "selector": "header > h3",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px",
+            "fontWeight": "400",
+            "lineHeight": "22px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h3",
+            "text": "Gifts and accessories",
+            "selector": "header > h3",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px",
+            "fontWeight": "400",
+            "lineHeight": "22px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h3",
+            "text": "Gear",
+            "selector": "header > h3",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px",
+            "fontWeight": "400",
+            "lineHeight": "22px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h2",
+            "text": "Etiam veroeros lorem",
+            "selector": "#cta > h2",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "18.3333px",
+            "fontWeight": "400",
+            "lineHeight": "27.5px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(68, 68, 68)"
+          }
+        ],
+        "text": [
+          {
+            "tag": "p",
+            "text": "This is the sub-page for gear.html",
+            "selector": "#intro > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px",
+            "fontWeight": "200",
+            "lineHeight": "24.2px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          },
+          {
+            "tag": "p",
+            "text": "Fusce malesuada efficitur venenatis. Pe…",
+            "selector": "#wrapper > section:nth-of-type(2) > article:nth-of-type(1) > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px",
+            "fontWeight": "200",
+            "lineHeight": "24.2px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          },
+          {
+            "tag": "p",
+            "text": "Fusce malesuada efficitur venenatis. Pe…",
+            "selector": "#wrapper > section:nth-of-type(2) > article:nth-of-type(2) > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px",
+            "fontWeight": "200",
+            "lineHeight": "24.2px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          },
+          {
+            "tag": "p",
+            "text": "Fusce malesuada efficitur venenatis. Pe…",
+            "selector": "#wrapper > section:nth-of-type(2) > article:nth-of-type(3) > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px",
+            "fontWeight": "200",
+            "lineHeight": "24.2px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          },
+          {
+            "tag": "p",
+            "text": "Fusce malesuada efficitur venenatis. Pe…",
+            "selector": "#wrapper > section:nth-of-type(2) > article:nth-of-type(4) > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px",
+            "fontWeight": "200",
+            "lineHeight": "24.2px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          },
+          {
+            "tag": "p",
+            "text": "Phasellus ac augue ac magna auctor temp…",
+            "selector": "#cta > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px",
+            "fontWeight": "200",
+            "lineHeight": "24.2px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          },
+          {
+            "tag": "p",
+            "text": "© Untitled. Design: TEMPLATED. Images: …",
+            "selector": "#footer > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "11.7333px",
+            "fontWeight": "200",
+            "lineHeight": "19.36px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "Home",
+            "selector": "#myTopnav > a:nth-of-type(1)",
+            "count": 1,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(242, 242, 242)",
+            "borderRadius": "0px",
+            "padding": "14px 16px",
+            "border": "",
+            "borderColor": "rgb(242, 242, 242)",
+            "boxShadow": "none",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17px",
+            "fontWeight": "200",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": {
+              "backgroundColor": "rgb(221, 221, 221)",
+              "color": "rgb(239, 100, 128)",
+              "borderColor": "rgb(239, 100, 128) rgb(239, 100, 128) rgba(0, 0, 0, 0)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          }
+        ],
+        "links": [
+          {
+            "text": "☰",
+            "selector": "#myTopnav > a:nth-of-type(5)",
+            "count": 1,
+            "color": "rgb(242, 242, 242)",
+            "textDecoration": "none",
+            "fontWeight": "200",
+            "hover": {
+              "backgroundColor": "rgb(221, 221, 221)",
+              "color": "rgb(239, 100, 128)",
+              "borderColor": "rgb(239, 100, 128) rgb(239, 100, 128) rgba(0, 0, 0, 0)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          },
+          {
+            "text": "More",
+            "selector": "#wrapper > section:nth-of-type(2) > article:nth-of-type(1) > ul > li > a",
+            "count": 5,
+            "color": "rgb(68, 68, 68)",
+            "textDecoration": "none",
+            "fontWeight": "400",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(239, 100, 128)",
+              "borderColor": "rgb(239, 100, 128) rgb(239, 100, 128) rgba(0, 0, 0, 0)",
+              "boxShadow": "rgb(239, 100, 128) 0px 0px 0px 2px inset",
+              "changed": true
+            }
+          },
+          {
+            "text": "Twitter",
+            "selector": "#footer > ul > li:nth-of-type(1) > a",
+            "count": 7,
+            "color": "rgb(102, 102, 102)",
+            "textDecoration": "none",
+            "fontWeight": "200",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(239, 100, 128)",
+              "borderColor": "rgb(239, 100, 128) rgb(239, 100, 128) rgba(0, 0, 0, 0)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          }
+        ],
+        "surfaces": [
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 15,
+              "y": 450,
+              "w": 331,
+              "h": 176
+            },
+            "backgroundColor": "rgb(68, 68, 68)",
+            "color": "rgba(255, 255, 255, 0.75)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "4px 4px 0px 0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px"
+          },
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 15,
+              "y": 888,
+              "w": 331,
+              "h": 176
+            },
+            "backgroundColor": "rgb(68, 68, 68)",
+            "color": "rgba(255, 255, 255, 0.75)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "4px 4px 0px 0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px"
+          },
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 15,
+              "y": 1326,
+              "w": 331,
+              "h": 176
+            },
+            "backgroundColor": "rgb(68, 68, 68)",
+            "color": "rgba(255, 255, 255, 0.75)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "4px 4px 0px 0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px"
+          },
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 15,
+              "y": 1765,
+              "w": 331,
+              "h": 176
+            },
+            "backgroundColor": "rgb(68, 68, 68)",
+            "color": "rgba(255, 255, 255, 0.75)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "4px 4px 0px 0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px"
+          },
+          {
+            "matched": "footer",
+            "selector": "#footer",
+            "rect": {
+              "x": 15,
+              "y": 2512,
+              "w": 331,
+              "h": 111
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(102, 102, 102)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px"
+          }
+        ],
+        "radii": [
+          {
+            "value": "4px",
+            "count": 10,
+            "area": 738580,
+            "sources": [
+              "#intro",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(1)",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(1) > ul > li > a"
+            ]
+          },
+          {
+            "value": "4px 4px 0px 0px",
+            "count": 4,
+            "area": 232792,
+            "sources": [
+              "header",
+              "header",
+              "header"
+            ]
+          }
+        ],
+        "shadows": [
+          {
+            "value": "rgb(102, 102, 102) 0px 0px 0px 2px inset",
+            "count": 5,
+            "sources": [
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(1) > ul > li > a",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(2) > ul > li > a",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(3) > ul > li > a"
+            ]
+          }
+        ],
+        "gradients": [],
+        "bgColors": [
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 5,
+            "area": 680477,
+            "sources": [
+              "#intro",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(1)",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(68, 68, 68)",
+            "count": 4,
+            "area": 232792,
+            "sources": [
+              "header",
+              "header",
+              "header"
+            ]
+          },
+          {
+            "value": "rgb(244, 244, 244)",
+            "count": 1,
+            "area": 953258,
+            "sources": [
+              "body"
+            ]
+          },
+          {
+            "value": "rgb(131, 131, 131)",
+            "count": 1,
+            "area": 20537,
+            "sources": [
+              "#myTopnav"
+            ]
+          }
+        ],
+        "textColors": [
+          {
+            "value": "rgb(102, 102, 102)",
+            "count": 9,
+            "sources": [
+              "#intro > p",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(1) > p",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(2) > p"
+            ]
+          },
+          {
+            "value": "rgb(68, 68, 68)",
+            "count": 7,
+            "sources": [
+              "#intro > h2",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(1) > ul > li > a",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(2) > ul > li > a"
+            ]
+          },
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 4,
+            "sources": [
+              "header > h3",
+              "header > h3",
+              "header > h3"
+            ]
+          },
+          {
+            "value": "rgb(242, 242, 242)",
+            "count": 2,
+            "sources": [
+              "#myTopnav > a:nth-of-type(1)",
+              "#myTopnav > a:nth-of-type(5)"
+            ]
+          }
+        ],
+        "borderColors": [
+          {
+            "value": "rgba(255, 255, 255, 0.75)",
+            "count": 4,
+            "sources": [
+              "header > a",
+              "header > a",
+              "header > a"
+            ]
+          },
+          {
+            "value": "rgb(102, 102, 102)",
+            "count": 2,
+            "sources": [
+              "#footer > p > a:nth-of-type(1)",
+              "#footer > p > a:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(242, 242, 242)",
+            "count": 1,
+            "sources": [
+              "#myTopnav > a:nth-of-type(1)"
+            ]
+          }
+        ],
+        "customProps": {},
+        "fonts": [
+          {
+            "family": "FontAwesome",
+            "weight": "normal",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Pacifico",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Source Sans Pro",
+            "weight": "200",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Source Sans Pro",
+            "weight": "200",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Source Sans Pro",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Source Sans Pro",
+            "weight": "400",
+            "style": "normal",
+            "status": "loaded"
+          }
+        ],
+        "logoCandidates": [],
+        "iconFont": {
+          "families": [
+            "FontAwesome"
+          ],
+          "glyphs": [
+            {
+              "class": "icon fa-twitter",
+              "pseudo": "::before",
+              "codepoint": "U+F099",
+              "fontFamily": "FontAwesome"
+            },
+            {
+              "class": "icon fa-facebook",
+              "pseudo": "::before",
+              "codepoint": "U+F09A",
+              "fontFamily": "FontAwesome"
+            },
+            {
+              "class": "icon fa-instagram",
+              "pseudo": "::before",
+              "codepoint": "U+F16D",
+              "fontFamily": "FontAwesome"
+            },
+            {
+              "class": "icon fa-linkedin",
+              "pseudo": "::before",
+              "codepoint": "U+F0E1",
+              "fontFamily": "FontAwesome"
+            },
+            {
+              "class": "icon fa-envelope",
+              "pseudo": "::before",
+              "codepoint": "U+F0E0",
+              "fontFamily": "FontAwesome"
+            }
+          ]
+        },
+        "consent": {
+          "dismissed": null
+        },
+        "finalUrl": "http://myredbike.ca/gear.html"
+      },
+      "1440": {
+        "title": "MyRedBike DEMO2",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "elements": {
+          "total": 79,
+          "visible": 66
+        },
+        "occluders": [],
+        "headings": [
+          {
+            "tag": "h2",
+            "text": "Gear",
+            "selector": "#intro > h2",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "30.3333px",
+            "fontWeight": "400",
+            "lineHeight": "45.5px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(68, 68, 68)"
+          },
+          {
+            "tag": "h3",
+            "text": "Red Bikes",
+            "selector": "header > h3",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "21.6667px",
+            "fontWeight": "400",
+            "lineHeight": "32.5px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h3",
+            "text": "Single Speed",
+            "selector": "header > h3",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "21.6667px",
+            "fontWeight": "400",
+            "lineHeight": "32.5px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h3",
+            "text": "Gifts and accessories",
+            "selector": "header > h3",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "21.6667px",
+            "fontWeight": "400",
+            "lineHeight": "32.5px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h3",
+            "text": "Gear",
+            "selector": "header > h3",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "21.6667px",
+            "fontWeight": "400",
+            "lineHeight": "32.5px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h2",
+            "text": "Etiam veroeros lorem",
+            "selector": "#cta > h2",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "30.3333px",
+            "fontWeight": "400",
+            "lineHeight": "45.5px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(68, 68, 68)"
+          }
+        ],
+        "text": [
+          {
+            "tag": "p",
+            "text": "This is the sub-page for gear.html",
+            "selector": "#intro > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17.3333px",
+            "fontWeight": "200",
+            "lineHeight": "28.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          },
+          {
+            "tag": "p",
+            "text": "Fusce malesuada efficitur venenatis. Pe…",
+            "selector": "#wrapper > section:nth-of-type(2) > article:nth-of-type(1) > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17.3333px",
+            "fontWeight": "200",
+            "lineHeight": "28.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          },
+          {
+            "tag": "p",
+            "text": "Fusce malesuada efficitur venenatis. Pe…",
+            "selector": "#wrapper > section:nth-of-type(2) > article:nth-of-type(2) > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17.3333px",
+            "fontWeight": "200",
+            "lineHeight": "28.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          },
+          {
+            "tag": "p",
+            "text": "Fusce malesuada efficitur venenatis. Pe…",
+            "selector": "#wrapper > section:nth-of-type(2) > article:nth-of-type(3) > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17.3333px",
+            "fontWeight": "200",
+            "lineHeight": "28.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          },
+          {
+            "tag": "p",
+            "text": "Fusce malesuada efficitur venenatis. Pe…",
+            "selector": "#wrapper > section:nth-of-type(2) > article:nth-of-type(4) > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17.3333px",
+            "fontWeight": "200",
+            "lineHeight": "28.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          },
+          {
+            "tag": "p",
+            "text": "Phasellus ac augue ac magna auctor temp…",
+            "selector": "#cta > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17.3333px",
+            "fontWeight": "200",
+            "lineHeight": "28.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          },
+          {
+            "tag": "p",
+            "text": "© Untitled. Design: TEMPLATED. Images: …",
+            "selector": "#footer > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "13.8667px",
+            "fontWeight": "200",
+            "lineHeight": "22.88px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "Home",
+            "selector": "#myTopnav > a:nth-of-type(1)",
+            "count": 3,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(242, 242, 242)",
+            "borderRadius": "0px",
+            "padding": "14px 16px",
+            "border": "",
+            "borderColor": "rgb(242, 242, 242)",
+            "boxShadow": "none",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17px",
+            "fontWeight": "200",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": {
+              "backgroundColor": "rgb(221, 221, 221)",
+              "color": "rgb(239, 100, 128)",
+              "borderColor": "rgb(239, 100, 128) rgb(239, 100, 128) rgba(0, 0, 0, 0)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          },
+          {
+            "text": "Gear",
+            "selector": "#myTopnav > a:nth-of-type(3)",
+            "count": 1,
+            "backgroundColor": "rgb(184, 50, 60)",
+            "color": "rgb(242, 242, 242)",
+            "borderRadius": "0px",
+            "padding": "14px 16px",
+            "border": "",
+            "borderColor": "rgb(242, 242, 242)",
+            "boxShadow": "none",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17px",
+            "fontWeight": "200",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": {
+              "backgroundColor": "rgb(221, 221, 221)",
+              "color": "rgb(239, 100, 128)",
+              "borderColor": "rgb(239, 100, 128) rgb(239, 100, 128) rgba(0, 0, 0, 0)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          }
+        ],
+        "links": [
+          {
+            "text": "More",
+            "selector": "#wrapper > section:nth-of-type(2) > article:nth-of-type(1) > ul > li > a",
+            "count": 5,
+            "color": "rgb(68, 68, 68)",
+            "textDecoration": "none",
+            "fontWeight": "400",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(239, 100, 128)",
+              "borderColor": "rgb(239, 100, 128) rgb(239, 100, 128) rgba(0, 0, 0, 0)",
+              "boxShadow": "rgb(239, 100, 128) 0px 0px 0px 2px inset",
+              "changed": true
+            }
+          },
+          {
+            "text": "Twitter",
+            "selector": "#footer > ul > li:nth-of-type(1) > a",
+            "count": 7,
+            "color": "rgb(102, 102, 102)",
+            "textDecoration": "none",
+            "fontWeight": "200",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(239, 100, 128)",
+              "borderColor": "rgb(239, 100, 128) rgb(239, 100, 128) rgba(0, 0, 0, 0)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          }
+        ],
+        "surfaces": [
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 165,
+              "y": 1175,
+              "w": 537,
+              "h": 260
+            },
+            "backgroundColor": "rgb(68, 68, 68)",
+            "color": "rgba(255, 255, 255, 0.75)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "4px 4px 0px 0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17.3333px"
+          },
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 737,
+              "y": 1175,
+              "w": 537,
+              "h": 260
+            },
+            "backgroundColor": "rgb(68, 68, 68)",
+            "color": "rgba(255, 255, 255, 0.75)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "4px 4px 0px 0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17.3333px"
+          },
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 165,
+              "y": 1767,
+              "w": 537,
+              "h": 260
+            },
+            "backgroundColor": "rgb(68, 68, 68)",
+            "color": "rgba(255, 255, 255, 0.75)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "4px 4px 0px 0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17.3333px"
+          },
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 737,
+              "y": 1767,
+              "w": 537,
+              "h": 260
+            },
+            "backgroundColor": "rgb(68, 68, 68)",
+            "color": "rgba(255, 255, 255, 0.75)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "4px 4px 0px 0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17.3333px"
+          },
+          {
+            "matched": "footer",
+            "selector": "#footer",
+            "rect": {
+              "x": 165,
+              "y": 2782,
+              "w": 1109,
+              "h": 166
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(102, 102, 102)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17.3333px"
+          }
+        ],
+        "radii": [
+          {
+            "value": "4px",
+            "count": 10,
+            "area": 2312237,
+            "sources": [
+              "#intro",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(1)",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(1) > ul > li > a"
+            ]
+          },
+          {
+            "value": "4px 4px 0px 0px",
+            "count": 4,
+            "area": 558804,
+            "sources": [
+              "header",
+              "header",
+              "header"
+            ]
+          }
+        ],
+        "shadows": [
+          {
+            "value": "rgb(102, 102, 102) 0px 0px 0px 2px inset",
+            "count": 5,
+            "sources": [
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(1) > ul > li > a",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(2) > ul > li > a",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(3) > ul > li > a"
+            ]
+          }
+        ],
+        "gradients": [],
+        "bgColors": [
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 5,
+            "area": 2283672,
+            "sources": [
+              "#intro",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(1)",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(68, 68, 68)",
+            "count": 4,
+            "area": 558804,
+            "sources": [
+              "header",
+              "header",
+              "header"
+            ]
+          },
+          {
+            "value": "rgb(244, 244, 244)",
+            "count": 1,
+            "area": 4334513,
+            "sources": [
+              "body"
+            ]
+          },
+          {
+            "value": "rgb(131, 131, 131)",
+            "count": 1,
+            "area": 82148,
+            "sources": [
+              "#myTopnav"
+            ]
+          },
+          {
+            "value": "rgb(184, 50, 60)",
+            "count": 1,
+            "area": 3624,
+            "sources": [
+              "#myTopnav > a:nth-of-type(3)"
+            ]
+          }
+        ],
+        "textColors": [
+          {
+            "value": "rgb(102, 102, 102)",
+            "count": 9,
+            "sources": [
+              "#intro > p",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(1) > p",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(2) > p"
+            ]
+          },
+          {
+            "value": "rgb(68, 68, 68)",
+            "count": 7,
+            "sources": [
+              "#intro > h2",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(1) > ul > li > a",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(2) > ul > li > a"
+            ]
+          },
+          {
+            "value": "rgb(242, 242, 242)",
+            "count": 4,
+            "sources": [
+              "#myTopnav > a:nth-of-type(1)",
+              "#myTopnav > a:nth-of-type(2)",
+              "#myTopnav > a:nth-of-type(3)"
+            ]
+          },
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 4,
+            "sources": [
+              "header > h3",
+              "header > h3",
+              "header > h3"
+            ]
+          }
+        ],
+        "borderColors": [
+          {
+            "value": "rgb(242, 242, 242)",
+            "count": 4,
+            "sources": [
+              "#myTopnav > a:nth-of-type(1)",
+              "#myTopnav > a:nth-of-type(2)",
+              "#myTopnav > a:nth-of-type(3)"
+            ]
+          },
+          {
+            "value": "rgba(255, 255, 255, 0.75)",
+            "count": 4,
+            "sources": [
+              "header > a",
+              "header > a",
+              "header > a"
+            ]
+          },
+          {
+            "value": "rgb(102, 102, 102)",
+            "count": 2,
+            "sources": [
+              "#footer > p > a:nth-of-type(1)",
+              "#footer > p > a:nth-of-type(2)"
+            ]
+          }
+        ],
+        "customProps": {},
+        "fonts": [
+          {
+            "family": "FontAwesome",
+            "weight": "normal",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Pacifico",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Source Sans Pro",
+            "weight": "200",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Source Sans Pro",
+            "weight": "200",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Source Sans Pro",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Source Sans Pro",
+            "weight": "400",
+            "style": "normal",
+            "status": "loaded"
+          }
+        ],
+        "logoCandidates": [],
+        "iconFont": {
+          "families": [
+            "FontAwesome"
+          ],
+          "glyphs": [
+            {
+              "class": "icon fa-twitter",
+              "pseudo": "::before",
+              "codepoint": "U+F099",
+              "fontFamily": "FontAwesome"
+            },
+            {
+              "class": "icon fa-facebook",
+              "pseudo": "::before",
+              "codepoint": "U+F09A",
+              "fontFamily": "FontAwesome"
+            },
+            {
+              "class": "icon fa-instagram",
+              "pseudo": "::before",
+              "codepoint": "U+F16D",
+              "fontFamily": "FontAwesome"
+            },
+            {
+              "class": "icon fa-linkedin",
+              "pseudo": "::before",
+              "codepoint": "U+F0E1",
+              "fontFamily": "FontAwesome"
+            },
+            {
+              "class": "icon fa-envelope",
+              "pseudo": "::before",
+              "codepoint": "U+F0E0",
+              "fontFamily": "FontAwesome"
+            }
+          ]
+        },
+        "consent": {
+          "dismissed": null
+        },
+        "finalUrl": "http://myredbike.ca/gear.html"
+      }
+    },
+    "http://myredbike.ca/gifts.html": {
+      "360": {
+        "title": "MyRedBike DEMO2",
+        "viewport": {
+          "width": 360,
+          "height": 900
+        },
+        "elements": {
+          "total": 79,
+          "visible": 64
+        },
+        "occluders": [],
+        "headings": [
+          {
+            "tag": "h2",
+            "text": "gifts",
+            "selector": "#intro > h2",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "18.3333px",
+            "fontWeight": "400",
+            "lineHeight": "27.5px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(68, 68, 68)"
+          },
+          {
+            "tag": "h3",
+            "text": "Red Bikes",
+            "selector": "header > h3",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px",
+            "fontWeight": "400",
+            "lineHeight": "22px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h3",
+            "text": "Single Speed",
+            "selector": "header > h3",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px",
+            "fontWeight": "400",
+            "lineHeight": "22px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h3",
+            "text": "Gifts and accessories",
+            "selector": "header > h3",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px",
+            "fontWeight": "400",
+            "lineHeight": "22px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h3",
+            "text": "Gear",
+            "selector": "header > h3",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px",
+            "fontWeight": "400",
+            "lineHeight": "22px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h2",
+            "text": "Etiam veroeros lorem",
+            "selector": "#cta > h2",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "18.3333px",
+            "fontWeight": "400",
+            "lineHeight": "27.5px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(68, 68, 68)"
+          }
+        ],
+        "text": [
+          {
+            "tag": "p",
+            "text": "This is the sub-page for gifts.",
+            "selector": "#intro > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px",
+            "fontWeight": "200",
+            "lineHeight": "24.2px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          },
+          {
+            "tag": "p",
+            "text": "Fusce malesuada efficitur venenatis. Pe…",
+            "selector": "#wrapper > section:nth-of-type(2) > article:nth-of-type(1) > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px",
+            "fontWeight": "200",
+            "lineHeight": "24.2px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          },
+          {
+            "tag": "p",
+            "text": "Fusce malesuada efficitur venenatis. Pe…",
+            "selector": "#wrapper > section:nth-of-type(2) > article:nth-of-type(2) > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px",
+            "fontWeight": "200",
+            "lineHeight": "24.2px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          },
+          {
+            "tag": "p",
+            "text": "Fusce malesuada efficitur venenatis. Pe…",
+            "selector": "#wrapper > section:nth-of-type(2) > article:nth-of-type(3) > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px",
+            "fontWeight": "200",
+            "lineHeight": "24.2px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          },
+          {
+            "tag": "p",
+            "text": "Fusce malesuada efficitur venenatis. Pe…",
+            "selector": "#wrapper > section:nth-of-type(2) > article:nth-of-type(4) > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px",
+            "fontWeight": "200",
+            "lineHeight": "24.2px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          },
+          {
+            "tag": "p",
+            "text": "Phasellus ac augue ac magna auctor temp…",
+            "selector": "#cta > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px",
+            "fontWeight": "200",
+            "lineHeight": "24.2px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          },
+          {
+            "tag": "p",
+            "text": "© Untitled. Design: TEMPLATED. Images: …",
+            "selector": "#footer > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "11.7333px",
+            "fontWeight": "200",
+            "lineHeight": "19.36px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "Home",
+            "selector": "#myTopnav > a:nth-of-type(1)",
+            "count": 1,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(242, 242, 242)",
+            "borderRadius": "0px",
+            "padding": "14px 16px",
+            "border": "",
+            "borderColor": "rgb(242, 242, 242)",
+            "boxShadow": "none",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17px",
+            "fontWeight": "200",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": {
+              "backgroundColor": "rgb(221, 221, 221)",
+              "color": "rgb(239, 100, 128)",
+              "borderColor": "rgb(239, 100, 128) rgb(239, 100, 128) rgba(0, 0, 0, 0)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          }
+        ],
+        "links": [
+          {
+            "text": "☰",
+            "selector": "#myTopnav > a:nth-of-type(5)",
+            "count": 1,
+            "color": "rgb(242, 242, 242)",
+            "textDecoration": "none",
+            "fontWeight": "200",
+            "hover": {
+              "backgroundColor": "rgb(221, 221, 221)",
+              "color": "rgb(239, 100, 128)",
+              "borderColor": "rgb(239, 100, 128) rgb(239, 100, 128) rgba(0, 0, 0, 0)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          },
+          {
+            "text": "More",
+            "selector": "#wrapper > section:nth-of-type(2) > article:nth-of-type(1) > ul > li > a",
+            "count": 5,
+            "color": "rgb(68, 68, 68)",
+            "textDecoration": "none",
+            "fontWeight": "400",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(239, 100, 128)",
+              "borderColor": "rgb(239, 100, 128) rgb(239, 100, 128) rgba(0, 0, 0, 0)",
+              "boxShadow": "rgb(239, 100, 128) 0px 0px 0px 2px inset",
+              "changed": true
+            }
+          },
+          {
+            "text": "Twitter",
+            "selector": "#footer > ul > li:nth-of-type(1) > a",
+            "count": 7,
+            "color": "rgb(102, 102, 102)",
+            "textDecoration": "none",
+            "fontWeight": "200",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(239, 100, 128)",
+              "borderColor": "rgb(239, 100, 128) rgb(239, 100, 128) rgba(0, 0, 0, 0)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          }
+        ],
+        "surfaces": [
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 15,
+              "y": 450,
+              "w": 331,
+              "h": 176
+            },
+            "backgroundColor": "rgb(68, 68, 68)",
+            "color": "rgba(255, 255, 255, 0.75)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "4px 4px 0px 0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px"
+          },
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 15,
+              "y": 888,
+              "w": 331,
+              "h": 176
+            },
+            "backgroundColor": "rgb(68, 68, 68)",
+            "color": "rgba(255, 255, 255, 0.75)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "4px 4px 0px 0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px"
+          },
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 15,
+              "y": 1326,
+              "w": 331,
+              "h": 176
+            },
+            "backgroundColor": "rgb(68, 68, 68)",
+            "color": "rgba(255, 255, 255, 0.75)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "4px 4px 0px 0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px"
+          },
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 15,
+              "y": 1765,
+              "w": 331,
+              "h": 176
+            },
+            "backgroundColor": "rgb(68, 68, 68)",
+            "color": "rgba(255, 255, 255, 0.75)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "4px 4px 0px 0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px"
+          },
+          {
+            "matched": "footer",
+            "selector": "#footer",
+            "rect": {
+              "x": 15,
+              "y": 2512,
+              "w": 331,
+              "h": 111
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(102, 102, 102)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px"
+          }
+        ],
+        "radii": [
+          {
+            "value": "4px",
+            "count": 10,
+            "area": 738580,
+            "sources": [
+              "#intro",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(1)",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(1) > ul > li > a"
+            ]
+          },
+          {
+            "value": "4px 4px 0px 0px",
+            "count": 4,
+            "area": 232792,
+            "sources": [
+              "header",
+              "header",
+              "header"
+            ]
+          }
+        ],
+        "shadows": [
+          {
+            "value": "rgb(102, 102, 102) 0px 0px 0px 2px inset",
+            "count": 5,
+            "sources": [
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(1) > ul > li > a",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(2) > ul > li > a",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(3) > ul > li > a"
+            ]
+          }
+        ],
+        "gradients": [],
+        "bgColors": [
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 5,
+            "area": 680477,
+            "sources": [
+              "#intro",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(1)",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(68, 68, 68)",
+            "count": 4,
+            "area": 232792,
+            "sources": [
+              "header",
+              "header",
+              "header"
+            ]
+          },
+          {
+            "value": "rgb(244, 244, 244)",
+            "count": 1,
+            "area": 953258,
+            "sources": [
+              "body"
+            ]
+          },
+          {
+            "value": "rgb(131, 131, 131)",
+            "count": 1,
+            "area": 20537,
+            "sources": [
+              "#myTopnav"
+            ]
+          }
+        ],
+        "textColors": [
+          {
+            "value": "rgb(102, 102, 102)",
+            "count": 9,
+            "sources": [
+              "#intro > p",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(1) > p",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(2) > p"
+            ]
+          },
+          {
+            "value": "rgb(68, 68, 68)",
+            "count": 7,
+            "sources": [
+              "#intro > h2",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(1) > ul > li > a",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(2) > ul > li > a"
+            ]
+          },
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 4,
+            "sources": [
+              "header > h3",
+              "header > h3",
+              "header > h3"
+            ]
+          },
+          {
+            "value": "rgb(242, 242, 242)",
+            "count": 2,
+            "sources": [
+              "#myTopnav > a:nth-of-type(1)",
+              "#myTopnav > a:nth-of-type(5)"
+            ]
+          }
+        ],
+        "borderColors": [
+          {
+            "value": "rgba(255, 255, 255, 0.75)",
+            "count": 4,
+            "sources": [
+              "header > a",
+              "header > a",
+              "header > a"
+            ]
+          },
+          {
+            "value": "rgb(102, 102, 102)",
+            "count": 2,
+            "sources": [
+              "#footer > p > a:nth-of-type(1)",
+              "#footer > p > a:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(242, 242, 242)",
+            "count": 1,
+            "sources": [
+              "#myTopnav > a:nth-of-type(1)"
+            ]
+          }
+        ],
+        "customProps": {},
+        "fonts": [
+          {
+            "family": "FontAwesome",
+            "weight": "normal",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Pacifico",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Source Sans Pro",
+            "weight": "200",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Source Sans Pro",
+            "weight": "200",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Source Sans Pro",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Source Sans Pro",
+            "weight": "400",
+            "style": "normal",
+            "status": "loaded"
+          }
+        ],
+        "logoCandidates": [],
+        "iconFont": {
+          "families": [
+            "FontAwesome"
+          ],
+          "glyphs": [
+            {
+              "class": "icon fa-twitter",
+              "pseudo": "::before",
+              "codepoint": "U+F099",
+              "fontFamily": "FontAwesome"
+            },
+            {
+              "class": "icon fa-facebook",
+              "pseudo": "::before",
+              "codepoint": "U+F09A",
+              "fontFamily": "FontAwesome"
+            },
+            {
+              "class": "icon fa-instagram",
+              "pseudo": "::before",
+              "codepoint": "U+F16D",
+              "fontFamily": "FontAwesome"
+            },
+            {
+              "class": "icon fa-linkedin",
+              "pseudo": "::before",
+              "codepoint": "U+F0E1",
+              "fontFamily": "FontAwesome"
+            },
+            {
+              "class": "icon fa-envelope",
+              "pseudo": "::before",
+              "codepoint": "U+F0E0",
+              "fontFamily": "FontAwesome"
+            }
+          ]
+        },
+        "consent": {
+          "dismissed": null
+        },
+        "finalUrl": "http://myredbike.ca/gifts.html"
+      },
+      "1440": {
+        "title": "MyRedBike DEMO2",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "elements": {
+          "total": 79,
+          "visible": 66
+        },
+        "occluders": [],
+        "headings": [
+          {
+            "tag": "h2",
+            "text": "gifts",
+            "selector": "#intro > h2",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "30.3333px",
+            "fontWeight": "400",
+            "lineHeight": "45.5px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(68, 68, 68)"
+          },
+          {
+            "tag": "h3",
+            "text": "Red Bikes",
+            "selector": "header > h3",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "21.6667px",
+            "fontWeight": "400",
+            "lineHeight": "32.5px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h3",
+            "text": "Single Speed",
+            "selector": "header > h3",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "21.6667px",
+            "fontWeight": "400",
+            "lineHeight": "32.5px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h3",
+            "text": "Gifts and accessories",
+            "selector": "header > h3",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "21.6667px",
+            "fontWeight": "400",
+            "lineHeight": "32.5px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h3",
+            "text": "Gear",
+            "selector": "header > h3",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "21.6667px",
+            "fontWeight": "400",
+            "lineHeight": "32.5px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h2",
+            "text": "Etiam veroeros lorem",
+            "selector": "#cta > h2",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "30.3333px",
+            "fontWeight": "400",
+            "lineHeight": "45.5px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(68, 68, 68)"
+          }
+        ],
+        "text": [
+          {
+            "tag": "p",
+            "text": "This is the sub-page for gifts.",
+            "selector": "#intro > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17.3333px",
+            "fontWeight": "200",
+            "lineHeight": "28.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          },
+          {
+            "tag": "p",
+            "text": "Fusce malesuada efficitur venenatis. Pe…",
+            "selector": "#wrapper > section:nth-of-type(2) > article:nth-of-type(1) > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17.3333px",
+            "fontWeight": "200",
+            "lineHeight": "28.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          },
+          {
+            "tag": "p",
+            "text": "Fusce malesuada efficitur venenatis. Pe…",
+            "selector": "#wrapper > section:nth-of-type(2) > article:nth-of-type(2) > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17.3333px",
+            "fontWeight": "200",
+            "lineHeight": "28.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          },
+          {
+            "tag": "p",
+            "text": "Fusce malesuada efficitur venenatis. Pe…",
+            "selector": "#wrapper > section:nth-of-type(2) > article:nth-of-type(3) > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17.3333px",
+            "fontWeight": "200",
+            "lineHeight": "28.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          },
+          {
+            "tag": "p",
+            "text": "Fusce malesuada efficitur venenatis. Pe…",
+            "selector": "#wrapper > section:nth-of-type(2) > article:nth-of-type(4) > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17.3333px",
+            "fontWeight": "200",
+            "lineHeight": "28.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          },
+          {
+            "tag": "p",
+            "text": "Phasellus ac augue ac magna auctor temp…",
+            "selector": "#cta > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17.3333px",
+            "fontWeight": "200",
+            "lineHeight": "28.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          },
+          {
+            "tag": "p",
+            "text": "© Untitled. Design: TEMPLATED. Images: …",
+            "selector": "#footer > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "13.8667px",
+            "fontWeight": "200",
+            "lineHeight": "22.88px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "Home",
+            "selector": "#myTopnav > a:nth-of-type(1)",
+            "count": 3,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(242, 242, 242)",
+            "borderRadius": "0px",
+            "padding": "14px 16px",
+            "border": "",
+            "borderColor": "rgb(242, 242, 242)",
+            "boxShadow": "none",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17px",
+            "fontWeight": "200",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": {
+              "backgroundColor": "rgb(221, 221, 221)",
+              "color": "rgb(239, 100, 128)",
+              "borderColor": "rgb(239, 100, 128) rgb(239, 100, 128) rgba(0, 0, 0, 0)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          },
+          {
+            "text": "Gifts",
+            "selector": "#myTopnav > a:nth-of-type(4)",
+            "count": 1,
+            "backgroundColor": "rgb(184, 50, 60)",
+            "color": "rgb(242, 242, 242)",
+            "borderRadius": "0px",
+            "padding": "14px 16px",
+            "border": "",
+            "borderColor": "rgb(242, 242, 242)",
+            "boxShadow": "none",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17px",
+            "fontWeight": "200",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": {
+              "backgroundColor": "rgb(221, 221, 221)",
+              "color": "rgb(239, 100, 128)",
+              "borderColor": "rgb(239, 100, 128) rgb(239, 100, 128) rgba(0, 0, 0, 0)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          }
+        ],
+        "links": [
+          {
+            "text": "More",
+            "selector": "#wrapper > section:nth-of-type(2) > article:nth-of-type(1) > ul > li > a",
+            "count": 5,
+            "color": "rgb(68, 68, 68)",
+            "textDecoration": "none",
+            "fontWeight": "400",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(239, 100, 128)",
+              "borderColor": "rgb(239, 100, 128) rgb(239, 100, 128) rgba(0, 0, 0, 0)",
+              "boxShadow": "rgb(239, 100, 128) 0px 0px 0px 2px inset",
+              "changed": true
+            }
+          },
+          {
+            "text": "Twitter",
+            "selector": "#footer > ul > li:nth-of-type(1) > a",
+            "count": 7,
+            "color": "rgb(102, 102, 102)",
+            "textDecoration": "none",
+            "fontWeight": "200",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(239, 100, 128)",
+              "borderColor": "rgb(239, 100, 128) rgb(239, 100, 128) rgba(0, 0, 0, 0)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          }
+        ],
+        "surfaces": [
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 165,
+              "y": 1175,
+              "w": 537,
+              "h": 260
+            },
+            "backgroundColor": "rgb(68, 68, 68)",
+            "color": "rgba(255, 255, 255, 0.75)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "4px 4px 0px 0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17.3333px"
+          },
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 737,
+              "y": 1175,
+              "w": 537,
+              "h": 260
+            },
+            "backgroundColor": "rgb(68, 68, 68)",
+            "color": "rgba(255, 255, 255, 0.75)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "4px 4px 0px 0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17.3333px"
+          },
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 165,
+              "y": 1767,
+              "w": 537,
+              "h": 260
+            },
+            "backgroundColor": "rgb(68, 68, 68)",
+            "color": "rgba(255, 255, 255, 0.75)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "4px 4px 0px 0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17.3333px"
+          },
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 737,
+              "y": 1767,
+              "w": 537,
+              "h": 260
+            },
+            "backgroundColor": "rgb(68, 68, 68)",
+            "color": "rgba(255, 255, 255, 0.75)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "4px 4px 0px 0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17.3333px"
+          },
+          {
+            "matched": "footer",
+            "selector": "#footer",
+            "rect": {
+              "x": 165,
+              "y": 2782,
+              "w": 1109,
+              "h": 166
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(102, 102, 102)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17.3333px"
+          }
+        ],
+        "radii": [
+          {
+            "value": "4px",
+            "count": 10,
+            "area": 2312237,
+            "sources": [
+              "#intro",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(1)",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(1) > ul > li > a"
+            ]
+          },
+          {
+            "value": "4px 4px 0px 0px",
+            "count": 4,
+            "area": 558804,
+            "sources": [
+              "header",
+              "header",
+              "header"
+            ]
+          }
+        ],
+        "shadows": [
+          {
+            "value": "rgb(102, 102, 102) 0px 0px 0px 2px inset",
+            "count": 5,
+            "sources": [
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(1) > ul > li > a",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(2) > ul > li > a",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(3) > ul > li > a"
+            ]
+          }
+        ],
+        "gradients": [],
+        "bgColors": [
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 5,
+            "area": 2283672,
+            "sources": [
+              "#intro",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(1)",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(68, 68, 68)",
+            "count": 4,
+            "area": 558804,
+            "sources": [
+              "header",
+              "header",
+              "header"
+            ]
+          },
+          {
+            "value": "rgb(244, 244, 244)",
+            "count": 1,
+            "area": 4334513,
+            "sources": [
+              "body"
+            ]
+          },
+          {
+            "value": "rgb(131, 131, 131)",
+            "count": 1,
+            "area": 82148,
+            "sources": [
+              "#myTopnav"
+            ]
+          },
+          {
+            "value": "rgb(184, 50, 60)",
+            "count": 1,
+            "area": 3504,
+            "sources": [
+              "#myTopnav > a:nth-of-type(4)"
+            ]
+          }
+        ],
+        "textColors": [
+          {
+            "value": "rgb(102, 102, 102)",
+            "count": 9,
+            "sources": [
+              "#intro > p",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(1) > p",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(2) > p"
+            ]
+          },
+          {
+            "value": "rgb(68, 68, 68)",
+            "count": 7,
+            "sources": [
+              "#intro > h2",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(1) > ul > li > a",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(2) > ul > li > a"
+            ]
+          },
+          {
+            "value": "rgb(242, 242, 242)",
+            "count": 4,
+            "sources": [
+              "#myTopnav > a:nth-of-type(1)",
+              "#myTopnav > a:nth-of-type(2)",
+              "#myTopnav > a:nth-of-type(3)"
+            ]
+          },
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 4,
+            "sources": [
+              "header > h3",
+              "header > h3",
+              "header > h3"
+            ]
+          }
+        ],
+        "borderColors": [
+          {
+            "value": "rgb(242, 242, 242)",
+            "count": 4,
+            "sources": [
+              "#myTopnav > a:nth-of-type(1)",
+              "#myTopnav > a:nth-of-type(2)",
+              "#myTopnav > a:nth-of-type(3)"
+            ]
+          },
+          {
+            "value": "rgba(255, 255, 255, 0.75)",
+            "count": 4,
+            "sources": [
+              "header > a",
+              "header > a",
+              "header > a"
+            ]
+          },
+          {
+            "value": "rgb(102, 102, 102)",
+            "count": 2,
+            "sources": [
+              "#footer > p > a:nth-of-type(1)",
+              "#footer > p > a:nth-of-type(2)"
+            ]
+          }
+        ],
+        "customProps": {},
+        "fonts": [
+          {
+            "family": "FontAwesome",
+            "weight": "normal",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Pacifico",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Source Sans Pro",
+            "weight": "200",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Source Sans Pro",
+            "weight": "200",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Source Sans Pro",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Source Sans Pro",
+            "weight": "400",
+            "style": "normal",
+            "status": "loaded"
+          }
+        ],
+        "logoCandidates": [],
+        "iconFont": {
+          "families": [
+            "FontAwesome"
+          ],
+          "glyphs": [
+            {
+              "class": "icon fa-twitter",
+              "pseudo": "::before",
+              "codepoint": "U+F099",
+              "fontFamily": "FontAwesome"
+            },
+            {
+              "class": "icon fa-facebook",
+              "pseudo": "::before",
+              "codepoint": "U+F09A",
+              "fontFamily": "FontAwesome"
+            },
+            {
+              "class": "icon fa-instagram",
+              "pseudo": "::before",
+              "codepoint": "U+F16D",
+              "fontFamily": "FontAwesome"
+            },
+            {
+              "class": "icon fa-linkedin",
+              "pseudo": "::before",
+              "codepoint": "U+F0E1",
+              "fontFamily": "FontAwesome"
+            },
+            {
+              "class": "icon fa-envelope",
+              "pseudo": "::before",
+              "codepoint": "U+F0E0",
+              "fontFamily": "FontAwesome"
+            }
+          ]
+        },
+        "consent": {
+          "dismissed": null
+        },
+        "finalUrl": "http://myredbike.ca/gifts.html"
+      }
+    },
+    "http://myredbike.ca/": {
+      "360": {
+        "title": "MyRedBike DEMO2",
+        "viewport": {
+          "width": 360,
+          "height": 900
+        },
+        "elements": {
+          "total": 85,
+          "visible": 69
+        },
+        "occluders": [],
+        "headings": [
+          {
+            "tag": "h2",
+            "text": "We sell only red bikes",
+            "selector": "#intro > h2",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "18.3333px",
+            "fontWeight": "400",
+            "lineHeight": "27.5px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(68, 68, 68)"
+          },
+          {
+            "tag": "h3",
+            "text": "Red Bikes",
+            "selector": "header > h3",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px",
+            "fontWeight": "400",
+            "lineHeight": "22px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h3",
+            "text": "Single Speed",
+            "selector": "header > h3",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px",
+            "fontWeight": "400",
+            "lineHeight": "22px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h3",
+            "text": "Gifts and accessories",
+            "selector": "header > h3",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px",
+            "fontWeight": "400",
+            "lineHeight": "22px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h3",
+            "text": "Gear",
+            "selector": "header > h3",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px",
+            "fontWeight": "400",
+            "lineHeight": "22px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h2",
+            "text": "Etiam veroeros lorem",
+            "selector": "#cta > h2",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "18.3333px",
+            "fontWeight": "400",
+            "lineHeight": "27.5px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(68, 68, 68)"
+          }
+        ],
+        "text": [
+          {
+            "tag": "p",
+            "text": "Hey there - here is the demo site I wil…",
+            "selector": "#intro > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px",
+            "fontWeight": "200",
+            "lineHeight": "24.2px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          },
+          {
+            "tag": "p",
+            "text": "Fusce malesuada efficitur venenatis. Pe…",
+            "selector": "#wrapper > section:nth-of-type(2) > article:nth-of-type(1) > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px",
+            "fontWeight": "200",
+            "lineHeight": "24.2px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          },
+          {
+            "tag": "p",
+            "text": "Fusce malesuada efficitur venenatis. Pe…",
+            "selector": "#wrapper > section:nth-of-type(2) > article:nth-of-type(2) > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px",
+            "fontWeight": "200",
+            "lineHeight": "24.2px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          },
+          {
+            "tag": "p",
+            "text": "Fusce malesuada efficitur venenatis. Pe…",
+            "selector": "#wrapper > section:nth-of-type(2) > article:nth-of-type(3) > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px",
+            "fontWeight": "200",
+            "lineHeight": "24.2px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          },
+          {
+            "tag": "p",
+            "text": "Fusce malesuada efficitur venenatis. Pe…",
+            "selector": "#wrapper > section:nth-of-type(2) > article:nth-of-type(4) > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px",
+            "fontWeight": "200",
+            "lineHeight": "24.2px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          },
+          {
+            "tag": "p",
+            "text": "Phasellus ac augue ac magna auctor temp…",
+            "selector": "#cta > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px",
+            "fontWeight": "200",
+            "lineHeight": "24.2px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          },
+          {
+            "tag": "p",
+            "text": "© Untitled. Design: TEMPLATED. Images: …",
+            "selector": "#footer > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "11.7333px",
+            "fontWeight": "200",
+            "lineHeight": "19.36px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "Home",
+            "selector": "#myTopnav > a:nth-of-type(1)",
+            "count": 1,
+            "backgroundColor": "rgb(184, 50, 60)",
+            "color": "rgb(242, 242, 242)",
+            "borderRadius": "0px",
+            "padding": "14px 16px",
+            "border": "",
+            "borderColor": "rgb(242, 242, 242)",
+            "boxShadow": "none",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17px",
+            "fontWeight": "200",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": {
+              "backgroundColor": "rgb(221, 221, 221)",
+              "color": "rgb(239, 100, 128)",
+              "borderColor": "rgb(239, 100, 128) rgb(239, 100, 128) rgba(0, 0, 0, 0)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          }
+        ],
+        "links": [
+          {
+            "text": "☰",
+            "selector": "#myTopnav > a:nth-of-type(5)",
+            "count": 1,
+            "color": "rgb(242, 242, 242)",
+            "textDecoration": "none",
+            "fontWeight": "200",
+            "hover": {
+              "backgroundColor": "rgb(221, 221, 221)",
+              "color": "rgb(239, 100, 128)",
+              "borderColor": "rgb(239, 100, 128) rgb(239, 100, 128) rgba(0, 0, 0, 0)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          },
+          {
+            "text": "Send a Random Event",
+            "selector": "#intro > a",
+            "count": 8,
+            "color": "rgb(102, 102, 102)",
+            "textDecoration": "none",
+            "fontWeight": "200",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(239, 100, 128)",
+              "borderColor": "rgb(239, 100, 128) rgb(239, 100, 128) rgba(0, 0, 0, 0)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          },
+          {
+            "text": "See our bikes",
+            "selector": "#intro > ul > li > a",
+            "count": 6,
+            "color": "rgb(68, 68, 68)",
+            "textDecoration": "none",
+            "fontWeight": "400",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(239, 100, 128)",
+              "borderColor": "rgb(239, 100, 128) rgb(239, 100, 128) rgba(0, 0, 0, 0)",
+              "boxShadow": "rgb(239, 100, 128) 0px 0px 0px 2px inset",
+              "changed": true
+            }
+          }
+        ],
+        "surfaces": [
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 15,
+              "y": 544,
+              "w": 331,
+              "h": 176
+            },
+            "backgroundColor": "rgb(68, 68, 68)",
+            "color": "rgba(255, 255, 255, 0.75)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "4px 4px 0px 0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px"
+          },
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 15,
+              "y": 983,
+              "w": 331,
+              "h": 176
+            },
+            "backgroundColor": "rgb(68, 68, 68)",
+            "color": "rgba(255, 255, 255, 0.75)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "4px 4px 0px 0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px"
+          },
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 15,
+              "y": 1421,
+              "w": 331,
+              "h": 176
+            },
+            "backgroundColor": "rgb(68, 68, 68)",
+            "color": "rgba(255, 255, 255, 0.75)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "4px 4px 0px 0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px"
+          },
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 15,
+              "y": 1859,
+              "w": 331,
+              "h": 176
+            },
+            "backgroundColor": "rgb(68, 68, 68)",
+            "color": "rgba(255, 255, 255, 0.75)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "4px 4px 0px 0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px"
+          },
+          {
+            "matched": "footer",
+            "selector": "#footer",
+            "rect": {
+              "x": 15,
+              "y": 2606,
+              "w": 331,
+              "h": 111
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(102, 102, 102)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "14.6667px"
+          }
+        ],
+        "radii": [
+          {
+            "value": "4px",
+            "count": 11,
+            "area": 783153,
+            "sources": [
+              "#intro",
+              "#intro > ul > li > a",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "4px 4px 0px 0px",
+            "count": 4,
+            "area": 232792,
+            "sources": [
+              "header",
+              "header",
+              "header"
+            ]
+          }
+        ],
+        "shadows": [
+          {
+            "value": "rgb(102, 102, 102) 0px 0px 0px 2px inset",
+            "count": 6,
+            "sources": [
+              "#intro > ul > li > a",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(1) > ul > li > a",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(2) > ul > li > a"
+            ]
+          }
+        ],
+        "gradients": [],
+        "bgColors": [
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 5,
+            "area": 711791,
+            "sources": [
+              "#intro",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(1)",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(68, 68, 68)",
+            "count": 4,
+            "area": 232792,
+            "sources": [
+              "header",
+              "header",
+              "header"
+            ]
+          },
+          {
+            "value": "rgb(244, 244, 244)",
+            "count": 1,
+            "area": 987351,
+            "sources": [
+              "body"
+            ]
+          },
+          {
+            "value": "rgb(131, 131, 131)",
+            "count": 1,
+            "area": 20537,
+            "sources": [
+              "#myTopnav"
+            ]
+          },
+          {
+            "value": "rgb(184, 50, 60)",
+            "count": 1,
+            "area": 4202,
+            "sources": [
+              "#myTopnav > a:nth-of-type(1)"
+            ]
+          }
+        ],
+        "textColors": [
+          {
+            "value": "rgb(102, 102, 102)",
+            "count": 10,
+            "sources": [
+              "#intro > a",
+              "#intro > p",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(1) > p"
+            ]
+          },
+          {
+            "value": "rgb(68, 68, 68)",
+            "count": 8,
+            "sources": [
+              "#intro > h2",
+              "#intro > ul > li > a",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(1) > ul > li > a"
+            ]
+          },
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 4,
+            "sources": [
+              "header > h3",
+              "header > h3",
+              "header > h3"
+            ]
+          },
+          {
+            "value": "rgb(242, 242, 242)",
+            "count": 2,
+            "sources": [
+              "#myTopnav > a:nth-of-type(1)",
+              "#myTopnav > a:nth-of-type(5)"
+            ]
+          }
+        ],
+        "borderColors": [
+          {
+            "value": "rgba(255, 255, 255, 0.75)",
+            "count": 4,
+            "sources": [
+              "header > a",
+              "header > a",
+              "header > a"
+            ]
+          },
+          {
+            "value": "rgb(102, 102, 102)",
+            "count": 3,
+            "sources": [
+              "#intro > a",
+              "#footer > p > a:nth-of-type(1)",
+              "#footer > p > a:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(242, 242, 242)",
+            "count": 1,
+            "sources": [
+              "#myTopnav > a:nth-of-type(1)"
+            ]
+          }
+        ],
+        "customProps": {},
+        "fonts": [
+          {
+            "family": "FontAwesome",
+            "weight": "normal",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Pacifico",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Source Sans Pro",
+            "weight": "200",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Source Sans Pro",
+            "weight": "200",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Source Sans Pro",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Source Sans Pro",
+            "weight": "400",
+            "style": "normal",
+            "status": "loaded"
+          }
+        ],
+        "logoCandidates": [],
+        "iconFont": {
+          "families": [
+            "FontAwesome"
+          ],
+          "glyphs": [
+            {
+              "class": "fas fa-download fa-sm text-white-50",
+              "pseudo": "::before",
+              "codepoint": "U+F019",
+              "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif"
+            },
+            {
+              "class": "icon fa-twitter",
+              "pseudo": "::before",
+              "codepoint": "U+F099",
+              "fontFamily": "FontAwesome"
+            },
+            {
+              "class": "icon fa-facebook",
+              "pseudo": "::before",
+              "codepoint": "U+F09A",
+              "fontFamily": "FontAwesome"
+            },
+            {
+              "class": "icon fa-instagram",
+              "pseudo": "::before",
+              "codepoint": "U+F16D",
+              "fontFamily": "FontAwesome"
+            },
+            {
+              "class": "icon fa-linkedin",
+              "pseudo": "::before",
+              "codepoint": "U+F0E1",
+              "fontFamily": "FontAwesome"
+            },
+            {
+              "class": "icon fa-envelope",
+              "pseudo": "::before",
+              "codepoint": "U+F0E0",
+              "fontFamily": "FontAwesome"
+            }
+          ]
+        },
+        "consent": {
+          "dismissed": null
+        },
+        "finalUrl": "http://myredbike.ca/"
+      },
+      "1440": {
+        "title": "MyRedBike DEMO2",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "elements": {
+          "total": 85,
+          "visible": 71
+        },
+        "occluders": [],
+        "headings": [
+          {
+            "tag": "h2",
+            "text": "We sell only red bikes",
+            "selector": "#intro > h2",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "30.3333px",
+            "fontWeight": "400",
+            "lineHeight": "45.5px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(68, 68, 68)"
+          },
+          {
+            "tag": "h3",
+            "text": "Red Bikes",
+            "selector": "header > h3",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "21.6667px",
+            "fontWeight": "400",
+            "lineHeight": "32.5px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h3",
+            "text": "Single Speed",
+            "selector": "header > h3",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "21.6667px",
+            "fontWeight": "400",
+            "lineHeight": "32.5px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h3",
+            "text": "Gifts and accessories",
+            "selector": "header > h3",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "21.6667px",
+            "fontWeight": "400",
+            "lineHeight": "32.5px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h3",
+            "text": "Gear",
+            "selector": "header > h3",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "21.6667px",
+            "fontWeight": "400",
+            "lineHeight": "32.5px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h2",
+            "text": "Etiam veroeros lorem",
+            "selector": "#cta > h2",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "30.3333px",
+            "fontWeight": "400",
+            "lineHeight": "45.5px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(68, 68, 68)"
+          }
+        ],
+        "text": [
+          {
+            "tag": "p",
+            "text": "Hey there - here is the demo site I wil…",
+            "selector": "#intro > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17.3333px",
+            "fontWeight": "200",
+            "lineHeight": "28.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          },
+          {
+            "tag": "p",
+            "text": "Fusce malesuada efficitur venenatis. Pe…",
+            "selector": "#wrapper > section:nth-of-type(2) > article:nth-of-type(1) > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17.3333px",
+            "fontWeight": "200",
+            "lineHeight": "28.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          },
+          {
+            "tag": "p",
+            "text": "Fusce malesuada efficitur venenatis. Pe…",
+            "selector": "#wrapper > section:nth-of-type(2) > article:nth-of-type(2) > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17.3333px",
+            "fontWeight": "200",
+            "lineHeight": "28.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          },
+          {
+            "tag": "p",
+            "text": "Fusce malesuada efficitur venenatis. Pe…",
+            "selector": "#wrapper > section:nth-of-type(2) > article:nth-of-type(3) > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17.3333px",
+            "fontWeight": "200",
+            "lineHeight": "28.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          },
+          {
+            "tag": "p",
+            "text": "Fusce malesuada efficitur venenatis. Pe…",
+            "selector": "#wrapper > section:nth-of-type(2) > article:nth-of-type(4) > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17.3333px",
+            "fontWeight": "200",
+            "lineHeight": "28.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          },
+          {
+            "tag": "p",
+            "text": "Phasellus ac augue ac magna auctor temp…",
+            "selector": "#cta > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17.3333px",
+            "fontWeight": "200",
+            "lineHeight": "28.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          },
+          {
+            "tag": "p",
+            "text": "© Untitled. Design: TEMPLATED. Images: …",
+            "selector": "#footer > p",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "13.8667px",
+            "fontWeight": "200",
+            "lineHeight": "22.88px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "Home",
+            "selector": "#myTopnav > a:nth-of-type(1)",
+            "count": 1,
+            "backgroundColor": "rgb(184, 50, 60)",
+            "color": "rgb(242, 242, 242)",
+            "borderRadius": "0px",
+            "padding": "14px 16px",
+            "border": "",
+            "borderColor": "rgb(242, 242, 242)",
+            "boxShadow": "none",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17px",
+            "fontWeight": "200",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": {
+              "backgroundColor": "rgb(221, 221, 221)",
+              "color": "rgb(239, 100, 128)",
+              "borderColor": "rgb(239, 100, 128) rgb(239, 100, 128) rgba(0, 0, 0, 0)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          },
+          {
+            "text": "Bikes",
+            "selector": "#myTopnav > a:nth-of-type(2)",
+            "count": 3,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(242, 242, 242)",
+            "borderRadius": "0px",
+            "padding": "14px 16px",
+            "border": "",
+            "borderColor": "rgb(242, 242, 242)",
+            "boxShadow": "none",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17px",
+            "fontWeight": "200",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": {
+              "backgroundColor": "rgb(221, 221, 221)",
+              "color": "rgb(239, 100, 128)",
+              "borderColor": "rgb(239, 100, 128) rgb(239, 100, 128) rgba(0, 0, 0, 0)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          }
+        ],
+        "links": [
+          {
+            "text": "Send a Random Event",
+            "selector": "#intro > a",
+            "count": 8,
+            "color": "rgb(102, 102, 102)",
+            "textDecoration": "none",
+            "fontWeight": "200",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(239, 100, 128)",
+              "borderColor": "rgb(239, 100, 128) rgb(239, 100, 128) rgba(0, 0, 0, 0)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          },
+          {
+            "text": "See our bikes",
+            "selector": "#intro > ul > li > a",
+            "count": 6,
+            "color": "rgb(68, 68, 68)",
+            "textDecoration": "none",
+            "fontWeight": "400",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(239, 100, 128)",
+              "borderColor": "rgb(239, 100, 128) rgb(239, 100, 128) rgba(0, 0, 0, 0)",
+              "boxShadow": "rgb(239, 100, 128) 0px 0px 0px 2px inset",
+              "changed": true
+            }
+          }
+        ],
+        "surfaces": [
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 165,
+              "y": 1193,
+              "w": 537,
+              "h": 260
+            },
+            "backgroundColor": "rgb(68, 68, 68)",
+            "color": "rgba(255, 255, 255, 0.75)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "4px 4px 0px 0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17.3333px"
+          },
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 737,
+              "y": 1193,
+              "w": 537,
+              "h": 260
+            },
+            "backgroundColor": "rgb(68, 68, 68)",
+            "color": "rgba(255, 255, 255, 0.75)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "4px 4px 0px 0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17.3333px"
+          },
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 165,
+              "y": 1784,
+              "w": 537,
+              "h": 260
+            },
+            "backgroundColor": "rgb(68, 68, 68)",
+            "color": "rgba(255, 255, 255, 0.75)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "4px 4px 0px 0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17.3333px"
+          },
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 737,
+              "y": 1784,
+              "w": 537,
+              "h": 260
+            },
+            "backgroundColor": "rgb(68, 68, 68)",
+            "color": "rgba(255, 255, 255, 0.75)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "4px 4px 0px 0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17.3333px"
+          },
+          {
+            "matched": "footer",
+            "selector": "#footer",
+            "rect": {
+              "x": 165,
+              "y": 2799,
+              "w": 1109,
+              "h": 166
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(102, 102, 102)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+            "fontSize": "17.3333px"
+          }
+        ],
+        "radii": [
+          {
+            "value": "4px",
+            "count": 11,
+            "area": 2343257,
+            "sources": [
+              "#intro",
+              "#intro > ul > li > a",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "4px 4px 0px 0px",
+            "count": 4,
+            "area": 558804,
+            "sources": [
+              "header",
+              "header",
+              "header"
+            ]
+          }
+        ],
+        "shadows": [
+          {
+            "value": "rgb(102, 102, 102) 0px 0px 0px 2px inset",
+            "count": 6,
+            "sources": [
+              "#intro > ul > li > a",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(1) > ul > li > a",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(2) > ul > li > a"
+            ]
+          }
+        ],
+        "gradients": [],
+        "bgColors": [
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 5,
+            "area": 2303189,
+            "sources": [
+              "#intro",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(1)",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(68, 68, 68)",
+            "count": 4,
+            "area": 558804,
+            "sources": [
+              "header",
+              "header",
+              "header"
+            ]
+          },
+          {
+            "value": "rgb(244, 244, 244)",
+            "count": 1,
+            "area": 4359848,
+            "sources": [
+              "body"
+            ]
+          },
+          {
+            "value": "rgb(131, 131, 131)",
+            "count": 1,
+            "area": 82148,
+            "sources": [
+              "#myTopnav"
+            ]
+          },
+          {
+            "value": "rgb(184, 50, 60)",
+            "count": 1,
+            "area": 4202,
+            "sources": [
+              "#myTopnav > a:nth-of-type(1)"
+            ]
+          }
+        ],
+        "textColors": [
+          {
+            "value": "rgb(102, 102, 102)",
+            "count": 10,
+            "sources": [
+              "#intro > a",
+              "#intro > p",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(1) > p"
+            ]
+          },
+          {
+            "value": "rgb(68, 68, 68)",
+            "count": 8,
+            "sources": [
+              "#intro > h2",
+              "#intro > ul > li > a",
+              "#wrapper > section:nth-of-type(2) > article:nth-of-type(1) > ul > li > a"
+            ]
+          },
+          {
+            "value": "rgb(242, 242, 242)",
+            "count": 4,
+            "sources": [
+              "#myTopnav > a:nth-of-type(1)",
+              "#myTopnav > a:nth-of-type(2)",
+              "#myTopnav > a:nth-of-type(3)"
+            ]
+          },
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 4,
+            "sources": [
+              "header > h3",
+              "header > h3",
+              "header > h3"
+            ]
+          }
+        ],
+        "borderColors": [
+          {
+            "value": "rgb(242, 242, 242)",
+            "count": 4,
+            "sources": [
+              "#myTopnav > a:nth-of-type(1)",
+              "#myTopnav > a:nth-of-type(2)",
+              "#myTopnav > a:nth-of-type(3)"
+            ]
+          },
+          {
+            "value": "rgba(255, 255, 255, 0.75)",
+            "count": 4,
+            "sources": [
+              "header > a",
+              "header > a",
+              "header > a"
+            ]
+          },
+          {
+            "value": "rgb(102, 102, 102)",
+            "count": 3,
+            "sources": [
+              "#intro > a",
+              "#footer > p > a:nth-of-type(1)",
+              "#footer > p > a:nth-of-type(2)"
+            ]
+          }
+        ],
+        "customProps": {},
+        "fonts": [
+          {
+            "family": "FontAwesome",
+            "weight": "normal",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Pacifico",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Source Sans Pro",
+            "weight": "200",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Source Sans Pro",
+            "weight": "200",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Source Sans Pro",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Source Sans Pro",
+            "weight": "400",
+            "style": "normal",
+            "status": "loaded"
+          }
+        ],
+        "logoCandidates": [],
+        "iconFont": {
+          "families": [
+            "FontAwesome"
+          ],
+          "glyphs": [
+            {
+              "class": "fas fa-download fa-sm text-white-50",
+              "pseudo": "::before",
+              "codepoint": "U+F019",
+              "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif"
+            },
+            {
+              "class": "icon fa-twitter",
+              "pseudo": "::before",
+              "codepoint": "U+F099",
+              "fontFamily": "FontAwesome"
+            },
+            {
+              "class": "icon fa-facebook",
+              "pseudo": "::before",
+              "codepoint": "U+F09A",
+              "fontFamily": "FontAwesome"
+            },
+            {
+              "class": "icon fa-instagram",
+              "pseudo": "::before",
+              "codepoint": "U+F16D",
+              "fontFamily": "FontAwesome"
+            },
+            {
+              "class": "icon fa-linkedin",
+              "pseudo": "::before",
+              "codepoint": "U+F0E1",
+              "fontFamily": "FontAwesome"
+            },
+            {
+              "class": "icon fa-envelope",
+              "pseudo": "::before",
+              "codepoint": "U+F0E0",
+              "fontFamily": "FontAwesome"
+            }
+          ]
+        },
+        "consent": {
+          "dismissed": null
+        },
+        "finalUrl": "http://myredbike.ca/"
+      }
+    }
+  },
+  "aggregate": {
+    "counts": {
+      "pages": 4,
+      "widths": [
+        360,
+        1440
+      ],
+      "measurements": 8
+    },
+    "colors": [
+      {
+        "hex": "#444444",
+        "values": [
+          "rgb(68, 68, 68)"
+        ],
+        "weight": 152,
+        "bgArea": 3166384,
+        "by": {
+          "text": 60,
+          "link": 44,
+          "background": 32,
+          "heading": 16
+        },
+        "roles": [
+          "surface"
+        ],
+        "sources": [
+          {
+            "url": "http://myredbike.ca/",
+            "selector": "#intro > h2",
+            "prop": "text"
+          },
+          {
+            "url": "http://myredbike.ca/bikes.html",
+            "selector": "#intro > h2",
+            "prop": "text"
+          },
+          {
+            "url": "http://myredbike.ca/gear.html",
+            "selector": "#intro > h2",
+            "prop": "text"
+          },
+          {
+            "url": "http://myredbike.ca/gifts.html",
+            "selector": "#intro > h2",
+            "prop": "text"
+          },
+          {
+            "url": "http://myredbike.ca/",
+            "selector": "#intro > ul > li > a",
+            "prop": "link"
+          }
+        ]
+      },
+      {
+        "hex": "#666666",
+        "values": [
+          "rgb(102, 102, 102)"
+        ],
+        "weight": 150,
+        "by": {
+          "text": 74,
+          "link": 58,
+          "border": 18
+        },
+        "roles": [
+          "text"
+        ],
+        "sources": [
+          {
+            "url": "http://myredbike.ca/",
+            "selector": "#intro > a",
+            "prop": "text"
+          },
+          {
+            "url": "http://myredbike.ca/bikes.html",
+            "selector": "#intro > p",
+            "prop": "text"
+          },
+          {
+            "url": "http://myredbike.ca/gear.html",
+            "selector": "#intro > p",
+            "prop": "text"
+          },
+          {
+            "url": "http://myredbike.ca/gifts.html",
+            "selector": "#intro > p",
+            "prop": "text"
+          },
+          {
+            "url": "http://myredbike.ca/",
+            "selector": "#intro > a",
+            "prop": "link"
+          }
+        ]
+      },
+      {
+        "hex": "#ffffff",
+        "values": [
+          "rgb(255, 255, 255)",
+          "rgb(244, 244, 244)"
+        ],
+        "weight": 112,
+        "bgArea": 33165288,
+        "by": {
+          "background": 48,
+          "text": 32,
+          "heading": 32
+        },
+        "roles": [
+          "background",
+          "heading"
+        ],
+        "sources": [
+          {
+            "url": "http://myredbike.ca/",
+            "selector": "#intro",
+            "prop": "background"
+          },
+          {
+            "url": "http://myredbike.ca/bikes.html",
+            "selector": "#intro",
+            "prop": "background"
+          },
+          {
+            "url": "http://myredbike.ca/gear.html",
+            "selector": "#intro",
+            "prop": "background"
+          },
+          {
+            "url": "http://myredbike.ca/gifts.html",
+            "selector": "#intro",
+            "prop": "background"
+          },
+          {
+            "url": "http://myredbike.ca/",
+            "selector": "header > h3",
+            "prop": "text"
+          }
+        ]
+      },
+      {
+        "hex": "#f2f2f2",
+        "values": [
+          "rgb(242, 242, 242)"
+        ],
+        "weight": 68,
+        "by": {
+          "border": 20,
+          "text": 24,
+          "button-text": 20,
+          "link": 4
+        },
+        "roles": [
+          "accent"
+        ],
+        "sources": [
+          {
+            "url": "http://myredbike.ca/",
+            "selector": "#myTopnav > a:nth-of-type(1)",
+            "prop": "border"
+          },
+          {
+            "url": "http://myredbike.ca/bikes.html",
+            "selector": "#myTopnav > a:nth-of-type(1)",
+            "prop": "border"
+          },
+          {
+            "url": "http://myredbike.ca/gear.html",
+            "selector": "#myTopnav > a:nth-of-type(1)",
+            "prop": "border"
+          },
+          {
+            "url": "http://myredbike.ca/gifts.html",
+            "selector": "#myTopnav > a:nth-of-type(1)",
+            "prop": "border"
+          },
+          {
+            "url": "http://myredbike.ca/",
+            "selector": "#myTopnav > a:nth-of-type(1)",
+            "prop": "text"
+          }
+        ]
+      },
+      {
+        "hex": "#ffffffbf",
+        "values": [
+          "rgba(255, 255, 255, 0.75)"
+        ],
+        "weight": 32,
+        "by": {
+          "border": 32
+        },
+        "roles": [
+          "border"
+        ],
+        "sources": [
+          {
+            "url": "http://myredbike.ca/",
+            "selector": "header > a",
+            "prop": "border"
+          },
+          {
+            "url": "http://myredbike.ca/bikes.html",
+            "selector": "header > a",
+            "prop": "border"
+          },
+          {
+            "url": "http://myredbike.ca/gear.html",
+            "selector": "header > a",
+            "prop": "border"
+          },
+          {
+            "url": "http://myredbike.ca/gifts.html",
+            "selector": "header > a",
+            "prop": "border"
+          }
+        ]
+      },
+      {
+        "hex": "#b8323c",
+        "values": [
+          "rgb(184, 50, 60)"
+        ],
+        "weight": 10,
+        "bgArea": 19410,
+        "by": {
+          "background": 5,
+          "button-background": 5
+        },
+        "roles": [
+          "primary"
+        ],
+        "sources": [
+          {
+            "url": "http://myredbike.ca/",
+            "selector": "#myTopnav > a:nth-of-type(1)",
+            "prop": "background"
+          },
+          {
+            "url": "http://myredbike.ca/bikes.html",
+            "selector": "#myTopnav > a:nth-of-type(2)",
+            "prop": "background"
+          },
+          {
+            "url": "http://myredbike.ca/gear.html",
+            "selector": "#myTopnav > a:nth-of-type(3)",
+            "prop": "background"
+          },
+          {
+            "url": "http://myredbike.ca/gifts.html",
+            "selector": "#myTopnav > a:nth-of-type(4)",
+            "prop": "background"
+          },
+          {
+            "url": "http://myredbike.ca/",
+            "selector": "#myTopnav > a:nth-of-type(1)",
+            "prop": "button-background"
+          }
+        ]
+      },
+      {
+        "hex": "#838383",
+        "values": [
+          "rgb(131, 131, 131)"
+        ],
+        "weight": 8,
+        "bgArea": 410740,
+        "by": {
+          "background": 8
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "http://myredbike.ca/",
+            "selector": "#myTopnav",
+            "prop": "background"
+          },
+          {
+            "url": "http://myredbike.ca/bikes.html",
+            "selector": "#myTopnav",
+            "prop": "background"
+          },
+          {
+            "url": "http://myredbike.ca/gear.html",
+            "selector": "#myTopnav",
+            "prop": "background"
+          },
+          {
+            "url": "http://myredbike.ca/gifts.html",
+            "selector": "#myTopnav",
+            "prop": "background"
+          }
+        ]
+      }
+    ],
+    "type": {
+      "families": [
+        {
+          "family": "Source Sans Pro",
+          "count": 124,
+          "headings": 48,
+          "text": 56,
+          "buttons": 20
+        }
+      ],
+      "headingFamily": "Source Sans Pro",
+      "bodyFamily": "Source Sans Pro",
+      "sizes": [
+        {
+          "px": 30.33,
+          "count": 8,
+          "headings": 8,
+          "text": 0,
+          "buttons": 0
+        },
+        {
+          "px": 21.67,
+          "count": 16,
+          "headings": 16,
+          "text": 0,
+          "buttons": 0
+        },
+        {
+          "px": 18.33,
+          "count": 8,
+          "headings": 8,
+          "text": 0,
+          "buttons": 0
+        },
+        {
+          "px": 17.33,
+          "count": 24,
+          "headings": 0,
+          "text": 24,
+          "buttons": 0
+        },
+        {
+          "px": 17,
+          "count": 20,
+          "headings": 0,
+          "text": 0,
+          "buttons": 20
+        },
+        {
+          "px": 14.67,
+          "count": 40,
+          "headings": 16,
+          "text": 24,
+          "buttons": 0
+        },
+        {
+          "px": 13.87,
+          "count": 4,
+          "headings": 0,
+          "text": 4,
+          "buttons": 0
+        },
+        {
+          "px": 11.73,
+          "count": 4,
+          "headings": 0,
+          "text": 4,
+          "buttons": 0
+        }
+      ],
+      "weights": [
+        {
+          "weight": "200",
+          "count": 76,
+          "headings": 0,
+          "text": 56,
+          "buttons": 20
+        },
+        {
+          "weight": "400",
+          "count": 48,
+          "headings": 48,
+          "text": 0,
+          "buttons": 0
+        }
+      ],
+      "levels": {
+        "h2": {
+          "fontSize": 30.33,
+          "fontWeight": "400",
+          "count": 8,
+          "score": 85.79
+        },
+        "h3": {
+          "fontSize": 21.67,
+          "fontWeight": "400",
+          "count": 16,
+          "score": 86.68
+        }
+      }
+    },
+    "motifs": {
+      "radius": {
+        "mode": "4px",
+        "areaMode": "4px",
+        "pill": null,
+        "values": [
+          {
+            "value": "4px",
+            "count": 84,
+            "area": 12324328,
+            "sources": [
+              {
+                "url": "http://myredbike.ca/",
+                "selector": "#intro"
+              },
+              {
+                "url": "http://myredbike.ca/",
+                "selector": "#intro > ul > li > a"
+              },
+              {
+                "url": "http://myredbike.ca/",
+                "selector": "#wrapper > section:nth-of-type(2) > article:nth-of-type(1)"
+              },
+              {
+                "url": "http://myredbike.ca/bikes.html",
+                "selector": "#intro"
+              },
+              {
+                "url": "http://myredbike.ca/bikes.html",
+                "selector": "#intro > ul > li > a"
+              }
+            ]
+          },
+          {
+            "value": "4px 4px 0px 0px",
+            "count": 32,
+            "area": 3166384,
+            "sources": [
+              {
+                "url": "http://myredbike.ca/",
+                "selector": "header"
+              },
+              {
+                "url": "http://myredbike.ca/bikes.html",
+                "selector": "header"
+              },
+              {
+                "url": "http://myredbike.ca/gear.html",
+                "selector": "header"
+              },
+              {
+                "url": "http://myredbike.ca/gifts.html",
+                "selector": "header"
+              }
+            ]
+          }
+        ]
+      },
+      "shadows": [
+        {
+          "value": "rgb(102, 102, 102) 0px 0px 0px 2px inset",
+          "count": 44,
+          "sources": [
+            {
+              "url": "http://myredbike.ca/",
+              "selector": "#intro > ul > li > a"
+            },
+            {
+              "url": "http://myredbike.ca/",
+              "selector": "#wrapper > section:nth-of-type(2) > article:nth-of-type(1) > ul > li > a"
+            },
+            {
+              "url": "http://myredbike.ca/",
+              "selector": "#wrapper > section:nth-of-type(2) > article:nth-of-type(2) > ul > li > a"
+            },
+            {
+              "url": "http://myredbike.ca/bikes.html",
+              "selector": "#intro > ul > li > a"
+            },
+            {
+              "url": "http://myredbike.ca/bikes.html",
+              "selector": "#wrapper > section:nth-of-type(2) > article:nth-of-type(1) > ul > li > a"
+            }
+          ]
+        }
+      ],
+      "gradients": []
+    },
+    "hover": [
+      {
+        "kind": "link",
+        "from": {
+          "color": "rgb(102, 102, 102)"
+        },
+        "to": {
+          "color": "rgb(239, 100, 128)"
+        },
+        "count": 8,
+        "sources": [
+          {
+            "url": "http://myredbike.ca/",
+            "selector": "#intro > a"
+          },
+          {
+            "url": "http://myredbike.ca/",
+            "selector": "#intro > a"
+          },
+          {
+            "url": "http://myredbike.ca/bikes.html",
+            "selector": "#footer > ul > li:nth-of-type(1) > a"
+          },
+          {
+            "url": "http://myredbike.ca/bikes.html",
+            "selector": "#footer > ul > li:nth-of-type(1) > a"
+          },
+          {
+            "url": "http://myredbike.ca/gear.html",
+            "selector": "#footer > ul > li:nth-of-type(1) > a"
+          }
+        ]
+      },
+      {
+        "kind": "link",
+        "from": {
+          "color": "rgb(68, 68, 68)"
+        },
+        "to": {
+          "color": "rgb(239, 100, 128)"
+        },
+        "count": 8,
+        "sources": [
+          {
+            "url": "http://myredbike.ca/",
+            "selector": "#intro > ul > li > a"
+          },
+          {
+            "url": "http://myredbike.ca/",
+            "selector": "#intro > ul > li > a"
+          },
+          {
+            "url": "http://myredbike.ca/bikes.html",
+            "selector": "#intro > ul > li > a"
+          },
+          {
+            "url": "http://myredbike.ca/bikes.html",
+            "selector": "#intro > ul > li > a"
+          },
+          {
+            "url": "http://myredbike.ca/gear.html",
+            "selector": "#wrapper > section:nth-of-type(2) > article:nth-of-type(1) > ul > li > a"
+          }
+        ]
+      },
+      {
+        "kind": "button",
+        "from": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(242, 242, 242)",
+          "borderColor": "rgb(242, 242, 242)"
+        },
+        "to": {
+          "backgroundColor": "rgb(221, 221, 221)",
+          "color": "rgb(239, 100, 128)",
+          "borderColor": "rgb(239, 100, 128) rgb(239, 100, 128) rgba(0, 0, 0, 0)"
+        },
+        "count": 7,
+        "sources": [
+          {
+            "url": "http://myredbike.ca/",
+            "selector": "#myTopnav > a:nth-of-type(2)"
+          },
+          {
+            "url": "http://myredbike.ca/bikes.html",
+            "selector": "#myTopnav > a:nth-of-type(1)"
+          },
+          {
+            "url": "http://myredbike.ca/bikes.html",
+            "selector": "#myTopnav > a:nth-of-type(1)"
+          },
+          {
+            "url": "http://myredbike.ca/gear.html",
+            "selector": "#myTopnav > a:nth-of-type(1)"
+          },
+          {
+            "url": "http://myredbike.ca/gear.html",
+            "selector": "#myTopnav > a:nth-of-type(1)"
+          }
+        ]
+      },
+      {
+        "kind": "button",
+        "from": {
+          "backgroundColor": "rgb(184, 50, 60)",
+          "color": "rgb(242, 242, 242)",
+          "borderColor": "rgb(242, 242, 242)"
+        },
+        "to": {
+          "backgroundColor": "rgb(221, 221, 221)",
+          "color": "rgb(239, 100, 128)",
+          "borderColor": "rgb(239, 100, 128) rgb(239, 100, 128) rgba(0, 0, 0, 0)"
+        },
+        "count": 5,
+        "sources": [
+          {
+            "url": "http://myredbike.ca/",
+            "selector": "#myTopnav > a:nth-of-type(1)"
+          },
+          {
+            "url": "http://myredbike.ca/",
+            "selector": "#myTopnav > a:nth-of-type(1)"
+          },
+          {
+            "url": "http://myredbike.ca/bikes.html",
+            "selector": "#myTopnav > a:nth-of-type(2)"
+          },
+          {
+            "url": "http://myredbike.ca/gear.html",
+            "selector": "#myTopnav > a:nth-of-type(3)"
+          },
+          {
+            "url": "http://myredbike.ca/gifts.html",
+            "selector": "#myTopnav > a:nth-of-type(4)"
+          }
+        ]
+      },
+      {
+        "kind": "link",
+        "from": {
+          "color": "rgb(242, 242, 242)"
+        },
+        "to": {
+          "color": "rgb(239, 100, 128)"
+        },
+        "count": 4,
+        "sources": [
+          {
+            "url": "http://myredbike.ca/",
+            "selector": "#myTopnav > a:nth-of-type(5)"
+          },
+          {
+            "url": "http://myredbike.ca/bikes.html",
+            "selector": "#myTopnav > a:nth-of-type(5)"
+          },
+          {
+            "url": "http://myredbike.ca/gear.html",
+            "selector": "#myTopnav > a:nth-of-type(5)"
+          },
+          {
+            "url": "http://myredbike.ca/gifts.html",
+            "selector": "#myTopnav > a:nth-of-type(5)"
+          }
+        ]
+      }
+    ],
+    "logo": {
+      "source": "none",
+      "url": null,
+      "selector": null
+    },
+    "iconFont": {
+      "families": [
+        "FontAwesome"
+      ],
+      "glyphs": [
+        {
+          "class": "icon fa-envelope",
+          "pseudo": "::before",
+          "codepoint": "U+F0E0",
+          "fontFamily": "FontAwesome",
+          "count": 8,
+          "sources": [
+            "http://myredbike.ca/",
+            "http://myredbike.ca/",
+            "http://myredbike.ca/bikes.html"
+          ]
+        },
+        {
+          "class": "icon fa-facebook",
+          "pseudo": "::before",
+          "codepoint": "U+F09A",
+          "fontFamily": "FontAwesome",
+          "count": 8,
+          "sources": [
+            "http://myredbike.ca/",
+            "http://myredbike.ca/",
+            "http://myredbike.ca/bikes.html"
+          ]
+        },
+        {
+          "class": "icon fa-instagram",
+          "pseudo": "::before",
+          "codepoint": "U+F16D",
+          "fontFamily": "FontAwesome",
+          "count": 8,
+          "sources": [
+            "http://myredbike.ca/",
+            "http://myredbike.ca/",
+            "http://myredbike.ca/bikes.html"
+          ]
+        },
+        {
+          "class": "icon fa-linkedin",
+          "pseudo": "::before",
+          "codepoint": "U+F0E1",
+          "fontFamily": "FontAwesome",
+          "count": 8,
+          "sources": [
+            "http://myredbike.ca/",
+            "http://myredbike.ca/",
+            "http://myredbike.ca/bikes.html"
+          ]
+        },
+        {
+          "class": "icon fa-twitter",
+          "pseudo": "::before",
+          "codepoint": "U+F099",
+          "fontFamily": "FontAwesome",
+          "count": 8,
+          "sources": [
+            "http://myredbike.ca/",
+            "http://myredbike.ca/",
+            "http://myredbike.ca/bikes.html"
+          ]
+        },
+        {
+          "class": "fas fa-download fa-sm text-white-50",
+          "pseudo": "::before",
+          "codepoint": "U+F019",
+          "fontFamily": "\"Source Sans Pro\", Helvetica, sans-serif",
+          "count": 2,
+          "sources": [
+            "http://myredbike.ca/",
+            "http://myredbike.ca/"
+          ]
+        }
+      ]
+    }
+  }
+}

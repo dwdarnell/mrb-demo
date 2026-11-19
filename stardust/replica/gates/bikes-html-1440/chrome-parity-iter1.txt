@@ -1,0 +1,18 @@
+[live-session] waiting to pace live navigations to myredbike.ca (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 919 ms
+chrome-parity @ 1440px, tolerance 1px
+  live:  http://myredbike.ca/bikes.html
+  build: http://localhost:8791/bikes-html-proposed.html
+
+■ header: ✓ parity — 0 paired of 1/4 texts, 0/0 icons
+  🟢 REGION BOX   Δx -165px (165→0), Δy -1181px (1181→0), Δw +903px (537→1440), Δh -203px (260→57)  — accepted: Live page has no <header>/[role=banner]; chrome-parity's default header root lands on the first card's <header> (.item header). True chrome measured with --no-defaults --region nav=#myTopnav --region foot=#footer: parity at 1440 and 360 (stardust/replica/chrome-true-roots.md).
+  🟢 REGION STYLE backgroundColor rgb(68, 68, 68) → rgb(131, 131, 131)  — accepted: Live page has no <header>/[role=banner]; chrome-parity's default header root lands on the first card's <header> (.item header). True chrome measured with --no-defaults --region nav=#myTopnav --region foot=#footer: parity at 1440 and 360 (stardust/replica/chrome-true-roots.md).
+  🟢 REGION STYLE position relative → static (fixed/sticky chrome must stay fixed/sticky — seam symmetry)  — accepted: Live page has no <header>/[role=banner]; chrome-parity's default header root lands on the first card's <header> (.item header). True chrome measured with --no-defaults --region nav=#myTopnav --region foot=#footer: parity at 1440 and 360 (stardust/replica/chrome-true-roots.md).
+  🟢 MISSING      "Red Bikes"  live <h3> "Red Bikes" has no build element with the same text  — accepted: Live page has no <header>/[role=banner]; chrome-parity's default header root lands on the first card's <header> (.item header). True chrome measured with --no-defaults --region nav=#myTopnav --region foot=#footer: parity at 1440 and 360 (stardust/replica/chrome-true-roots.md).
+  🟢 EXTRA        "Home"  build <a> "Home" has no live source  — accepted: Live page has no <header>/[role=banner]; chrome-parity's default header root lands on the first card's <header> (.item header). True chrome measured with --no-defaults --region nav=#myTopnav --region foot=#footer: parity at 1440 and 360 (stardust/replica/chrome-true-roots.md).
+  🟢 EXTRA        "Bikes"  build <a> "Bikes" has no live source  — accepted: Live page has no <header>/[role=banner]; chrome-parity's default header root lands on the first card's <header> (.item header). True chrome measured with --no-defaults --region nav=#myTopnav --region foot=#footer: parity at 1440 and 360 (stardust/replica/chrome-true-roots.md).
+  🟢 EXTRA        "Gear"  build <a> "Gear" has no live source  — accepted: Live page has no <header>/[role=banner]; chrome-parity's default header root lands on the first card's <header> (.item header). True chrome measured with --no-defaults --region nav=#myTopnav --region foot=#footer: parity at 1440 and 360 (stardust/replica/chrome-true-roots.md).
+  🟢 EXTRA        "Gifts"  build <a> "Gifts" has no live source  — accepted: Live page has no <header>/[role=banner]; chrome-parity's default header root lands on the first card's <header> (.item header). True chrome measured with --no-defaults --region nav=#myTopnav --region foot=#footer: parity at 1440 and 360 (stardust/replica/chrome-true-roots.md).
+
+■ footer: ✓ parity — 3 paired of 3/3 texts, 0/0 icons
+
+✓ chrome parity within tolerance — run crop-compare (pass bar item 5) to confirm in pixels.

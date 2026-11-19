@@ -1,0 +1,23 @@
+{
+ "pages": 2,
+ "vendors": [
+  {
+   "host": "assets.adobedtm.com",
+   "pages": 2,
+   "firstParty": false,
+   "role": "tag manager: Adobe Launch",
+   "class": "T",
+   "inCsp": false
+  },
+  {
+   "host": "myredbike.ca",
+   "pages": 2,
+   "firstParty": true,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  }
+ ],
+ "inline": {},
+ "cspHosts": []
+}

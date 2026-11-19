@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "stages": {
+    "prototype": {
+      "rounds": [
+        {
+          "label": "iter1",
+          "at": "2026-11-18T16:28:19.352Z",
+          "verdict": "pass",
+          "kind": "first"
+        }
+      ],
+      "decisions": []
+    },
+    "published": {
+      "rounds": [
+        {
+          "label": "pub1",
+          "at": "2026-11-18T17:10:34.875Z",
+          "verdict": "pass",
+          "kind": "first"
+        }
+      ],
+      "decisions": []
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-18T17-14-30-526Z",
+          "at": "2026-11-18T17:14:30.527Z",
+          "verdict": "pass",
+          "kind": "first"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

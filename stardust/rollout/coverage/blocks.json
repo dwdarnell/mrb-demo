@@ -1,0 +1,85 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/blocks",
+    "writtenAt": "2026-11-18T16:33:55.126Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-18T17:05:19.938Z",
+  "blocks": [
+    {
+      "id": "cta",
+      "label": "cta",
+      "kind": "module",
+      "signature": "module:cta",
+      "source": null,
+      "usedByTemplates": [
+        "bikes-html",
+        "index"
+      ],
+      "usedByPages": [
+        "bikes-html",
+        "gear-html",
+        "gifts-html",
+        "index"
+      ],
+      "instanceCount": 4,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "cta",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "intro",
+      "label": "intro",
+      "kind": "module",
+      "signature": "module:intro",
+      "source": null,
+      "usedByTemplates": [
+        "bikes-html",
+        "index"
+      ],
+      "usedByPages": [
+        "bikes-html",
+        "gear-html",
+        "gifts-html",
+        "index"
+      ],
+      "instanceCount": 4,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "intro",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "items",
+      "label": "items",
+      "kind": "module",
+      "signature": "module:items",
+      "source": null,
+      "usedByTemplates": [
+        "bikes-html",
+        "index"
+      ],
+      "usedByPages": [
+        "bikes-html",
+        "gear-html",
+        "gifts-html",
+        "index"
+      ],
+      "instanceCount": 4,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "items",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    }
+  ]
+}

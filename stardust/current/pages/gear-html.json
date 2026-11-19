@@ -1,0 +1,240 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-11-18T16:06:17.474Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "gear-html",
+  "url": "http://myredbike.ca/gear.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-11-18T16:06:17.474Z",
+  "finalUrl": "http://myredbike.ca/gear.html",
+  "title": "MyRedBike DEMO2",
+  "description": null,
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h2",
+      "text": "Gear"
+    },
+    {
+      "tag": "h3",
+      "text": "Red Bikes"
+    },
+    {
+      "tag": "h3",
+      "text": "Single Speed"
+    },
+    {
+      "tag": "h3",
+      "text": "Gifts and accessories"
+    },
+    {
+      "tag": "h3",
+      "text": "Gear"
+    },
+    {
+      "tag": "h2",
+      "text": "Etiam veroeros lorem"
+    }
+  ],
+  "body": [
+    "This is the sub-page for gear.html",
+    "Fusce malesuada efficitur venenatis. Pellentesque tempor leo sed massa hendrerit hendrerit. In sed feugiat est, eu congue elit. Ut porta magna vel felis sodales vulputate. Donec faucibus dapibus lacus non ornare.",
+    "More",
+    "Fusce malesuada efficitur venenatis. Pellentesque tempor leo sed massa hendrerit hendrerit. In sed feugiat est, eu congue elit. Ut porta magna vel felis sodales vulputate. Donec faucibus dapibus lacus non ornare.",
+    "More",
+    "Fusce malesuada efficitur venenatis. Pellentesque tempor leo sed massa hendrerit hendrerit. In sed feugiat est, eu congue elit. Ut porta magna vel felis sodales vulputate. Donec faucibus dapibus lacus non ornare.",
+    "More",
+    "Fusce malesuada efficitur venenatis. Pellentesque tempor leo sed massa hendrerit hendrerit. In sed feugiat est, eu congue elit. Ut porta magna vel felis sodales vulputate. Donec faucibus dapibus lacus non ornare.",
+    "More",
+    "Phasellus ac augue ac magna auctor tempus proin accumsan lacus a nibh commodo in pellentesque dui in hac habitasse platea dictumst.",
+    "Get Started",
+    "Twitter",
+    "Facebook",
+    "Instagram",
+    "LinkedIn",
+    "Email",
+    "© Untitled. Design: TEMPLATED. Images: Unsplash."
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Bikes",
+      "href": "/bikes.html"
+    },
+    {
+      "label": "Gear",
+      "href": "/gear.html"
+    },
+    {
+      "label": "Gifts",
+      "href": "/gifts.html"
+    },
+    {
+      "label": "More",
+      "href": "/bikes.html"
+    },
+    {
+      "label": "More",
+      "href": "/bikes.html"
+    },
+    {
+      "label": "More",
+      "href": "/gifts.html"
+    },
+    {
+      "label": "More",
+      "href": "/gear.html"
+    },
+    {
+      "label": "Get Started",
+      "href": "#"
+    },
+    {
+      "label": "Twitter",
+      "href": "#"
+    },
+    {
+      "label": "Facebook",
+      "href": "#"
+    },
+    {
+      "label": "Instagram",
+      "href": "#"
+    },
+    {
+      "label": "LinkedIn",
+      "href": "#"
+    },
+    {
+      "label": "Email",
+      "href": "#"
+    },
+    {
+      "label": "TEMPLATED",
+      "href": "https://templated.co"
+    },
+    {
+      "label": "Unsplash",
+      "href": "https://unsplash.com"
+    }
+  ],
+  "links": [
+    "http://myredbike.ca/",
+    "http://myredbike.ca/bikes.html",
+    "http://myredbike.ca/gear.html",
+    "http://myredbike.ca/gifts.html",
+    "javascript:void(0);",
+    "http://myredbike.ca/gear.html#",
+    "https://templated.co/",
+    "https://unsplash.com/"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "http://myredbike.ca/images/IMG_0016.jpg",
+        "alt": "Red Bike",
+        "w": 1280,
+        "h": 960
+      }
+    ],
+    "allImgCount": 1,
+    "cssBackgrounds": [
+      "http://myredbike.ca/images/IMG_0015.jpg",
+      "http://myredbike.ca/images/pic02.jpg",
+      "http://myredbike.ca/images/IMG_0017.jpg",
+      "http://myredbike.ca/images/IMG_0016.jpg"
+    ],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {},
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 5,
+    "mainTextLen": 1241,
+    "realImageCount": 1,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage",
+    "pageSize": {
+      "w": 1440,
+      "h": 3010
+    }
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "POST",
+        "host": "mboxedge35.tt.omtrdc.net",
+        "path": "/rest/v1/delivery",
+        "query": [
+          "client",
+          "sessionId",
+          "version"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "http://mboxedge35.tt.omtrdc.net/rest/v1/delivery",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "adobedemoamericas159.demdex.net",
+        "path": "/event",
+        "query": [
+          "_ts",
+          "d_dil_ver"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 119,
+        "hits": 1,
+        "example": "http://adobedemoamericas159.demdex.net/event",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "assets.adobedtm.com",
+        "count": 3
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [],
+    "frameworkHints": [],
+    "forms": [],
+    "ariaLiveRegions": 0,
+    "triggers": [],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 0,
+      "thirdPartyEndpoints": 2,
+      "thirdPartyScriptHosts": 1,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/gear-html.png",
+  "renderedHtml": "pages/gear-html.html"
+}

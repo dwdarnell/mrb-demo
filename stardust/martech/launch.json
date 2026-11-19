@@ -1,0 +1,67 @@
+{
+ "url": "https://assets.adobedtm.com/launch-ENfc4a9855597046a395b70b00f3880344.min.js",
+ "pages": 2,
+ "build": "buildInfo:{minified:!0,buildDate:\"2021-09-29T19:42:17Z\",turbineBuildDate:\"2021-08-11T20:25:49Z\",turbineVersion:\"27.2.0\"}",
+ "orgId": "440436655AA29D730A495ED5@AdobeOrg",
+ "extensions": [
+  "YouTube Player Embed",
+  "Core",
+  "Adobe ContextHub",
+  "Adobe Target",
+  "Adobe Audience Manager (DIL)",
+  "Experience Cloud ID Service",
+  "Adobe Analytics",
+  "DoubleClick Floodlight (Beta)",
+  "Adobe Privacy"
+ ],
+ "webSdk": null,
+ "target": {
+  "atjs": "adobe-target",
+  "renderRules": [],
+  "prehiding": false
+ },
+ "dataElements": [
+  {
+   "name": "Location Data",
+   "type": "dataElement",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "New Visitor",
+   "type": "visitorBehavior",
+   "source": null,
+   "selectors": []
+  }
+ ],
+ "rules": [
+  {
+   "id": "RLb9536f500954458481f1ee2d2d15041e",
+   "name": "RuleDemo",
+   "events": [],
+   "pushEvents": [],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL4293ad534baf4a4db09824a81d5d7ecc",
+   "name": "General page load",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  }
+ ]
+}

@@ -1,0 +1,1743 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-18T17:29:17.165Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "http://myredbike.ca/bikes.html",
+  "at": "2026-11-18T17:29:00.584Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 2696,
+  "root": null,
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div#myTopnav > a",
+    "x": 0,
+    "y": 0,
+    "w": 74,
+    "h": 57,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div#myTopnav > a.icon",
+    "x": 311,
+    "y": 0,
+    "w": 49,
+    "h": 56,
+    "text": "☰",
+    "href": "void(0);"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div#wrapper > section#intro > img",
+    "x": 29,
+    "y": 101,
+    "w": 301,
+    "h": 201,
+    "text": "red bike",
+    "file": "pic02"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div#wrapper > section#intro > h2",
+    "x": 29,
+    "y": 309,
+    "w": 301,
+    "h": 27,
+    "level": 2,
+    "text": "red bikes"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div#wrapper > section#intro > p",
+    "x": 29,
+    "y": 355,
+    "w": 301,
+    "h": 24,
+    "text": "This is the sub-page for bikes.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.actions > li > a.button.big",
+    "x": 29,
+    "y": 408,
+    "w": 301,
+    "h": 44,
+    "text": "learn more",
+    "href": "/product-page.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "article.item > header > a",
+    "x": 15,
+    "y": 498,
+    "w": 331,
+    "h": 176,
+    "text": "",
+    "href": "/bikes.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "article.item > header > h3",
+    "x": 121,
+    "y": 575,
+    "w": 119,
+    "h": 22,
+    "level": 3,
+    "text": "red bikes"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section.main.items > article.item > p",
+    "x": 29,
+    "y": 703,
+    "w": 301,
+    "h": 121,
+    "text": "Fusce malesuada efficitur venenatis. Pellentesque tempor leo sed massa hendrerit"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.actions > li > a.button",
+    "x": 29,
+    "y": 854,
+    "w": 301,
+    "h": 37,
+    "text": "more",
+    "href": "/bikes.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "article.item > header > a",
+    "x": 15,
+    "y": 936,
+    "w": 331,
+    "h": 176,
+    "text": "",
+    "href": "/bikes.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "article.item > header > h3",
+    "x": 100,
+    "y": 1013,
+    "w": 161,
+    "h": 22,
+    "level": 3,
+    "text": "single speed"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section.main.items > article.item > p",
+    "x": 29,
+    "y": 1141,
+    "w": 301,
+    "h": 121,
+    "text": "Fusce malesuada efficitur venenatis. Pellentesque tempor leo sed massa hendrerit"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.actions > li > a.button",
+    "x": 29,
+    "y": 1292,
+    "w": 301,
+    "h": 37,
+    "text": "more",
+    "href": "/bikes.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "article.item > header > a",
+    "x": 15,
+    "y": 1374,
+    "w": 331,
+    "h": 176,
+    "text": "",
+    "href": "/gifts.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "article.item > header > h3",
+    "x": 41,
+    "y": 1451,
+    "w": 278,
+    "h": 22,
+    "level": 3,
+    "text": "gifts and accessories"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section.main.items > article.item > p",
+    "x": 29,
+    "y": 1580,
+    "w": 301,
+    "h": 121,
+    "text": "Fusce malesuada efficitur venenatis. Pellentesque tempor leo sed massa hendrerit"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.actions > li > a.button",
+    "x": 29,
+    "y": 1730,
+    "w": 301,
+    "h": 37,
+    "text": "more",
+    "href": "/gifts.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "article.item > header > a",
+    "x": 15,
+    "y": 1813,
+    "w": 331,
+    "h": 176,
+    "text": "",
+    "href": "/gear.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "article.item > header > h3",
+    "x": 151,
+    "y": 1890,
+    "w": 57,
+    "h": 22,
+    "level": 3,
+    "text": "gear"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "section.main.items > article.item > p",
+    "x": 29,
+    "y": 2018,
+    "w": 301,
+    "h": 121,
+    "text": "Fusce malesuada efficitur venenatis. Pellentesque tempor leo sed massa hendrerit"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ul.actions > li > a.button",
+    "x": 29,
+    "y": 2168,
+    "w": 301,
+    "h": 37,
+    "text": "more",
+    "href": "/gear.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#wrapper > section#cta > h2",
+    "x": 29,
+    "y": 2280,
+    "w": 301,
+    "h": 55,
+    "level": 2,
+    "text": "etiam veroeros lorem"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#wrapper > section#cta > p",
+    "x": 29,
+    "y": 2354,
+    "w": 301,
+    "h": 73,
+    "text": "Phasellus ac augue ac magna auctor tempus proin accumsan lacus a nibh commodo in"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ul.actions > li > a.button.big",
+    "x": 29,
+    "y": 2456,
+    "w": 301,
+    "h": 44,
+    "text": "get started",
+    "href": "/bikes.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.icons > li > a.icon.fa-twitter",
+    "x": 114,
+    "y": 2601,
+    "w": 14,
+    "h": 18,
+    "text": "",
+    "href": "/bikes.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.icons > li > a.icon.fa-facebook",
+    "x": 145,
+    "y": 2601,
+    "w": 8,
+    "h": 18,
+    "text": "",
+    "href": "/bikes.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.icons > li > a.icon.fa-instagram",
+    "x": 171,
+    "y": 2601,
+    "w": 13,
+    "h": 18,
+    "text": "",
+    "href": "/bikes.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.icons > li > a.icon.fa-linkedin",
+    "x": 201,
+    "y": 2601,
+    "w": 13,
+    "h": 18,
+    "text": "",
+    "href": "/bikes.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.icons > li > a.icon.fa-envelope",
+    "x": 231,
+    "y": 2601,
+    "w": 15,
+    "h": 18,
+    "text": "",
+    "href": "/bikes.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div#wrapper > footer#footer > p.copyright",
+    "x": 15,
+    "y": 2652,
+    "w": 331,
+    "h": 19,
+    "text": "© Untitled. Design: . Images: ."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "footer#footer > p.copyright > a",
+    "x": 152,
+    "y": 2654,
+    "w": 57,
+    "h": 16,
+    "text": "templated",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "footer#footer > p.copyright > a",
+    "x": 252,
+    "y": 2654,
+    "w": 44,
+    "h": 16,
+    "text": "unsplash",
+    "href": "/"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 27,
+    "controls": 19,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--f794402e--aemcoder.aem.page/bikes",
+  "at": "2026-11-18T17:29:16.992Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 2696,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 0,
+    "y": 0,
+    "w": 74,
+    "h": 57,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header.block > nav#myTopnav > a.topnav-icon",
+    "x": 311,
+    "y": 0,
+    "w": 49,
+    "h": 57,
+    "text": "☰",
+    "href": "/bikes"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 29,
+    "y": 101,
+    "w": 301,
+    "h": 201,
+    "text": "red bike",
+    "file": "media_12f429e349b7f53c6b893d227d0e67c709"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.intro-content > div.intro-heading > h1#red-bikes",
+    "x": 29,
+    "y": 309,
+    "w": 301,
+    "h": 27,
+    "level": 1,
+    "text": "red bikes"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.intro-content > div.intro-body > p",
+    "x": 29,
+    "y": 355,
+    "w": 301,
+    "h": 24,
+    "text": "This is the sub-page for bikes.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.intro-actions > p.button-wrapper > a.button.accent",
+    "x": 29,
+    "y": 408,
+    "w": 301,
+    "h": 44,
+    "text": "learn more",
+    "href": "/product-page.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.item-header > p > a",
+    "x": 15,
+    "y": 498,
+    "w": 331,
+    "h": 176,
+    "text": "red bikes",
+    "href": "/bikes"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 15,
+    "y": 498,
+    "w": 331,
+    "h": 175,
+    "text": "red bikes",
+    "file": "media_1004bf5c693385c499eb2fe4abcc9fab3f"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article.item > div.item-header > h3#red-bikes-1",
+    "x": 121,
+    "y": 575,
+    "w": 119,
+    "h": 22,
+    "level": 3,
+    "text": "red bikes"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article.item > div.item-body > p",
+    "x": 29,
+    "y": 703,
+    "w": 301,
+    "h": 121,
+    "text": "Fusce malesuada efficitur venenatis. Pellentesque tempor leo sed massa hendrerit"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.item-body > p.button-wrapper > a.button.primary",
+    "x": 29,
+    "y": 854,
+    "w": 301,
+    "h": 37,
+    "text": "more",
+    "href": "/bikes"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.item-header > p > a",
+    "x": 15,
+    "y": 936,
+    "w": 331,
+    "h": 176,
+    "text": "single speed",
+    "href": "/bikes"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 15,
+    "y": 936,
+    "w": 331,
+    "h": 175,
+    "text": "single speed",
+    "file": "media_12f429e349b7f53c6b893d227d0e67c709"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article.item > div.item-header > h3#single-speed",
+    "x": 100,
+    "y": 1013,
+    "w": 161,
+    "h": 22,
+    "level": 3,
+    "text": "single speed"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article.item > div.item-body > p",
+    "x": 29,
+    "y": 1142,
+    "w": 301,
+    "h": 121,
+    "text": "Fusce malesuada efficitur venenatis. Pellentesque tempor leo sed massa hendrerit"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.item-body > p.button-wrapper > a.button.primary",
+    "x": 29,
+    "y": 1292,
+    "w": 301,
+    "h": 37,
+    "text": "more",
+    "href": "/bikes"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.item-header > p > a",
+    "x": 15,
+    "y": 1375,
+    "w": 331,
+    "h": 176,
+    "text": "gifts and accessories",
+    "href": "/gifts"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 15,
+    "y": 1375,
+    "w": 331,
+    "h": 175,
+    "text": "gifts and accessories",
+    "file": "media_1961783a63b263771fa9d97c4ecacaa729"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article.item > div.item-header > h3#gifts-and-accessories",
+    "x": 41,
+    "y": 1452,
+    "w": 278,
+    "h": 22,
+    "level": 3,
+    "text": "gifts and accessories"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article.item > div.item-body > p",
+    "x": 29,
+    "y": 1580,
+    "w": 301,
+    "h": 121,
+    "text": "Fusce malesuada efficitur venenatis. Pellentesque tempor leo sed massa hendrerit"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.item-body > p.button-wrapper > a.button.primary",
+    "x": 29,
+    "y": 1730,
+    "w": 301,
+    "h": 37,
+    "text": "more",
+    "href": "/gifts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.item-header > p > a",
+    "x": 15,
+    "y": 1813,
+    "w": 331,
+    "h": 176,
+    "text": "gear",
+    "href": "/gear"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 15,
+    "y": 1813,
+    "w": 331,
+    "h": 175,
+    "text": "gear",
+    "file": "media_161f51953592b5c5b5c13b26270ae4ea70"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article.item > div.item-header > h3#gear",
+    "x": 151,
+    "y": 1890,
+    "w": 57,
+    "h": 22,
+    "level": 3,
+    "text": "gear"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article.item > div.item-body > p",
+    "x": 29,
+    "y": 2018,
+    "w": 301,
+    "h": 121,
+    "text": "Fusce malesuada efficitur venenatis. Pellentesque tempor leo sed massa hendrerit"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.item-body > p.button-wrapper > a.button.primary",
+    "x": 29,
+    "y": 2169,
+    "w": 301,
+    "h": 37,
+    "text": "more",
+    "href": "/gear"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cta-content > div.cta-heading > h2#etiam-veroeros-lorem",
+    "x": 29,
+    "y": 2280,
+    "w": 301,
+    "h": 55,
+    "level": 2,
+    "text": "etiam veroeros lorem"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cta-content > div.cta-body > p",
+    "x": 29,
+    "y": 2354,
+    "w": 301,
+    "h": 73,
+    "text": "Phasellus ac augue ac magna auctor tempus proin accumsan lacus a nibh commodo in"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cta-actions > p.button-wrapper > a.button.accent",
+    "x": 29,
+    "y": 2456,
+    "w": 301,
+    "h": 44,
+    "text": "get started",
+    "href": "/bikes"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > span.footer-icon.fa-twitter > a",
+    "x": 114,
+    "y": 2601,
+    "w": 14,
+    "h": 18,
+    "text": "",
+    "href": "/bikes"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > span.footer-icon.fa-facebook > a",
+    "x": 145,
+    "y": 2601,
+    "w": 8,
+    "h": 18,
+    "text": "",
+    "href": "/bikes"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > span.footer-icon.fa-instagram > a",
+    "x": 171,
+    "y": 2601,
+    "w": 13,
+    "h": 18,
+    "text": "",
+    "href": "/bikes"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > span.footer-icon.fa-linkedin > a",
+    "x": 201,
+    "y": 2601,
+    "w": 13,
+    "h": 18,
+    "text": "",
+    "href": "/bikes"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > span.footer-icon.fa-envelope > a",
+    "x": 231,
+    "y": 2601,
+    "w": 15,
+    "h": 18,
+    "text": "",
+    "href": "/bikes"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.section > div.default-content-wrapper > p",
+    "x": 15,
+    "y": 2652,
+    "w": 331,
+    "h": 19,
+    "text": "© Untitled. Design: . Images: ."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.default-content-wrapper > p > a",
+    "x": 152,
+    "y": 2654,
+    "w": 57,
+    "h": 16,
+    "text": "templated",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.default-content-wrapper > p > a",
+    "x": 252,
+    "y": 2654,
+    "w": 44,
+    "h": 16,
+    "text": "unsplash",
+    "href": "/"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 27,
+    "controls": 19,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 9,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 5,
+    "textHidden": 0,
+    "image": 5,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "COUNT TEXT",
+    "COUNT IMAGES"
+   ]
+  },
+  {
+   "index": 1,
+   "heading": "etiam veroeros lorem",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h1 \"red bikes\" (y 309) has no origin heading",
+   "text": "red bikes"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"red bikes\" (y 575) has no origin heading",
+   "text": "red bikes"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"single speed\" (y 1013) has no origin heading",
+   "text": "single speed"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"gifts and accessories\" (y 1452) has no origin heading",
+   "text": "gifts and accessories"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"gear\" (y 1890) has no origin heading",
+   "text": "gear"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"learn more\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 1,
+   "text": "learn more"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"red bikes\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 1,
+   "text": "red bikes"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"single speed\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 1,
+   "text": "single speed"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"gifts and accessories\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 1,
+   "text": "gifts and accessories"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"gear\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 1,
+   "text": "gear"
+  },
+  {
+   "sev": "🟡",
+   "kind": "COUNT TEXT",
+   "msg": "band \"(top)\": 1 origin → 5 served visible",
+   "band": 0,
+   "origin": 1,
+   "eds": 5,
+   "hidden": 0
+  },
+  {
+   "sev": "🟡",
+   "kind": "COUNT IMAGES",
+   "msg": "band \"(top)\": 0 origin → 5 served visible",
+   "band": 0,
+   "origin": 0,
+   "eds": 5,
+   "hidden": 0
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 5,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 5,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 2,
+  "findings": 12,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 16,
+    "y": 17,
+    "w": 42,
+    "h": 22
+   },
+   {
+    "x": 327,
+    "y": 17,
+    "w": 17,
+    "h": 22
+   },
+   {
+    "x": 113,
+    "y": 311,
+    "w": 135,
+    "h": 23
+   },
+   {
+    "x": 81,
+    "y": 358,
+    "w": 198,
+    "h": 18
+   },
+   {
+    "x": 131,
+    "y": 422,
+    "w": 102,
+    "h": 15
+   },
+   {
+    "x": 121,
+    "y": 577,
+    "w": 119,
+    "h": 18
+   },
+   {
+    "x": 35,
+    "y": 706,
+    "w": 289,
+    "h": 18
+   },
+   {
+    "x": 38,
+    "y": 730,
+    "w": 283,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 755,
+    "w": 292,
+    "h": 18
+   },
+   {
+    "x": 38,
+    "y": 779,
+    "w": 283,
+    "h": 18
+   },
+   {
+    "x": 146,
+    "y": 803,
+    "w": 68,
+    "h": 18
+   },
+   {
+    "x": 160,
+    "y": 866,
+    "w": 40,
+    "h": 13
+   },
+   {
+    "x": 100,
+    "y": 1015,
+    "w": 161,
+    "h": 18
+   },
+   {
+    "x": 35,
+    "y": 1144,
+    "w": 289,
+    "h": 18
+   },
+   {
+    "x": 38,
+    "y": 1169,
+    "w": 283,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 1193,
+    "w": 292,
+    "h": 18
+   },
+   {
+    "x": 38,
+    "y": 1217,
+    "w": 283,
+    "h": 18
+   },
+   {
+    "x": 146,
+    "y": 1241,
+    "w": 68,
+    "h": 18
+   },
+   {
+    "x": 160,
+    "y": 1304,
+    "w": 40,
+    "h": 13
+   },
+   {
+    "x": 41,
+    "y": 1453,
+    "w": 278,
+    "h": 18
+   },
+   {
+    "x": 35,
+    "y": 1583,
+    "w": 289,
+    "h": 18
+   },
+   {
+    "x": 38,
+    "y": 1607,
+    "w": 283,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 1631,
+    "w": 292,
+    "h": 18
+   },
+   {
+    "x": 38,
+    "y": 1655,
+    "w": 283,
+    "h": 18
+   },
+   {
+    "x": 146,
+    "y": 1680,
+    "w": 68,
+    "h": 18
+   },
+   {
+    "x": 160,
+    "y": 1742,
+    "w": 40,
+    "h": 13
+   },
+   {
+    "x": 151,
+    "y": 1892,
+    "w": 57,
+    "h": 18
+   },
+   {
+    "x": 35,
+    "y": 2021,
+    "w": 289,
+    "h": 18
+   },
+   {
+    "x": 38,
+    "y": 2045,
+    "w": 283,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 2070,
+    "w": 292,
+    "h": 18
+   },
+   {
+    "x": 38,
+    "y": 2094,
+    "w": 283,
+    "h": 18
+   },
+   {
+    "x": 146,
+    "y": 2118,
+    "w": 68,
+    "h": 18
+   },
+   {
+    "x": 160,
+    "y": 2180,
+    "w": 40,
+    "h": 13
+   },
+   {
+    "x": 70,
+    "y": 2282,
+    "w": 219,
+    "h": 23
+   },
+   {
+    "x": 138,
+    "y": 2310,
+    "w": 84,
+    "h": 23
+   },
+   {
+    "x": 33,
+    "y": 2357,
+    "w": 294,
+    "h": 18
+   },
+   {
+    "x": 35,
+    "y": 2381,
+    "w": 290,
+    "h": 18
+   },
+   {
+    "x": 74,
+    "y": 2405,
+    "w": 19,
+    "h": 18
+   },
+   {
+    "x": 92,
+    "y": 2405,
+    "w": 194,
+    "h": 18
+   },
+   {
+    "x": 128,
+    "y": 2470,
+    "w": 108,
+    "h": 15
+   },
+   {
+    "x": 62,
+    "y": 2654,
+    "w": 90,
+    "h": 15
+   },
+   {
+    "x": 152,
+    "y": 2654,
+    "w": 57,
+    "h": 15
+   },
+   {
+    "x": 209,
+    "y": 2654,
+    "w": 43,
+    "h": 15
+   },
+   {
+    "x": 252,
+    "y": 2654,
+    "w": 44,
+    "h": 15
+   },
+   {
+    "x": 296,
+    "y": 2654,
+    "w": 2,
+    "h": 15
+   }
+  ],
+  "eds": [
+   {
+    "x": 16,
+    "y": 17,
+    "w": 42,
+    "h": 22
+   },
+   {
+    "x": 327,
+    "y": 17,
+    "w": 17,
+    "h": 22
+   },
+   {
+    "x": 113,
+    "y": 311,
+    "w": 135,
+    "h": 23
+   },
+   {
+    "x": 81,
+    "y": 358,
+    "w": 198,
+    "h": 18
+   },
+   {
+    "x": 129,
+    "y": 422,
+    "w": 102,
+    "h": 15
+   },
+   {
+    "x": 121,
+    "y": 577,
+    "w": 119,
+    "h": 18
+   },
+   {
+    "x": 35,
+    "y": 706,
+    "w": 289,
+    "h": 18
+   },
+   {
+    "x": 38,
+    "y": 730,
+    "w": 283,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 755,
+    "w": 292,
+    "h": 18
+   },
+   {
+    "x": 38,
+    "y": 779,
+    "w": 283,
+    "h": 18
+   },
+   {
+    "x": 146,
+    "y": 803,
+    "w": 68,
+    "h": 18
+   },
+   {
+    "x": 160,
+    "y": 866,
+    "w": 40,
+    "h": 13
+   },
+   {
+    "x": 100,
+    "y": 1015,
+    "w": 161,
+    "h": 18
+   },
+   {
+    "x": 35,
+    "y": 1145,
+    "w": 289,
+    "h": 18
+   },
+   {
+    "x": 38,
+    "y": 1169,
+    "w": 283,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 1193,
+    "w": 292,
+    "h": 18
+   },
+   {
+    "x": 38,
+    "y": 1217,
+    "w": 283,
+    "h": 18
+   },
+   {
+    "x": 146,
+    "y": 1241,
+    "w": 68,
+    "h": 18
+   },
+   {
+    "x": 160,
+    "y": 1304,
+    "w": 40,
+    "h": 13
+   },
+   {
+    "x": 41,
+    "y": 1454,
+    "w": 278,
+    "h": 18
+   },
+   {
+    "x": 35,
+    "y": 1583,
+    "w": 289,
+    "h": 18
+   },
+   {
+    "x": 38,
+    "y": 1607,
+    "w": 283,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 1631,
+    "w": 292,
+    "h": 18
+   },
+   {
+    "x": 38,
+    "y": 1655,
+    "w": 283,
+    "h": 18
+   },
+   {
+    "x": 146,
+    "y": 1680,
+    "w": 68,
+    "h": 18
+   },
+   {
+    "x": 160,
+    "y": 1742,
+    "w": 40,
+    "h": 13
+   },
+   {
+    "x": 151,
+    "y": 1892,
+    "w": 57,
+    "h": 18
+   },
+   {
+    "x": 35,
+    "y": 2021,
+    "w": 289,
+    "h": 18
+   },
+   {
+    "x": 38,
+    "y": 2045,
+    "w": 283,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 2070,
+    "w": 292,
+    "h": 18
+   },
+   {
+    "x": 38,
+    "y": 2094,
+    "w": 283,
+    "h": 18
+   },
+   {
+    "x": 146,
+    "y": 2118,
+    "w": 68,
+    "h": 18
+   },
+   {
+    "x": 160,
+    "y": 2181,
+    "w": 40,
+    "h": 13
+   },
+   {
+    "x": 70,
+    "y": 2282,
+    "w": 219,
+    "h": 23
+   },
+   {
+    "x": 138,
+    "y": 2310,
+    "w": 84,
+    "h": 23
+   },
+   {
+    "x": 50,
+    "y": 2357,
+    "w": 260,
+    "h": 18
+   },
+   {
+    "x": 59,
+    "y": 2381,
+    "w": 31,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 2381,
+    "w": 211,
+    "h": 18
+   },
+   {
+    "x": 35,
+    "y": 2405,
+    "w": 98,
+    "h": 18
+   },
+   {
+    "x": 133,
+    "y": 2405,
+    "w": 191,
+    "h": 18
+   },
+   {
+    "x": 126,
+    "y": 2470,
+    "w": 108,
+    "h": 15
+   },
+   {
+    "x": 62,
+    "y": 2654,
+    "w": 90,
+    "h": 15
+   },
+   {
+    "x": 152,
+    "y": 2654,
+    "w": 57,
+    "h": 15
+   },
+   {
+    "x": 209,
+    "y": 2654,
+    "w": 43,
+    "h": 15
+   },
+   {
+    "x": 252,
+    "y": 2654,
+    "w": 44,
+    "h": 15
+   },
+   {
+    "x": 296,
+    "y": 2654,
+    "w": 2,
+    "h": 15
+   }
+  ]
+ }
+}

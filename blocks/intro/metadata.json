@@ -1,0 +1,11 @@
+{
+  "variantName": "intro",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "White rounded panel with generous padding and centred text: an optional plain link with a download icon, a full-width image, a large heading, a lead paragraph and a big button.",
+  "contentPattern": "One cell: optional plain link paragraph, image, heading (h1 or h2), one or more paragraphs, and a bold-italic link rendered as the big button.",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Opening banner panel at the top of the homepage and listing pages (bikes, gear, gifts).",
+  "reuseGuidance": "Use for a page's introductory banner with an image, title, lead text and one main call to action. Elements are placed by role, so authors can omit the event link, image or button."
+}

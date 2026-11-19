@@ -1,0 +1,163 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+    "writtenAt": "2026-11-18T16:22:21.110Z",
+    "baseWidth": 1440,
+    "urls": [
+      "http://myredbike.ca/",
+      "http://localhost:8791/index-proposed.html"
+    ],
+    "probeWidth": 2560,
+    "probeNote": "from DESIGN.json",
+    "tolerance": 20
+  },
+  "urls": [
+    "http://myredbike.ca/",
+    "http://localhost:8791/index-proposed.html"
+  ],
+  "probeNote": "from DESIGN.json",
+  "live": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#wrapper",
+      "isBody": false,
+      "leaves": 22,
+      "w2": 1451
+    },
+    "origins": [
+      {
+        "kind": "shell",
+        "px": 1451,
+        "via": "other",
+        "selector": "#wrapper",
+        "tier": 0,
+        "share": 1,
+        "section": -1,
+        "w1": 1109,
+        "maxWidth": "calc(100% - 90.6667px)"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#intro",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 1,
+        "selector": "#wrapper > section.main.items",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 2,
+        "selector": "#cta",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 3,
+        "selector": "#footer",
+        "px": null,
+        "capSelector": null
+      }
+    ],
+    "shellMaxWidth": 1451,
+    "contentMaxWidth": 1451,
+    "contentFrom": "shell",
+    "maxCap": 1451,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 36
+  },
+  "build": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#wrapper",
+      "isBody": false,
+      "leaves": 19,
+      "w2": 1451
+    },
+    "origins": [
+      {
+        "kind": "shell",
+        "px": 1451,
+        "via": "other",
+        "selector": "#wrapper",
+        "tier": 0,
+        "share": 1,
+        "section": -1,
+        "w1": 1109,
+        "maxWidth": "calc(100% - 90.6667px)"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#intro",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 1,
+        "selector": "#wrapper > section.main.items",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 2,
+        "selector": "#cta",
+        "px": null,
+        "capSelector": null
+      }
+    ],
+    "shellMaxWidth": 1451,
+    "contentMaxWidth": 1451,
+    "contentFrom": "shell",
+    "maxCap": 1451,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 37
+  },
+  "compare": {
+    "probeWidth": 2560,
+    "rows": [
+      {
+        "ok": true,
+        "label": "wrapper cap",
+        "detail": "live 1451px = build 1451px (±20)",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "sections",
+        "detail": "live 4 vs build 3 top-level sections — module rows compared by order up to the shorter side, advisory until the structure matches",
+        "advisory": true
+      },
+      {
+        "ok": true,
+        "label": "module 1/4",
+        "detail": "full-bleed on both",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 2/4",
+        "detail": "full-bleed on both",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 3/4",
+        "detail": "full-bleed on both",
+        "advisory": false
+      }
+    ],
+    "fails": 0,
+    "pass": true
+  },
+  "evidence": "stardust/replica/gates/index-2560/cap-iter.json"
+}

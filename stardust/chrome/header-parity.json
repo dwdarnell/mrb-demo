@@ -1,0 +1,18 @@
+{
+ "tool": "chrome-compare",
+ "at": "2026-11-18T16:44:36.832Z",
+ "source": "http://myredbike.ca/",
+ "build": "https://main--f794402e--aemcoder.aem.page/gear",
+ "profile": "replica",
+ "bar": 0.02,
+ "widths": [
+  390,
+  1440
+ ],
+ "counts": {
+  "error": 0,
+  "warn": 0,
+  "decided": 0
+ },
+ "findings": []
+}

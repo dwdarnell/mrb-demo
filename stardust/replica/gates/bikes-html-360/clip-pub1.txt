@@ -1,0 +1,5 @@
+[live-session] waiting to pace live navigations to main--f794402e--aemcoder.aem.page (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 886 ms
+clip-probe https://main--f794402e--aemcoder.aem.page/bikes @ 360px — docH 2696, 27 text nodes, 19 controls (HTTP 200, chrome)
+  (none)
+Clipped: 0 (text clipped 0, text hidden 0, controls hidden 0, controls clipped 0; advisory: clamped 0, collapsed 0, scroll-hidden 0, horizontal 0)
+json → stardust/replica/gates/bikes-html-360/clip-pub1.json

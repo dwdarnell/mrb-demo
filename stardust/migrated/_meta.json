@@ -1,0 +1,76 @@
+{
+  "slug": "index",
+  "type": "landing",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "intro",
+    "items",
+    "cta"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "main",
+    "main",
+    "main"
+  ],
+  "canonShas": {
+    "header": "7d5e12e75c3b",
+    "footer": "075c31ff62fa",
+    "css": "561a923db058"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "MyRedBike DEMO2",
+    "description": null,
+    "canonical": null,
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "MyRedBike DEMO2",
+    "url": "http://myredbike.ca/"
+  },
+  "migratedAt": "2026-11-18T17:33:17Z",
+  "designMdSha": "d695c6b6f7c6",
+  "designJsonSha": "dc181630f3b7",
+  "sourceCurrentSha": "e95920bb8aab",
+  "sourceProposedSha": "71fcf9819c40",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [
+    "pixel-gate-1440",
+    "pixel-gate-360",
+    "content-count",
+    "content-fidelity",
+    "media-reconcile",
+    "delivery-lint"
+  ],
+  "gateEvidence": {
+    "pixel-gate-1440": "0.11%, height delta 0px, clipped 0, content MISSING 0 / HIDDEN 0 (stardust/replica/gates/all-1440/summary.md) [published regime]",
+    "pixel-gate-360": "0.50%, height delta 0px, clipped 0, content MISSING 0 / HIDDEN 0 (stardust/replica/gates/all-360/summary.md) [published regime]",
+    "content-count": "content-diff: 15 (0 structural 🔴) — looks-same 🔴 0 · nothing-lost 🟡 0 · accepted 🟢 0 (owner 0, auto 0) · advisory 15 (landing-gate-360.log)",
+    "delivery-lint": "0 P0 · 0 P1 · 1 P2 (delivery-lint --path /)",
+    "content-fidelity": "verbatim per content-preservation; content-diff looks-same 0 🔴 / nothing-lost 0 🟡 at 1440+360 on the published origin (gate-all); only deviation: intro heading h2→h1 (logged)",
+    "media-reconcile": "5 hosted (index-media-reconcile.log)"
+  },
+  "contentDeviations": [
+    {
+      "kind": "heading-level",
+      "source": "intro h2",
+      "target": "intro h1",
+      "reason": "one <h1> per page (delivery-lint P0); delivered content/ authors the intro heading as h1, styled as the source h2 by blocks/intro"
+    }
+  ],
+  "assetsBundled": 12,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "index.html",
+  "outputPathDefault": null,
+  "sidecar": "_meta.json",
+  "driverVersion": "1"
+}

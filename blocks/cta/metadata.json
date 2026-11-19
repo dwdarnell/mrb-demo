@@ -1,0 +1,11 @@
+{
+  "variantName": "cta",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Centred call-to-action band with no panel background: heading, a paragraph with authored line breaks (hidden on small screens) and a big button.",
+  "contentPattern": "One cell: heading, one or more paragraphs, and a bold-italic link rendered as the big button.",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Closing call to action near the bottom of the homepage and listing pages.",
+  "reuseGuidance": "Use for a short centred prompt with a heading, a sentence or two and one button."
+}

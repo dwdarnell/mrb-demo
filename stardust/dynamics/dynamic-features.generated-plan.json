@@ -1,0 +1,88 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics plan",
+  "writtenAt": "2026-11-18T16:34:32.977Z",
+  "input": "stardust/current/_dynamics.json",
+  "target": "https://main--f794402e--aemcoder.aem.page",
+  "migrated": "stardust/migrated",
+  "knowledge": null,
+  "chrome": null
+ },
+ "rows": [
+  {
+   "id": "a-experimentation-adobe-target",
+   "class": "A",
+   "feature": "experimentation: Adobe Target",
+   "pages": 2,
+   "probed": 2,
+   "reach": null,
+   "evidence": [
+    "adobedemoamericas159.tt.omtrdc.net",
+    "mboxedge35.tt.omtrdc.net"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which experiments move to the new host"
+  },
+  {
+   "id": "t-tag-manager-adobe-launch",
+   "class": "T",
+   "feature": "tag manager: Adobe Launch",
+   "pages": 2,
+   "probed": 2,
+   "reach": null,
+   "evidence": [
+    "assets.adobedtm.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-analytics-adobe-analytics-experience-cloud-id",
+   "class": "T",
+   "feature": "analytics: Adobe Analytics / Experience Cloud ID",
+   "pages": 2,
+   "probed": 2,
+   "reach": null,
+   "evidence": [
+    "dpm.demdex.net",
+    "adobedemoamericas159.demdex.net",
+    "fgeo1xxpnwredbikedemo.sc.omtrdc.net"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-marketing-ad-retargeting-pixel",
+   "class": "T",
+   "feature": "marketing: ad / retargeting pixel",
+   "pages": 2,
+   "probed": 2,
+   "reach": null,
+   "evidence": [
+    "cm.everesttech.net"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  }
+ ]
+}

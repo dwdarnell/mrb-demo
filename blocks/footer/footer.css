@@ -1,20 +1,72 @@
-footer {
-  background-color: var(--light-color);
-  font-size: var(--body-font-size-xs);
+/* source #footer (myredbike.ca main.css): rule, FontAwesome icons, copyright */
+.footer::before {
+  content: "";
+  display: inline-block;
+  width: 6em;
+  height: 2px;
+  background-color: var(--text);
+  margin-bottom: 4em;
 }
 
-footer .footer > div {
-  margin: auto;
-  max-width: 1200px;
-  padding: 40px 24px 24px;
+.footer .footer-social ul {
+  cursor: default;
+  list-style: none;
+  margin: 0 0 2em;
+  padding-left: 0;
 }
 
-footer .footer p {
-  margin: 0;
+.footer .footer-social li {
+  display: inline-block;
+  padding: 0 1em 0 0;
 }
 
-@media (width >= 900px) {
-  footer .footer > div {
-    padding: 40px 32px 24px;
+.footer .footer-social li:last-child {
+  padding-right: 0;
+}
+
+.footer .footer-icon a {
+  position: relative;
+  border-bottom: none;
+}
+
+.footer .footer-icon .label {
+  display: none;
+}
+
+.footer .footer-icon a::before {
+  font-family: FontAwesome, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+.footer .fa-twitter a::before {
+  content: "\f099";
+}
+
+.footer .fa-facebook a::before {
+  content: "\f09a";
+}
+
+.footer .fa-instagram a::before {
+  content: "\f16d";
+}
+
+.footer .fa-linkedin a::before {
+  content: "\f0e1";
+}
+
+.footer .fa-envelope a::before {
+  content: "\f0e0";
+}
+
+.footer p {
+  font-size: 0.8em;
+}
+
+@media (width <= 736px) {
+  .footer::before {
+    margin-bottom: 2em;
   }
 }

@@ -1,0 +1,20 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout C0 foundation (deploy runtime-detection probe)",
+    "writtenAt": "2026-11-18",
+    "readArtifacts": ["scripts/scripts.js", "scripts/aem.js"]
+  },
+  "runtime": "vanilla-eds",
+  "blockWrapperClass": "block",
+  "buttonClasses": ".button / .button.primary / .button.secondary / .button.accent, in p.button-wrapper",
+  "buttonization": "formatted-only",
+  "fragmentScriptPolicy": "inert-innerHTML",
+  "emptySectionCollapse": true,
+  "notes": {
+    "buttons": "decorateButtons() requires an authored <strong> (primary) or <em> (secondary) around a lone link in a <p>; <strong><em> = accent. Foundation maps source .button to every a.button and source .button.big to a.button.accent (or a block-set .big).",
+    "sections": "main is the source #wrapper column (64em, max-width calc(100% - 4em)); each main > .section is a source .main panel (margin-bottom 4em / 2em <=980 / 1em <=736). Panel chrome (white surface, padding, radius) belongs to blocks or section-metadata styles, not the foundation.",
+    "chrome": "header block renders nav#myTopnav.topnav from /nav (list of links); footer block renders the source #footer from /footer (social link list + copyright). True roots for chrome parity: nav=#myTopnav|#myTopnav, foot=#footer|body > footer.",
+    "breakpoints": "source max-width 1680/1280/980/736/600/480/360 (no target set)",
+    "fonts": "styles/fonts.css: Source Sans Pro 200/400 + FontAwesome 4.6.3, self-hosted in /fonts; --body-font-size custom property carries the body size per breakpoint"
+  }
+}
