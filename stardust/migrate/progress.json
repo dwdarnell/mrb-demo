@@ -1,0 +1,21 @@
+{
+  "units": {
+    "listing": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "listing"
+      ],
+      "pages": 2,
+      "slugs": [
+        "gear-html",
+        "gifts-html"
+      ],
+      "startedAt": "2026-11-18T17:16:03Z",
+      "endedAt": "2026-11-18T17:17:47Z",
+      "variance": "exit 2: content-only deltas (#intro image aspect, empty actions); no variant class",
+      "contentCount": "gear-html 🔴0/🟡0, gifts-html 🔴0/🟡0",
+      "verdict": "rendered 2, unchanged 0, refused 0, passthrough 0"
+    }
+  }
+}

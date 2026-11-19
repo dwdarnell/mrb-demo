@@ -1,0 +1,125 @@
+[live-session] waiting to pace live navigations to myredbike.ca (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+
+Visual diff @ 1440px (profile "generic") — screenshots in stardust/replica/gates/index-1440/vdiff-pub1/
+
+build red flags (advisory): none
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 997,
+  "textLen": 114,
+  "images": [
+   {
+    "src": "pic01.jpg",
+    "natural": "1024x665",
+    "rendered": "971x630",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h2",
+    "text": "We sell only red bikes",
+    "color": "rgb(68, 68, 68)",
+    "fontSize": "30.3333px",
+    "family": "Source Sans Pro",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": []
+ },
+ "build": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 997,
+  "textLen": 114,
+  "images": [
+   {
+    "src": "media_12275409b9b221fa3ce8a6f6f59af6db557d5e6df.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "1024x665",
+    "rendered": "971x630",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1004bf5c693385c499eb2fe4abcc9fab3fb6826ea.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "1280x960",
+    "rendered": "537x259",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_12f429e349b7f53c6b893d227d0e67c709a6e444c.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "1430x953",
+    "rendered": "537x259",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1961783a63b263771fa9d97c4ecacaa729f47443a.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "1280x960",
+    "rendered": "537x259",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_161f51953592b5c5b5c13b26270ae4ea700ccff16.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "1280x960",
+    "rendered": "537x259",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "We sell only red bikes",
+    "color": "rgb(68, 68, 68)",
+    "fontSize": "30.3333px",
+    "family": "Source Sans Pro",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "intro-event",
+    "width": 971,
+    "left": 235
+   },
+   {
+    "sel": "intro-media",
+    "width": 971,
+    "left": 235
+   },
+   {
+    "sel": "intro-heading",
+    "width": 971,
+    "left": 235
+   },
+   {
+    "sel": "intro-body",
+    "width": 971,
+    "left": 235
+   },
+   {
+    "sel": "intro-actions",
+    "width": 971,
+    "left": 235
+   }
+  ]
+ }
+}

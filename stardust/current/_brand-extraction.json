@@ -1,0 +1,88 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-18T16:09:00.137Z",
+    "stardustVersion": "0.41.0",
+    "sources": [
+      "stardust/current/_computed-styles.json",
+      "stardust/current/assets/source-css/main.css"
+    ]
+  },
+  "origins": [
+    {
+      "origin": "http://myredbike.ca",
+      "role": "primary"
+    }
+  ],
+  "logo": {
+    "source": "none",
+    "note": "site has no logo; text nav only"
+  },
+  "favicon": "stardust/current/assets/favicon.png",
+  "palette": {
+    "background": "#f4f4f4",
+    "surface": "#ffffff",
+    "text": "#666666",
+    "heading": "#444444",
+    "nav": "#838383",
+    "navText": "#f2f2f2",
+    "navActive": "#b8323c",
+    "linkHover": "#ef6480",
+    "overlay": "rgba(0,0,0,0.25)"
+  },
+  "type": {
+    "families": [
+      "Source Sans Pro"
+    ],
+    "files": [
+      {
+        "family": "Source Sans Pro",
+        "weight": 200,
+        "path": "assets/fonts/source-sans-pro-200.woff2",
+        "license": "OFL (Google Fonts)"
+      },
+      {
+        "family": "Source Sans Pro",
+        "weight": 400,
+        "path": "assets/fonts/source-sans-pro-400.woff2",
+        "license": "OFL (Google Fonts)"
+      }
+    ],
+    "scaleAudit": {
+      "kind": "ad-hoc"
+    }
+  },
+  "iconFont": {
+    "family": "FontAwesome",
+    "version": "4.6.3",
+    "path": "assets/fonts/fontawesome-webfont.woff2",
+    "classes": {
+      "fa-twitter": "f099",
+      "fa-facebook": "f09a",
+      "fa-instagram": "f16d",
+      "fa-linkedin": "f0e1",
+      "fa-envelope": "f0e0"
+    }
+  },
+  "motifs": {
+    "radius": "4px",
+    "shadows": [],
+    "gradients": [],
+    "cardOverlay": "rgba(0,0,0,0.25) + overlay.png",
+    "cardHover": "header image scale(1.1) 0.2s"
+  },
+  "voice": {
+    "heroHeadline": "We sell only red bikes",
+    "ctas": [
+      "See our bikes",
+      "More",
+      "Get Started"
+    ],
+    "heroImage": "images/pic01.jpg",
+    "heroMedium": null
+  },
+  "systemComponents": [
+    "header (.topnav)",
+    "footer (#footer)"
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "units": {
+    "foundation": {
+      "status": "done",
+      "kind": "foundation",
+      "templates": [
+        "index",
+        "bikes-html"
+      ],
+      "startedAt": "2026-11-18T16:34:45Z",
+      "pages": 0,
+      "blocks": 2,
+      "endedAt": "2026-11-18T16:46:50Z",
+      "gates": {
+        "360": {
+          "chromeParity": "nav parity 2/2, foot parity 3/3 (OFFSET only)",
+          "cropHeader": "0.12% (glyph AA)",
+          "cropFooter": "0.00%"
+        },
+        "1440": {
+          "chromeParity": "nav parity 4/4, foot parity 3/3 (OFFSET only: placeholder page height)",
+          "cropHeader": "0.00%",
+          "cropFooter": "0.00%"
+        },
+        "crop": "header 0.00%/0.12%, footer 0.00%/0.00% (1440/360) vs live gear.html on preview /gear shell",
+        "chrome": "chrome-parity 0 deltas both widths; chrome-compare 0 errors 0 warnings (390,1440)"
+      },
+      "verdict": "foundation: deployed (code main@d39b956, /nav + /footer live), lint clean, chrome-parity 0 deltas 1440/360, chrome-compare 0 err, crop header 0.00%/0.12% footer 0.00%/0.00%, frozen 16 files"
+    },
+    "archetype-landing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "landing"
+      ],
+      "pages": [
+        "index"
+      ],
+      "startedAt": "2026-11-18T16:47:51.663Z",
+      "blocks": 3,
+      "endedAt": "2026-11-18T17:05:32.434Z",
+      "gates": {
+        "360": {
+          "pixel": "0.50%",
+          "dh": 0,
+          "content": "0 🔴 / 0 🟡",
+          "clip": 0,
+          "overflow": "ok"
+        },
+        "1440": {
+          "pixel": "0.11%",
+          "dh": 0,
+          "content": "0 🔴 / 0 🟡",
+          "clip": 0,
+          "overflow": "ok"
+        },
+        "crop": "header 0.00%/0.12%, footer 0.00%/0.25% (1440/360)",
+        "chrome": "0 deltas (true roots nav=#myTopnav, foot=#footer|body > footer) @1440+360"
+      },
+      "verdict": "archetype-landing: pages 1/1 live, blocks 3, gate 1440 0.11% / 360 0.50%, requests 0"
+    },
+    "archetype-listing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "listing"
+      ],
+      "pages": [
+        "bikes-html"
+      ],
+      "startedAt": "2026-11-18T17:06:53.178Z",
+      "blocks": 3,
+      "endedAt": "2026-11-18T17:14:44.990Z",
+      "gates": {
+        "360": {
+          "pixel": "0.62%",
+          "dh": 0,
+          "content": "0 🔴 / 0 🟡",
+          "clip": 0,
+          "overflow": "ok"
+        },
+        "1440": {
+          "pixel": "0.05%",
+          "dh": 0,
+          "content": "0 🔴 / 0 🟡",
+          "clip": 0,
+          "overflow": "ok"
+        },
+        "crop": "header 0.00%/0.12%, footer 0.00%/0.00% (1440/360)",
+        "chrome": "0 deltas (true roots nav=#myTopnav, foot=#footer|body > footer) @1440+360"
+      },
+      "verdict": "archetype-listing: pages 1/1 live, blocks 3, gate 1440 0.05% / 360 0.62%, requests 0"
+    },
+    "cluster-listing": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "listing"
+      ],
+      "pages": [
+        "gear-html",
+        "gifts-html"
+      ],
+      "startedAt": "2026-11-18T17:17:57.233Z",
+      "blocks": 3,
+      "endedAt": "2026-11-18T17:25:01.673Z",
+      "gates": {
+        "360": {
+          "gear-html": {
+            "pixel": "0.70%",
+            "dh": 0,
+            "clip": 0,
+            "content": "MISSING 0 / HIDDEN 0"
+          },
+          "gifts-html": {
+            "pixel": "0.70%",
+            "dh": 0,
+            "clip": 0,
+            "content": "MISSING 0 / HIDDEN 0"
+          }
+        },
+        "1440": {
+          "gear-html": {
+            "pixel": "0.04%",
+            "dh": 0,
+            "clip": 0,
+            "content": "MISSING 0 / HIDDEN 0"
+          },
+          "gifts-html": {
+            "pixel": "0.04%",
+            "dh": 0,
+            "clip": 0,
+            "content": "MISSING 0 / HIDDEN 0"
+          }
+        },
+        "chrome": "0 deltas on /gifts (true roots nav=#myTopnav, foot=#footer|body > footer) @1440+360",
+        "crop": "not run (chrome-parity 0 deltas; foundation crop bands stand)"
+      },
+      "verdict": "cluster-listing: pages 2/2 live, blocks 3, gate 1440 0.04% / 360 0.7%, requests 0"
+    },
+    "gate-all": {
+      "status": "done",
+      "kind": "final",
+      "startedAt": "2026-11-18T17:26:13.291Z",
+      "pages": [
+        "index",
+        "bikes-html",
+        "gear-html",
+        "gifts-html"
+      ],
+      "endedAt": "2026-11-18T17:31:32.537Z",
+      "gates": {
+        "360": "4/4 PASS",
+        "1440": "4/4 PASS"
+      },
+      "verdict": "gate-all: pages 4/4 PASS at 1440 and 360"
+    },
+    "final": {
+      "status": "done",
+      "kind": "final",
+      "templates": [
+        "landing",
+        "listing"
+      ],
+      "pages": [
+        "index",
+        "bikes-html",
+        "gear-html",
+        "gifts-html"
+      ],
+      "startedAt": "2026-11-18T17:32:22.834Z",
+      "blocks": 0,
+      "gates": {
+        "360": {
+          "pixel": "index 0.50% / bikes-html 0.62% / gear-html 0.70% / gifts-html 0.70%"
+        },
+        "1440": {
+          "pixel": "index 0.11% / bikes-html 0.05% / gear-html 0.04% / gifts-html 0.04%"
+        },
+        "crop": "unchanged (no foundation requests)",
+        "chrome": "unchanged (foundation-freeze check: 16 files unchanged)"
+      },
+      "endedAt": "2026-11-18T17:33:58.736Z",
+      "verdict": "final: freeze check clean, 0 foundation requests, lint clean; migrated sources re-rendered with intro h1 (delivery-lint 0 P0 on 4/4); gate-evidence --check exit 0; 4/4 pages advanced to migrated"
+    }
+  }
+}

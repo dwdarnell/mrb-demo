@@ -1,0 +1,47 @@
+[live-session] waiting to pace live navigations to myredbike.ca (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 927 ms
+
+Content diff @ 1440px (profile "generic", roots: #intro, .items, #cta, header, footer)
+root "#intro"
+  source: 4 text nodes — 1 headings, 0 eyebrows, 2 CTAs, 1 body; 1 img
+  build: 4 text nodes — 1 headings, 0 eyebrows, 2 CTAs, 1 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 3 / build 4
+  attributes (placeholder/aria-label/title): source 0 / build 2; icons: source 1 / build 0
+root ".items"
+  source: 12 text nodes — 4 headings, 0 eyebrows, 4 CTAs, 4 body; 0 img
+  build: 12 text nodes — 4 headings, 0 eyebrows, 4 CTAs, 4 body; 4 img
+  editable texts (outermost h*/p/ul/ol): source 12 / build 12
+  attributes (placeholder/aria-label/title): source 0 / build 4; icons: source 0 / build 0
+root "#cta"
+  source: 3 text nodes — 1 headings, 0 eyebrows, 1 CTAs, 1 body; 0 img
+  build: 3 text nodes — 1 headings, 0 eyebrows, 1 CTAs, 1 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 3 / build 3
+  attributes (placeholder/aria-label/title): source 0 / build 1; icons: source 0 / build 0
+root "header" — source: absent (no <header> / [role="banner"] outside the main root(s)) — measured as empty
+  source: 0 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  build: 5 text nodes — 0 headings, 0 eyebrows, 5 CTAs, 0 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 1
+  attributes (placeholder/aria-label/title): source 0 / build 1; icons: source 0 / build 0
+root "footer"
+  source: 8 text nodes — 0 headings, 0 eyebrows, 7 CTAs, 1 body; 0 img
+  build: 8 text nodes — 0 headings, 0 eyebrows, 7 CTAs, 1 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 2 / build 2
+  attributes (placeholder/aria-label/title): source 0 / build 2; icons: source 0 / build 0
+
+Findings: 16 (1 structural 🔴)
+Tiers: looks-same 🔴 1 · nothing-lost 🟡 0 · accepted 🟢 0 (owner 0, auto 0) · advisory 15
+  🔴 MISSING ICON [#intro]: source icon-font glyph U+F019 (Source Sans Pro, 6×22) at "send a random event" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟠 EXTRA [header]: build cta "Home" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Bikes" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Gear" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Gifts" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "☰" has no source source — Unexpected node with no source.
+  🟡 EXTRA TITLE [#intro]: build <a> title="Send a Random Event" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#intro]: build <a> title="See our bikes" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [.items]: build <a> title="More" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [.items]: build <a> title="More" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [.items]: build <a> title="More" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [.items]: build <a> title="More" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#cta]: build <a> title="Get Started" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <nav> aria-label="Main" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="TEMPLATED" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Unsplash" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).

@@ -1,0 +1,207 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-18T16:09:00.137Z",
+    "stardustVersion": "0.41.0",
+    "sources": [
+      "stardust/current/_computed-styles.json",
+      "stardust/current/assets/source-css/main.css"
+    ]
+  },
+  "name": "MyRedBike (current state)",
+  "colors": {
+    "background": "#f4f4f4",
+    "surface": "#ffffff",
+    "text": "#666666",
+    "heading": "#444444",
+    "nav": "#838383",
+    "navText": "#f2f2f2",
+    "navActive": "#b8323c",
+    "linkHover": "#ef6480",
+    "overlay": "rgba(0,0,0,0.25)"
+  },
+  "typography": {
+    "fontFamily": {
+      "body": "\"Source Sans Pro\", Helvetica, sans-serif",
+      "icon": "FontAwesome"
+    },
+    "body": {
+      "fontSize": "17pt (13pt ≤1680, 12pt ≤1280, 11pt ≤360)",
+      "fontWeight": 200,
+      "lineHeight": 1.65
+    },
+    "headings": {
+      "fontWeight": 400,
+      "lineHeight": 1.5,
+      "textTransform": "uppercase",
+      "letterSpacing": "0.375rem",
+      "h2": "1.75em (1.25em ≤736)",
+      "h3": "1.25em (1em ≤736)"
+    },
+    "nav": {
+      "fontSize": "17px",
+      "padding": "14px 16px"
+    }
+  },
+  "rounded": {
+    "card": "4px",
+    "button": "4px"
+  },
+  "spacing": {
+    "wrapper": "64em max, calc(100% - 4em); padding 4em 0 2em",
+    "sectionGap": "4em (2em ≤980, 1em ≤736)",
+    "intro": "4em 4em 2em",
+    "item": "3em 3em 1em"
+  },
+  "components": {
+    "topnav": "grey (#838383) bar, floated links 17px, active link red #b8323c; ≤600 hamburger",
+    "intro": "white rounded panel, full-width image, uppercase h2, lede, outline big button",
+    "items": "2-col card grid (1-col ≤980); card header 15em bg-image with dark overlay + white uppercase h3; body text; outline button",
+    "cta": "centered h2 + paragraph + big outline button on page background",
+    "footer": "centered 6em rule, FontAwesome social icons, 0.8em copyright"
+  },
+  "extensions": {
+    "sourceBreakpoints": [
+      1680,
+      1280,
+      980,
+      736,
+      600,
+      480,
+      360
+    ],
+    "modules": [
+      {
+        "name": "intro",
+        "status": "candidate",
+        "selector": "#intro",
+        "pages": [
+          "index",
+          "bikes-html",
+          "gear-html",
+          "gifts-html"
+        ]
+      },
+      {
+        "name": "items",
+        "status": "candidate",
+        "selector": "section.items",
+        "pages": [
+          "index",
+          "bikes-html",
+          "gear-html",
+          "gifts-html"
+        ]
+      },
+      {
+        "name": "cta",
+        "status": "candidate",
+        "selector": "#cta",
+        "pages": [
+          "index",
+          "bikes-html",
+          "gear-html",
+          "gifts-html"
+        ]
+      }
+    ],
+    "systemComponents": [
+      "header (.topnav)",
+      "footer (#footer)"
+    ],
+    "voice": {
+      "heroHeadline": "We sell only red bikes",
+      "ctas": [
+        "See our bikes",
+        "More",
+        "Get Started"
+      ],
+      "heroImage": "images/pic01.jpg",
+      "heroMedium": null
+    },
+    "motifs": {
+      "radius": "4px",
+      "shadows": [],
+      "gradients": [],
+      "cardOverlay": "rgba(0,0,0,0.25) + overlay.png",
+      "cardHover": "header image scale(1.1) 0.2s"
+    },
+    "breakpoints": {
+      "containerMaxWidth": "1451px",
+      "probeWidth": 2560,
+      "shellMaxWidth": "1451px",
+      "caps": [
+        {
+          "kind": "shell",
+          "px": 1451,
+          "via": "other",
+          "selector": "#wrapper",
+          "pages": [
+            "http://myredbike.ca/",
+            "http://myredbike.ca/bikes.html"
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "url": "http://myredbike.ca/",
+          "section": 0,
+          "selector": "#intro",
+          "px": null
+        },
+        {
+          "url": "http://myredbike.ca/",
+          "section": 1,
+          "selector": "#wrapper > section.main.items",
+          "px": null
+        },
+        {
+          "url": "http://myredbike.ca/",
+          "section": 2,
+          "selector": "#cta",
+          "px": null
+        },
+        {
+          "url": "http://myredbike.ca/",
+          "section": 3,
+          "selector": "#footer",
+          "px": null
+        },
+        {
+          "url": "http://myredbike.ca/bikes.html",
+          "section": 0,
+          "selector": "#intro",
+          "px": null
+        },
+        {
+          "url": "http://myredbike.ca/bikes.html",
+          "section": 1,
+          "selector": "#wrapper > section.main.items",
+          "px": null
+        },
+        {
+          "url": "http://myredbike.ca/bikes.html",
+          "section": 2,
+          "selector": "#cta",
+          "px": null
+        },
+        {
+          "url": "http://myredbike.ca/bikes.html",
+          "section": 3,
+          "selector": "#footer",
+          "px": null
+        }
+      ],
+      "capRegister": [],
+      "capProvenance": {
+        "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+        "writtenAt": "2026-11-18T16:09:18.114Z",
+        "baseWidth": 1440,
+        "urls": [
+          "http://myredbike.ca/",
+          "http://myredbike.ca/bikes.html"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,120 @@
+[live-session] waiting to pace live navigations to myredbike.ca (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 980 ms
+
+Visual diff @ 360px (profile "generic") — screenshots in stardust/replica/gates/bikes-html-360/vdiff-pub1/
+
+build red flags (advisory): none
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 411,
+  "textLen": 58,
+  "images": [
+   {
+    "src": "pic02.jpg",
+    "natural": "1430x953",
+    "rendered": "301x201",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h2",
+    "text": "Red Bikes",
+    "color": "rgb(68, 68, 68)",
+    "fontSize": "18.3333px",
+    "family": "Source Sans Pro",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": []
+ },
+ "build": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 412,
+  "textLen": 58,
+  "images": [
+   {
+    "src": "media_12f429e349b7f53c6b893d227d0e67c709a6e444c.jpg?width=750&format=webply&optimize=medium",
+    "natural": "750x500",
+    "rendered": "301x201",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1004bf5c693385c499eb2fe4abcc9fab3fb6826ea.jpg?width=750&format=webply&optimize=medium",
+    "natural": "750x563",
+    "rendered": "331x175",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_12f429e349b7f53c6b893d227d0e67c709a6e444c.jpg?width=750&format=webply&optimize=medium",
+    "natural": "750x500",
+    "rendered": "331x175",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1961783a63b263771fa9d97c4ecacaa729f47443a.jpg?width=750&format=webply&optimize=medium",
+    "natural": "750x563",
+    "rendered": "331x175",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_161f51953592b5c5b5c13b26270ae4ea700ccff16.jpg?width=750&format=webply&optimize=medium",
+    "natural": "750x563",
+    "rendered": "331x175",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Red Bikes",
+    "color": "rgb(68, 68, 68)",
+    "fontSize": "18.3333px",
+    "family": "Source Sans Pro",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "intro-media",
+    "width": 301,
+    "left": 29
+   },
+   {
+    "sel": "intro-heading",
+    "width": 301,
+    "left": 29
+   },
+   {
+    "sel": "intro-body",
+    "width": 301,
+    "left": 29
+   },
+   {
+    "sel": "intro-actions",
+    "width": 301,
+    "left": 29
+   }
+  ]
+ }
+}

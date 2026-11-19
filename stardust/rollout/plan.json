@@ -1,0 +1,117 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/plan",
+    "writtenAt": "2026-11-18T16:33:55.219Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-18T16:33:55.219Z",
+  "fragments": [],
+  "deliveryOrder": [
+    "bikes-html",
+    "gear-html",
+    "gifts-html",
+    "index"
+  ],
+  "steps": [
+    {
+      "slug": "bikes-html",
+      "path": "/bikes",
+      "templateId": "bikes-html",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "intro",
+          "edsBlockName": "intro"
+        },
+        {
+          "id": "items",
+          "edsBlockName": "items"
+        },
+        {
+          "id": "cta",
+          "edsBlockName": "cta"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "gear-html",
+      "path": "/gear",
+      "templateId": "bikes-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "intro",
+          "edsBlockName": "intro",
+          "convertedBy": "bikes-html"
+        },
+        {
+          "id": "items",
+          "edsBlockName": "items",
+          "convertedBy": "bikes-html"
+        },
+        {
+          "id": "cta",
+          "edsBlockName": "cta",
+          "convertedBy": "bikes-html"
+        }
+      ]
+    },
+    {
+      "slug": "gifts-html",
+      "path": "/gifts",
+      "templateId": "bikes-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "intro",
+          "edsBlockName": "intro",
+          "convertedBy": "bikes-html"
+        },
+        {
+          "id": "items",
+          "edsBlockName": "items",
+          "convertedBy": "bikes-html"
+        },
+        {
+          "id": "cta",
+          "edsBlockName": "cta",
+          "convertedBy": "bikes-html"
+        }
+      ]
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "templateId": "index",
+      "status": "pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "intro",
+          "edsBlockName": "intro",
+          "convertedBy": "bikes-html"
+        },
+        {
+          "id": "items",
+          "edsBlockName": "items",
+          "convertedBy": "bikes-html"
+        },
+        {
+          "id": "cta",
+          "edsBlockName": "cta",
+          "convertedBy": "bikes-html"
+        }
+      ]
+    }
+  ]
+}

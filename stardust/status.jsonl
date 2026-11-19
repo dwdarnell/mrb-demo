@@ -1,0 +1,40 @@
+{"ts":"2026-11-18T16:05:49Z","skill":"stardust:replica","phase":"extract","event":"start","detail":"extract --prep --dynamics over the 4 planned pages"}
+{"ts":"2026-11-18T16:05:59Z","skill":"stardust:extract","phase":"prep","event":"start","detail":"crawl 4 planned pages"}
+{"ts":"2026-11-18T16:11:31Z","skill":"stardust:extract","phase":"prep","event":"end","detail":"4/4 live; uncaptured first-level targets: none (no locale root captured)"}
+{"ts":"2026-11-18T16:11:31Z","skill":"stardust:replica","phase":"extract","event":"end","detail":"4/4 pages live; types landing(index) listing(bikes-html,gear-html,gifts-html); uncaptured first-level targets: none (no locale root captured)"}
+{"ts":"2026-11-18T16:11:49Z","skill":"stardust:replica","phase":"preserve-direction","event":"start","detail":"promote current spec verbatim, register, dynamics triage"}
+{"ts":"2026-11-18T16:12:08Z","skill":"stardust:dynamics","phase":"detect","event":"start","detail":"archetypes index, bikes-html"}
+{"ts":"2026-11-18T16:12:41Z","skill":"stardust:dynamics","phase":"detect","event":"end","detail":"4 findings, all T/A martech"}
+{"ts":"2026-11-18T16:12:47Z","skill":"stardust:dynamics","phase":"triage","event":"start","detail":"plan with --martech"}
+{"ts":"2026-11-18T16:13:06Z","skill":"stardust:dynamics","phase":"triage","event":"end","detail":"5 rows, all dispositioned; martech contract written, every part disabled"}
+{"ts":"2026-11-18T16:13:14Z","skill":"stardust:replica","phase":"preserve-direction","event":"end","detail":"spec promoted verbatim; register empty; dynamics 5 rows dispositioned (martech, off)"}
+{"ts":"2026-11-18T16:13:24Z","skill":"stardust:replica","phase":"recreate","event":"start","detail":"archetypes: index (landing), bikes-html (listing)"}
+{"ts":"2026-11-18T16:24:03Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"start","detail":"index archetype"}
+{"ts":"2026-11-18T16:24:03Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"end","detail":"index: 1440 0.01% Δh0 PASS; 360 0.04% Δh0 PASS; content 0 red; clip 0; cap PASS"}
+{"ts":"2026-11-18T16:30:57Z","skill":"stardust:replica","phase":"recreate","event":"end","detail":"2/2 archetypes gated: index 1440 0.01%/360 0.04%; bikes-html 1440 0.00%/360 0.00%; Δh 0; prototype tables 2/2 PASS"}
+{"ts":"2026-11-18T16:31:08Z","skill":"stardust:replica","phase":"handoff","event":"start","detail":"migrate/deploy/rollout of 4 pages, publish"}
+{"ts":"2026-11-18T16:33:02Z","skill":"stardust:rollout","phase":"A-inventory","event":"start","detail":"inventory 4 pages (archetypes index, bikes-html)"}
+{"ts":"2026-11-18T16:33:54Z","skill":"stardust:rollout","phase":"A-inventory","event":"end","detail":"4 pages, 2 templates (index, bikes-html)","artifact":"stardust/rollout/coverage/pages.json"}
+{"ts":"2026-11-18T16:33:55Z","skill":"stardust:rollout","phase":"B-block","event":"start"}
+{"ts":"2026-11-18T16:33:59Z","skill":"stardust:rollout","phase":"B-block","event":"end","detail":"3 blocks (intro, items, cta); plan rep bikes-html","artifact":"stardust/rollout/plan.json"}
+{"ts":"2026-11-18T16:33:59Z","skill":"stardust:rollout","phase":"B2-dynamic","event":"start"}
+{"ts":"2026-11-18T16:34:42Z","skill":"stardust:rollout","phase":"B2-dynamic","event":"end","detail":"4 martech rows verified, all scaffolded off; 0 APIs/forms","artifact":"stardust/dynamic-features.md"}
+{"ts":"2026-11-18T16:34:42Z","skill":"stardust:rollout","phase":"C-deliver","event":"start","detail":"units: foundation, archetype-landing, archetype-listing, cluster-listing, gate-all, final"}
+{"ts":"2026-11-18T17:34:05Z","skill":"stardust:rollout","phase":"C-deliver","event":"end","detail":"units 6/6 done; 4/4 pages live, gate-all PASS 1440/360"}
+{"ts":"2026-11-18T17:34:45Z","skill":"stardust:rollout","phase":"D-site","event":"start","detail":"redirects sheet, chrome noindex, site assembly"}
+{"ts":"2026-11-18T17:35:44Z","skill":"stardust:rollout","phase":"D-site","event":"end","detail":"sitemap served 4 = assembled 4; redirects wired (4 rows, 301 on page+live); / 200","artifact":"stardust/rollout/site/manifest.json"}
+{"ts":"2026-11-18T17:35:48Z","skill":"stardust:rollout","phase":"D2-dynamic","event":"start","detail":"martech parity row; dynamics-check on live"}
+{"ts":"2026-11-18T17:36:53Z","skill":"stardust:rollout","phase":"D2-dynamic","event":"end","detail":"parity.json 2 features; dynamics-check 5/5 PASS on .aem.live (martech off: 0 tag hosts); no query index needed","artifact":"stardust/qa/dynamics-report.md"}
+{"ts":"2026-11-18T17:37:43Z","skill":"stardust:rollout","phase":"E-full-site","event":"start","detail":"verify 4 pages on live origin; gate table"}
+{"ts":"2026-11-18T17:37:59Z","skill":"stardust:rollout","phase":"E-full-site","event":"end","detail":"gate table 4/4 PASS; verify 3/4 verified, bikes: 1 out-of-scope link → E2"}
+{"ts":"2026-11-18T17:38:10Z","skill":"stardust:rollout","phase":"E2-link-audit","event":"start","detail":"localize links, repoint out-of-scope targets"}
+{"ts":"2026-11-18T17:39:19Z","skill":"stardust:rollout","phase":"E2-link-audit","event":"end","detail":"1 out-of-scope link repointed to source; internal hrefs 4/4 200; verify 4/4"}
+{"ts":"2026-11-18T17:39:27Z","skill":"stardust:rollout","phase":"F-optimize","event":"start","detail":"optimize 4 live pages"}
+{"ts":"2026-11-18T17:39:37Z","skill":"stardust:rollout","phase":"F-optimize","event":"end","detail":"GATE PASS: open P1 0 / P2 0 / P3 1; source parity 5 informational","artifact":"stardust/rollout/optimize/scorecard.json"}
+{"ts":"2026-11-18T17:39:44Z","skill":"stardust:rollout","phase":"G-aem","event":"start","detail":"autofix dry-run on open findings"}
+{"ts":"2026-11-18T17:39:49Z","skill":"stardust:rollout","phase":"G-aem","event":"end","detail":"0 candidates; nothing applied"}
+{"ts":"2026-11-18T17:39:58Z","skill":"stardust:rollout","phase":"H-report","event":"start","detail":"summary + learnings"}
+{"ts":"2026-11-18T17:40:25Z","skill":"stardust:rollout","phase":"H-report","event":"end","detail":"4/4 verified; health 98; P1 0; pixel 4/4 PASS both widths; 2 learnings","artifact":"stardust/rollout/report.md"}
+{"ts":"2026-11-18T17:40:34Z","skill":"stardust:rollout","phase":"I-dashboard","event":"start","detail":"dashboard"}
+{"ts":"2026-11-18T17:40:40Z","skill":"stardust:rollout","phase":"I-dashboard","event":"end","detail":"dashboard: 4 identified, 4 deployed, 4 verified","artifact":"stardust/rollout/dashboard/index.html"}
+{"ts":"2026-11-18T17:40:47Z","skill":"stardust:replica","phase":"handoff","event":"end","detail":"4/4 pages live + verified; gate-all 4/4 PASS 1440/360; P1 0; done-check complete"}

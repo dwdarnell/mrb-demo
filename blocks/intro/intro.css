@@ -1,0 +1,49 @@
+/* source section#intro.main (myredbike.ca main.css via stardust/prototypes/canon.css) */
+.intro {
+  padding: 4em 4em 2em;
+  background-color: var(--surface);
+  border-radius: var(--radius);
+  text-align: center;
+}
+
+/* the event link and the image share the source's anonymous line boxes: no block margins */
+.intro .intro-event p,
+.intro .intro-media p {
+  margin: 0;
+}
+
+/* source <i class="fas fa-download">: FA4 maps it to U+F019 but no .fa class sets the
+   FontAwesome face, so the glyph renders in the body font */
+.intro .intro-event .intro-event-icon::before {
+  content: "\f019";
+}
+
+.intro .intro-media img {
+  width: 100%;
+  height: auto;
+}
+
+/* the authored heading may be an h1 (one per page) styled as the source's h2 */
+.intro .intro-heading :is(h1, h2) {
+  font-size: 1.75em;
+}
+
+@media (width <= 736px) {
+  .intro {
+    padding: 2em 2em 0.1em;
+  }
+
+  .intro .intro-heading :is(h1, h2) {
+    font-size: 1.25em;
+  }
+}
+
+@media (width <= 480px) {
+  .intro {
+    padding: 2em 1em 0.1em;
+  }
+
+  .intro .intro-body p br {
+    display: none;
+  }
+}

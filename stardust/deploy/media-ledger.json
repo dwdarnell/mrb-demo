@@ -1,0 +1,62 @@
+{
+  "media/myredbike/pic01.jpg": {
+    "status": "uploaded",
+    "file": "stardust/current/assets/media/pic01.jpg",
+    "size": 143949,
+    "sha256": "f6e6870699400173baad3619b1ec9f1c8b02092db47f7c6e053bf04d34472fd8",
+    "contentType": "image/jpeg",
+    "source": "http://myredbike.ca/images/pic01.jpg",
+    "contentUrl": "https://content.da.live/aemcoder/f794402e/media/myredbike/pic01.jpg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-11-18T16:50:09.999Z"
+  },
+  "media/myredbike/IMG_0017.jpg": {
+    "status": "uploaded",
+    "file": "stardust/current/assets/media/IMG_0017.jpg",
+    "size": 88073,
+    "sha256": "6403aeb242d5913f5c93b40a8773d45831600e0fdea8f453e5b931342dce2264",
+    "contentType": "image/jpeg",
+    "source": "http://myredbike.ca/images/IMG_0017.jpg",
+    "contentUrl": "https://content.da.live/aemcoder/f794402e/media/myredbike/IMG_0017.jpg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-11-18T16:50:10.823Z"
+  },
+  "media/myredbike/IMG_0016.jpg": {
+    "status": "uploaded",
+    "file": "stardust/current/assets/media/IMG_0016.jpg",
+    "size": 96548,
+    "sha256": "0667051fce380c7c0e6a0481c4b1de11b041fa0e055974950eb578822ff81907",
+    "contentType": "image/jpeg",
+    "source": "http://myredbike.ca/images/IMG_0016.jpg",
+    "contentUrl": "https://content.da.live/aemcoder/f794402e/media/myredbike/IMG_0016.jpg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-11-18T16:50:10.829Z"
+  },
+  "media/myredbike/IMG_0015.jpg": {
+    "status": "uploaded",
+    "file": "stardust/current/assets/media/IMG_0015.jpg",
+    "size": 65018,
+    "sha256": "087019496effd111b4d5ef554a0699da3b3c7f77e4cde53ab441fdf2293f8eb4",
+    "contentType": "image/jpeg",
+    "source": "http://myredbike.ca/images/IMG_0015.jpg",
+    "contentUrl": "https://content.da.live/aemcoder/f794402e/media/myredbike/IMG_0015.jpg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-11-18T16:50:11.100Z"
+  },
+  "media/myredbike/pic02.jpg": {
+    "status": "uploaded",
+    "file": "stardust/current/assets/media/pic02.jpg",
+    "size": 204366,
+    "sha256": "a48f122d99cba9c6965222dd2ebe400b61a5b9e76e8de00a0723549e537a7960",
+    "contentType": "image/jpeg",
+    "source": "http://myredbike.ca/images/pic02.jpg",
+    "contentUrl": "https://content.da.live/aemcoder/f794402e/media/myredbike/pic02.jpg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-11-18T16:50:14.671Z"
+  }
+}

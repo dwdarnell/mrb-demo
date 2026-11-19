@@ -1,0 +1,188 @@
+{
+  "key": {
+    "probe": 2,
+    "url": "http://myredbike.ca/bikes.html",
+    "width": 360,
+    "regions": [
+      "header=header",
+      "footer=footer"
+    ]
+  },
+  "probedAt": "2026-11-18T16:28:14.387Z",
+  "data": {
+    "header": {
+      "found": true,
+      "sel": "header",
+      "rect": {
+        "x": 15,
+        "y": 498,
+        "w": 331,
+        "h": 176
+      },
+      "position": "relative",
+      "backgroundColor": "rgb(68, 68, 68)",
+      "atoms": [
+        {
+          "key": "red bikes",
+          "text": "Red Bikes",
+          "tag": "h3",
+          "rect": {
+            "x": 121,
+            "y": 575,
+            "w": 119,
+            "h": 22
+          },
+          "box": {
+            "x": 121,
+            "y": 575,
+            "w": 119,
+            "h": 22
+          },
+          "boxTag": "h3",
+          "style": {
+            "fontFamily": "source sans pro",
+            "fontSize": "14.6667px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "22px",
+            "letterSpacing": "6px",
+            "textTransform": "uppercase",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "0px",
+            "paddingRight": "0px",
+            "paddingBottom": "0px",
+            "paddingLeft": "0px",
+            "borderRadius": "0px",
+            "textDecorationLine": "none"
+          },
+          "boxStyle": null
+        }
+      ],
+      "icons": []
+    },
+    "footer": {
+      "found": true,
+      "sel": "footer",
+      "rect": {
+        "x": 15,
+        "y": 2560,
+        "w": 331,
+        "h": 111
+      },
+      "position": "static",
+      "backgroundColor": "rgb(244, 244, 244)",
+      "atoms": [
+        {
+          "key": "© untitled. design: . images: .",
+          "text": "© Untitled. Design: . Images: .",
+          "tag": "p",
+          "rect": {
+            "x": 15,
+            "y": 2652,
+            "w": 331,
+            "h": 19
+          },
+          "box": {
+            "x": 15,
+            "y": 2652,
+            "w": 331,
+            "h": 19
+          },
+          "boxTag": "p",
+          "style": {
+            "fontFamily": "source sans pro",
+            "fontSize": "11.7333px",
+            "fontWeight": "200",
+            "fontStyle": "normal",
+            "lineHeight": "19.36px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "0px",
+            "paddingRight": "0px",
+            "paddingBottom": "0px",
+            "paddingLeft": "0px",
+            "borderRadius": "0px",
+            "textDecorationLine": "none"
+          },
+          "boxStyle": null
+        },
+        {
+          "key": "templated",
+          "text": "TEMPLATED",
+          "tag": "a",
+          "rect": {
+            "x": 152,
+            "y": 2654,
+            "w": 57,
+            "h": 16
+          },
+          "box": {
+            "x": 152,
+            "y": 2654,
+            "w": 57,
+            "h": 16
+          },
+          "boxTag": "a",
+          "style": {
+            "fontFamily": "source sans pro",
+            "fontSize": "11.7333px",
+            "fontWeight": "200",
+            "fontStyle": "normal",
+            "lineHeight": "19.36px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "0px",
+            "paddingRight": "0px",
+            "paddingBottom": "0px",
+            "paddingLeft": "0px",
+            "borderRadius": "0px",
+            "textDecorationLine": "none"
+          },
+          "boxStyle": null
+        },
+        {
+          "key": "unsplash",
+          "text": "Unsplash",
+          "tag": "a",
+          "rect": {
+            "x": 252,
+            "y": 2654,
+            "w": 44,
+            "h": 16
+          },
+          "box": {
+            "x": 252,
+            "y": 2654,
+            "w": 44,
+            "h": 16
+          },
+          "boxTag": "a",
+          "style": {
+            "fontFamily": "source sans pro",
+            "fontSize": "11.7333px",
+            "fontWeight": "200",
+            "fontStyle": "normal",
+            "lineHeight": "19.36px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(102, 102, 102)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "0px",
+            "paddingRight": "0px",
+            "paddingBottom": "0px",
+            "paddingLeft": "0px",
+            "borderRadius": "0px",
+            "textDecorationLine": "none"
+          },
+          "boxStyle": null
+        }
+      ],
+      "icons": []
+    }
+  }
+}

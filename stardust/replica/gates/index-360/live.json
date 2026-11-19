@@ -1,0 +1,11 @@
+{
+  "writtenBy": "gate.sh --gate-against-baseline",
+  "origin": "baseline",
+  "url": "http://myredbike.ca/",
+  "width": 360,
+  "at": "2026-11-18T16:18:10.584Z",
+  "originBaseline": {
+    "capturedAt": "2026-11-18T16:18:10.584Z",
+    "height": 2743
+  }
+}

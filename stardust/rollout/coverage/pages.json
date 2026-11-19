@@ -1,0 +1,194 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-18T16:33:43.414Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-18T17:39:09.456Z",
+  "pages": [
+    {
+      "slug": "bikes-html",
+      "path": "/bikes",
+      "title": "MyRedBike DEMO2",
+      "templateId": "bikes-html",
+      "source": {
+        "migratedHtml": "stardust/migrated/bikes.html",
+        "metaJson": "stardust/migrated/bikes._meta.json",
+        "sourceHash": "sha256:1a3838c518ca014045e47050333ed6adab7765faf9ceaf12c34c278126ee76c4",
+        "sourceUrl": "http://myredbike.ca/bikes.html"
+      },
+      "blocks": [
+        "intro",
+        "items",
+        "cta"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--f794402e--aemcoder.aem.page/bikes",
+        "deployedAt": "2026-11-18T17:26:13.357Z",
+        "verifiedAt": "2026-11-18T17:39:09.456Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.62,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 12,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T17:37:46.499Z"
+        }
+      }
+    },
+    {
+      "slug": "gear-html",
+      "path": "/gear",
+      "title": "MyRedBike DEMO2",
+      "templateId": "bikes-html",
+      "representative": "bikes-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:4d0d5eb8810d19f9951bee5cd44893a7f1a9b8238d72c14a357903a91f92cb05",
+        "currentStatePath": "stardust/current/pages/gear-html.json",
+        "sourceUrl": "http://myredbike.ca/gear.html"
+      },
+      "blocks": [
+        "intro",
+        "items",
+        "cta"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--f794402e--aemcoder.aem.live/gear",
+        "deployedAt": "2026-11-18T17:18:47.984Z",
+        "verifiedAt": "2026-11-18T17:39:09.456Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.7,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 11,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T17:37:46.499Z"
+        }
+      }
+    },
+    {
+      "slug": "gifts-html",
+      "path": "/gifts",
+      "title": "MyRedBike DEMO2",
+      "templateId": "bikes-html",
+      "representative": "bikes-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:a19d5dd550bd6f7518b2584adbfbe1206be33acc48d53bb6ed89c5732c465014",
+        "currentStatePath": "stardust/current/pages/gifts-html.json",
+        "sourceUrl": "http://myredbike.ca/gifts.html"
+      },
+      "blocks": [
+        "intro",
+        "items",
+        "cta"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--f794402e--aemcoder.aem.live/gifts",
+        "deployedAt": "2026-11-18T17:18:48.043Z",
+        "verifiedAt": "2026-11-18T17:39:09.456Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.7,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 11,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T17:37:46.499Z"
+        }
+      }
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "title": "MyRedBike DEMO2",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/index.html",
+        "metaJson": "stardust/migrated/_meta.json",
+        "sourceHash": "sha256:c42fd40927caac9c6c2b3c1c0cf21b6b24d480b7147be1856a3dd1e57f0395df",
+        "sourceUrl": "http://myredbike.ca/"
+      },
+      "blocks": [
+        "intro",
+        "items",
+        "cta"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--f794402e--aemcoder.aem.page/",
+        "deployedAt": "2026-11-18T17:05:19.720Z",
+        "verifiedAt": "2026-11-18T17:39:09.456Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.5,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 13,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T17:37:46.499Z"
+        }
+      }
+    }
+  ]
+}

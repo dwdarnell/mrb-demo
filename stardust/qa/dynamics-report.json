@@ -1,0 +1,71 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics check",
+  "writtenAt": "2026-11-18T17:36:44.596Z",
+  "origin": "https://main--f794402e--aemcoder.aem.live",
+  "parity": "stardust/dynamics/parity.json",
+  "contract": "stardust/martech-contract.json"
+ },
+ "results": [
+  {
+   "feature": "Adobe Launch + Target + Analytics/ECID + retargeting pixel (features 1-4)",
+   "id": "martech-stack-off",
+   "class": "T",
+   "status": "scaffolded-awaiting-owner",
+   "type": "martech",
+   "pass": true,
+   "detail": "no tag host requested (8 gated · 0 cross-site host(s) blocked)",
+   "thirdParty": "",
+   "ms": 6395,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Adobe Launch + Target + Analytics/ECID + retargeting pixel (features 1-4)",
+   "id": "martech-stack-off",
+   "class": "T",
+   "status": "scaffolded-awaiting-owner",
+   "type": "martech",
+   "pass": true,
+   "detail": "no tag host requested (8 gated · 0 cross-site host(s) blocked)",
+   "thirdParty": "",
+   "ms": 6194,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Adobe Launch + Target + Analytics/ECID + retargeting pixel (features 1-4)",
+   "id": "martech-stack-off",
+   "class": "T",
+   "status": "scaffolded-awaiting-owner",
+   "type": "no-page-errors",
+   "pass": true,
+   "detail": "none on 4 page(s)",
+   "thirdParty": "",
+   "ms": 8023,
+   "environmentLimit": null
+  },
+  {
+   "feature": "home 'Send a Random Event' link (alloy sendEvent on source)",
+   "id": "home-send-random-event",
+   "class": "T",
+   "status": "interim",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "2 × main a[href='#'] (min 1)",
+   "thirdParty": "",
+   "ms": 1929,
+   "environmentLimit": null
+  },
+  {
+   "feature": "martech: consent + tag routing",
+   "id": "martech",
+   "class": "T",
+   "status": "scaffolded-off",
+   "type": "martech",
+   "pass": true,
+   "detail": "no tag host requested (1 gated · 0 cross-site host(s) blocked)",
+   "thirdParty": "",
+   "ms": 6180,
+   "environmentLimit": null
+  }
+ ]
+}

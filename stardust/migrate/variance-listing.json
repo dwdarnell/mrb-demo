@@ -1,0 +1,261 @@
+{
+ "archetype": "http://myredbike.ca/bikes.html",
+ "width": 1440,
+ "tolerance": 2,
+ "probes": {
+  "intro": "#intro",
+  "items": "section.items",
+  "cta": "#cta"
+ },
+ "archetypeRaw": {
+  "sections": [],
+  "probes": {
+   "intro": {
+    "sel": "#intro",
+    "count": 1,
+    "first": {
+     "rect": {
+      "w": 1109,
+      "h": 985
+     },
+     "backgroundLayers": [],
+     "backgroundColor": "rgb(255, 255, 255)",
+     "color": "rgb(102, 102, 102)",
+     "padding": "69.3333px 69.3333px 34.6667px 69.3333px",
+     "font": "source sans pro 17.3333px/28.6px 200",
+     "borderRadius": "4px",
+     "heading": "h2 source sans pro 30.3333px/45.5px 400 rgb(68, 68, 68)",
+     "image": {
+      "w": 971,
+      "h": 647
+     },
+     "listStyle": "disc",
+     "before": null
+    },
+    "clusters": 1,
+    "text": "Red Bikes This is the sub-page for bikes.html Learn More"
+   },
+   "items": {
+    "sel": "section.items",
+    "count": 1,
+    "first": {
+     "rect": {
+      "w": 1144,
+      "h": 1183
+     },
+     "backgroundLayers": [],
+     "backgroundColor": "rgba(0, 0, 0, 0)",
+     "color": "rgb(102, 102, 102)",
+     "padding": "0px 0px 0px 0px",
+     "font": "source sans pro 17.3333px/28.6px 200",
+     "borderRadius": "0px",
+     "heading": "h3 source sans pro 21.6667px/32.5px 400 rgb(255, 255, 255)",
+     "image": null,
+     "listStyle": "disc",
+     "before": null
+    },
+    "clusters": 1,
+    "text": "Red Bikes Fusce malesuada efficitur venenatis. Pellentesque "
+   },
+   "cta": {
+    "sel": "#cta",
+    "count": 1,
+    "first": {
+     "rect": {
+      "w": 1109,
+      "h": 319
+     },
+     "backgroundLayers": [],
+     "backgroundColor": "rgba(0, 0, 0, 0)",
+     "color": "rgb(102, 102, 102)",
+     "padding": "34.6667px 0px 1.73333px 0px",
+     "font": "source sans pro 17.3333px/28.6px 200",
+     "borderRadius": "0px",
+     "heading": "h2 source sans pro 30.3333px/45.5px 400 rgb(68, 68, 68)",
+     "image": null,
+     "listStyle": "disc",
+     "before": null
+    },
+    "clusters": 1,
+    "text": "Etiam veroeros lorem Phasellus ac augue ac magna auctor temp"
+   }
+  }
+ },
+ "siblings": [
+  {
+   "url": "http://myredbike.ca/gear.html",
+   "findings": [
+    {
+     "kind": "PROBE",
+     "probe": "intro",
+     "msg": "rect{h 985 → 980}; image{h 647 → 728}"
+    }
+   ],
+   "raw": {
+    "sections": [],
+    "probes": {
+     "intro": {
+      "sel": "#intro",
+      "count": 1,
+      "first": {
+       "rect": {
+        "w": 1109,
+        "h": 980
+       },
+       "backgroundLayers": [],
+       "backgroundColor": "rgb(255, 255, 255)",
+       "color": "rgb(102, 102, 102)",
+       "padding": "69.3333px 69.3333px 34.6667px 69.3333px",
+       "font": "source sans pro 17.3333px/28.6px 200",
+       "borderRadius": "4px",
+       "heading": "h2 source sans pro 30.3333px/45.5px 400 rgb(68, 68, 68)",
+       "image": {
+        "w": 971,
+        "h": 728
+       },
+       "listStyle": "disc",
+       "before": null
+      },
+      "clusters": 1,
+      "text": "Gear This is the sub-page for gear.html"
+     },
+     "items": {
+      "sel": "section.items",
+      "count": 1,
+      "first": {
+       "rect": {
+        "w": 1144,
+        "h": 1183
+       },
+       "backgroundLayers": [],
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "color": "rgb(102, 102, 102)",
+       "padding": "0px 0px 0px 0px",
+       "font": "source sans pro 17.3333px/28.6px 200",
+       "borderRadius": "0px",
+       "heading": "h3 source sans pro 21.6667px/32.5px 400 rgb(255, 255, 255)",
+       "image": null,
+       "listStyle": "disc",
+       "before": null
+      },
+      "clusters": 1,
+      "text": "Red Bikes Fusce malesuada efficitur venenatis. Pellentesque "
+     },
+     "cta": {
+      "sel": "#cta",
+      "count": 1,
+      "first": {
+       "rect": {
+        "w": 1109,
+        "h": 319
+       },
+       "backgroundLayers": [],
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "color": "rgb(102, 102, 102)",
+       "padding": "34.6667px 0px 1.73333px 0px",
+       "font": "source sans pro 17.3333px/28.6px 200",
+       "borderRadius": "0px",
+       "heading": "h2 source sans pro 30.3333px/45.5px 400 rgb(68, 68, 68)",
+       "image": null,
+       "listStyle": "disc",
+       "before": null
+      },
+      "clusters": 1,
+      "text": "Etiam veroeros lorem Phasellus ac augue ac magna auctor temp"
+     }
+    }
+   }
+  },
+  {
+   "url": "http://myredbike.ca/gifts.html",
+   "findings": [
+    {
+     "kind": "PROBE",
+     "probe": "intro",
+     "msg": "rect{h 985 → 980}; image{h 647 → 728}"
+    }
+   ],
+   "raw": {
+    "sections": [],
+    "probes": {
+     "intro": {
+      "sel": "#intro",
+      "count": 1,
+      "first": {
+       "rect": {
+        "w": 1109,
+        "h": 980
+       },
+       "backgroundLayers": [],
+       "backgroundColor": "rgb(255, 255, 255)",
+       "color": "rgb(102, 102, 102)",
+       "padding": "69.3333px 69.3333px 34.6667px 69.3333px",
+       "font": "source sans pro 17.3333px/28.6px 200",
+       "borderRadius": "4px",
+       "heading": "h2 source sans pro 30.3333px/45.5px 400 rgb(68, 68, 68)",
+       "image": {
+        "w": 971,
+        "h": 728
+       },
+       "listStyle": "disc",
+       "before": null
+      },
+      "clusters": 1,
+      "text": "gifts This is the sub-page for gifts."
+     },
+     "items": {
+      "sel": "section.items",
+      "count": 1,
+      "first": {
+       "rect": {
+        "w": 1144,
+        "h": 1183
+       },
+       "backgroundLayers": [],
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "color": "rgb(102, 102, 102)",
+       "padding": "0px 0px 0px 0px",
+       "font": "source sans pro 17.3333px/28.6px 200",
+       "borderRadius": "0px",
+       "heading": "h3 source sans pro 21.6667px/32.5px 400 rgb(255, 255, 255)",
+       "image": null,
+       "listStyle": "disc",
+       "before": null
+      },
+      "clusters": 1,
+      "text": "Red Bikes Fusce malesuada efficitur venenatis. Pellentesque "
+     },
+     "cta": {
+      "sel": "#cta",
+      "count": 1,
+      "first": {
+       "rect": {
+        "w": 1109,
+        "h": 319
+       },
+       "backgroundLayers": [],
+       "backgroundColor": "rgba(0, 0, 0, 0)",
+       "color": "rgb(102, 102, 102)",
+       "padding": "34.6667px 0px 1.73333px 0px",
+       "font": "source sans pro 17.3333px/28.6px 200",
+       "borderRadius": "0px",
+       "heading": "h2 source sans pro 30.3333px/45.5px 400 rgb(68, 68, 68)",
+       "image": null,
+       "listStyle": "disc",
+       "before": null
+      },
+      "clusters": 1,
+      "text": "Etiam veroeros lorem Phasellus ac augue ac magna auctor temp"
+     }
+    }
+   }
+  }
+ ],
+ "summary": {
+  "siblings": 2,
+  "varying": 2,
+  "probesVarying": [
+   "intro"
+  ]
+ }
+}

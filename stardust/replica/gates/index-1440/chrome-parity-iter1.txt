@@ -1,0 +1,19 @@
+[live-session] waiting to pace live navigations to myredbike.ca (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+chrome-parity @ 1440px, tolerance 1px
+  live:  http://myredbike.ca/
+  build: http://localhost:8791/index-proposed.html
+
+■ header: 8 delta(s) — 0 paired of 1/4 texts, 0/0 icons
+  REGION BOX   Δx -165px (165→0), Δy -1193px (1193→0), Δw +903px (537→1440), Δh -203px (260→57)
+  REGION STYLE backgroundColor rgb(68, 68, 68) → rgb(131, 131, 131)
+  REGION STYLE position relative → static (fixed/sticky chrome must stay fixed/sticky — seam symmetry)
+  MISSING      "Red Bikes"  live <h3> "Red Bikes" has no build element with the same text
+  EXTRA        "Home"  build <a> "Home" has no live source
+  EXTRA        "Bikes"  build <a> "Bikes" has no live source
+  EXTRA        "Gear"  build <a> "Gear" has no live source
+  EXTRA        "Gifts"  build <a> "Gifts" has no live source
+
+■ footer: 1 delta(s) — 3 paired of 3/3 texts, 0/0 icons
+  REGION BOX   Δh +62px (166→228)
+
+✗ 9 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

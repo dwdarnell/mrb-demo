@@ -1,0 +1,145 @@
+{
+ "source": "http://localhost:8791/index-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "main",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Send a Random Event",
+     "href": "#"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "We sell only red bikes"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Hey there - here is the demo site I will use for today"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "See our bikes",
+     "href": "/bikes.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 3,
+   "repeats": []
+  },
+  {
+   "section": "main",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Red Bikes"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Fusce malesuada efficitur venenatis. Pellentesque tempor leo sed massa hendrerit hendrerit. In sed feugiat est, eu congue elit. Ut porta magna vel felis sodales vulputate. Donec faucibus dapibus lacus non ornare."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "More",
+     "href": "/bikes.html"
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "Single Speed"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Fusce malesuada efficitur venenatis. Pellentesque tempor leo sed massa hendrerit hendrerit. In sed feugiat est, eu congue elit. Ut porta magna vel felis sodales vulputate. Donec faucibus dapibus lacus non ornare."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "More",
+     "href": "/bikes.html"
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "Gifts and accessories"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Fusce malesuada efficitur venenatis. Pellentesque tempor leo sed massa hendrerit hendrerit. In sed feugiat est, eu congue elit. Ut porta magna vel felis sodales vulputate. Donec faucibus dapibus lacus non ornare."
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "More",
+     "href": "/gifts.html"
+    },
+    {
+     "role": "heading",
+     "order": 9,
+     "text": "Gear"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Fusce malesuada efficitur venenatis. Pellentesque tempor leo sed massa hendrerit hendrerit. In sed feugiat est, eu congue elit. Ut porta magna vel felis sodales vulputate. Donec faucibus dapibus lacus non ornare."
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "More",
+     "href": "/gear.html"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 12,
+   "repeats": [
+    {
+     "unitSelector": "ARTICLE.item",
+     "count": 4,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "main",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Etiam veroeros lorem"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Phasellus ac augue ac magna auctor tempus proin accumsan lacus a nibh commodo in pellentesque dui in hac habitasse platea dictumst."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Get Started",
+     "href": "#"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": []
+  }
+ ]
+}

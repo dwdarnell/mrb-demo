@@ -1,0 +1,66 @@
+
+Visual diff @ 1440px (profile "generic") — screenshots in stardust/replica/gates/bikes-html-1440/vdiff-iter1/
+
+build red flags (advisory): none
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 985,
+  "textLen": 58,
+  "images": [
+   {
+    "src": "pic02.jpg",
+    "natural": "1430x953",
+    "rendered": "971x647",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h2",
+    "text": "Red Bikes",
+    "color": "rgb(68, 68, 68)",
+    "fontSize": "30.3333px",
+    "family": "Source Sans Pro",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": []
+ },
+ "build": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 985,
+  "textLen": 58,
+  "images": [
+   {
+    "src": "pic02.jpg",
+    "natural": "1430x953",
+    "rendered": "971x647",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h2",
+    "text": "Red Bikes",
+    "color": "rgb(68, 68, 68)",
+    "fontSize": "30.3333px",
+    "family": "Source Sans Pro",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": []
+ }
+}

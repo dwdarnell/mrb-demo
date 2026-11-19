@@ -1,0 +1,83 @@
+{
+  "slug": "gifts-html",
+  "type": "listing",
+  "renderBranch": "A'",
+  "template": "bikes-html",
+  "modules": [
+    "intro",
+    "items",
+    "cta"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "main",
+    "main",
+    "main"
+  ],
+  "canonShas": {
+    "header": "a61dda26ff93",
+    "footer": "075c31ff62fa",
+    "css": "561a923db058"
+  },
+  "deviations": [],
+  "migrationDecisions": [
+    {
+      "kind": "no-variant",
+      "reason": "variance probe deltas are content-driven (image aspect, absent hero CTA); intro block handles both"
+    }
+  ],
+  "metadata": {
+    "title": "MyRedBike DEMO2",
+    "description": null,
+    "canonical": null,
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "MyRedBike DEMO2",
+    "url": "http://myredbike.ca/gifts.html"
+  },
+  "migratedAt": "2026-11-18T17:33:17Z",
+  "designMdSha": "d695c6b6f7c6",
+  "designJsonSha": "dc181630f3b7",
+  "sourceCurrentSha": "e5baf7990f2e",
+  "sourceProposedSha": "7f5bf7c54326",
+  "fidelityTier": "sibling",
+  "archetypeSource": "bikes-html",
+  "archetypeSha": "595056158ffe",
+  "variants": [],
+  "gatesPassed": [
+    "variance-probe",
+    "content-count",
+    "content-fidelity",
+    "delivery-lint",
+    "media-reconcile",
+    "pixel-gate-1440",
+    "pixel-gate-360"
+  ],
+  "gateEvidence": {
+    "variance-probe": "sibling-variance exit 2 @1440: only #intro rect h 985→980 / image h 647→728 (content: hero image aspect + empty ul.actions); no style delta → no variant class (stardust/migrate/variance-listing.json)",
+    "content-count": "content-diff capture vs stardust/migrated, --main #intro,section.items,#cta + chrome: looks-same 🔴 0 · nothing-lost 🟡 0",
+    "content-fidelity": "verbatim from stardust/current/pages/gifts-html.html: hero img, h2, p, empty ul.actions (no hero button in capture), active nav link",
+    "pixel-gate-1440": "0.04%, height delta 0px, clipped 0, content MISSING 0 / HIDDEN 0 (stardust/replica/gates/all-1440/summary.md) [published regime]",
+    "pixel-gate-360": "0.70%, height delta 0px, clipped 0, content MISSING 0 / HIDDEN 0 (stardust/replica/gates/all-360/summary.md) [published regime]",
+    "delivery-lint": "0 P0 · 0 P1 · 1 P2 (delivery-lint --path /gifts)",
+    "media-reconcile": "content/gifts.html: 4 hosted, 0 omit, 0 unresolved (media-ledger)"
+  },
+  "contentDeviations": [
+    {
+      "kind": "heading-level",
+      "source": "intro h2",
+      "target": "intro h1",
+      "reason": "one <h1> per page (delivery-lint P0); delivered content/ authors the intro heading as h1, styled as the source h2 by blocks/intro"
+    }
+  ],
+  "assetsBundled": 7,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "gifts.html",
+  "outputPathDefault": null,
+  "sidecar": "gifts._meta.json",
+  "driverVersion": "1"
+}

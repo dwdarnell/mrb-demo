@@ -1,0 +1,109 @@
+{
+  "generatedAt": "2026-11-18T17:40:36.820Z",
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "http://myredbike.ca/",
+    "liveHost": "main--f794402e--aemcoder.aem.live"
+  },
+  "stageCount": {
+    "identified": 4,
+    "prototyped": 4,
+    "deployed": 4,
+    "optimised": 0
+  },
+  "stageExclusive": {
+    "identified": 0,
+    "prototyped": 0,
+    "deployed": 4,
+    "optimised": 0
+  },
+  "pages": [
+    {
+      "slug": "index",
+      "path": "/",
+      "stage": "deployed",
+      "templateId": "index",
+      "isTemplate": true,
+      "openFindings": 2
+    },
+    {
+      "slug": "bikes-html",
+      "path": "/bikes",
+      "stage": "deployed",
+      "templateId": "bikes-html",
+      "isTemplate": true,
+      "openFindings": 3
+    },
+    {
+      "slug": "gear-html",
+      "path": "/gear",
+      "stage": "deployed",
+      "templateId": "bikes-html",
+      "isTemplate": false,
+      "openFindings": 3
+    },
+    {
+      "slug": "gifts-html",
+      "path": "/gifts",
+      "stage": "deployed",
+      "templateId": "bikes-html",
+      "isTemplate": false,
+      "openFindings": 3
+    }
+  ],
+  "templates": [
+    {
+      "id": "bikes-html",
+      "archetype": "bikes-html",
+      "pageCount": 3,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 3,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "index",
+      "archetype": "index",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    }
+  ],
+  "blocks": {
+    "total": 3,
+    "converted": 3
+  },
+  "quality": {
+    "overall": 98,
+    "dimensions": {
+      "brand-tensions": null,
+      "design-ux": null,
+      "accessibility": null,
+      "seo": null,
+      "content-conversion": null,
+      "ai-search": 100,
+      "cross-page": 96
+    },
+    "severity": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 1
+    },
+    "history": [
+      98
+    ]
+  },
+  "findings": {
+    "byFixability": {
+      "out-of-scope": 5,
+      "design-pass": 1
+    },
+    "byAutofix": {}
+  }
+}

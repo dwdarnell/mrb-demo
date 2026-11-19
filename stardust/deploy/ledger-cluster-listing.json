@@ -1,0 +1,20 @@
+{
+  "/gear": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-18T17:18:22.073Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/gifts": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-18T17:18:22.073Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}
